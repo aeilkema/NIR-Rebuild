@@ -27,7 +27,7 @@
       <TextBox Grid.Column="1" x:Name="SerialPortPath" Text="COM1" />
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Baud</TextBlock>
       <TextBox Grid.Column="3" x:Name="SerialBaudPath" Text="9600" />
-      <Button Grid.Column="4" Click="ToggleSerial">Open serial</Button>
+      <Button Grid.Column="4" x:Name="SerialToggleButton" Click="ToggleSerial">Open serial</Button>
       <Button Grid.Column="5" Click="LampOn">Lamp on</Button>
       <Button Grid.Column="6" Click="LampOff">Lamp off</Button>
       <TextBlock Grid.Column="7" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />

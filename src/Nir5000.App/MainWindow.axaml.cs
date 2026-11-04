@@ -190,7 +190,8 @@ public sealed partial class MainWindow : Window
                 serial.Dispose();
                 serial = null;
                 SerialStatus.Text = "Serial connection closed.";
-                ((Avalonia.Controls.Button)sender!).Content = "Open serial";
+                SerialToggleButton.Content = "Open serial";
+                logger.Info("Serial closed by user or startup toggle.");
                 return;
             }
 
@@ -202,13 +203,14 @@ public sealed partial class MainWindow : Window
             serial = new Nir5000SerialSession(new Nir5000SerialOptions(SerialPortPath.Text ?? string.Empty, baud, 1000, txCapture, rxCapture, wireTrace));
             serial.Open();
             SerialStatus.Text = $"Connected to {SerialPortPath.Text} at {baud} baud.";
-            if (sender is Avalonia.Controls.Button button) button.Content = "Close serial";
+            SerialToggleButton.Content = "Close serial";
             logger.Info($"Serial opened: {SerialPortPath.Text} at {baud} baud; capture={(txCapture is null ? "off" : "on")}; trace={(wireTrace is null ? "off" : wireTrace)}.");
         }
         catch (Exception ex)
         {
             serial?.Dispose();
             serial = null;
+            SerialToggleButton.Content = "Open serial";
             SerialStatus.Text = $"Serial error: {ex.Message}";
             logger.Error("Serial open failed", ex);
         }
