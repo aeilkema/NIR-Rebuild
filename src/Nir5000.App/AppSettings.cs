@@ -11,6 +11,7 @@ public sealed class AppSettings
     public string LogDirectory { get; set; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Nir5000Rebuild", "logs");
     public string TransmitCapturePath { get; set; } = string.Empty;
     public string ReceiveCapturePath { get; set; } = string.Empty;
+    public string WireTracePath { get; set; } = string.Empty;
     public string LimsOrderNumber { get; set; } = string.Empty;
     public string LimsCalibration { get; set; } = string.Empty;
     public string LimsOutputPath { get; set; } = string.Empty;

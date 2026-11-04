@@ -26,6 +26,7 @@ public sealed partial class MainWindow : Window
         LogDirectoryPath.Text = settings.LogDirectory;
         TransmitCapturePath.Text = settings.TransmitCapturePath;
         ReceiveCapturePath.Text = settings.ReceiveCapturePath;
+        WireTracePath.Text = settings.WireTracePath;
         LimsOrderNumberPath.Text = settings.LimsOrderNumber;
         LimsCalibrationPath.Text = settings.LimsCalibration;
         LimsOutputPath.Text = settings.LimsOutputPath;
@@ -50,6 +51,7 @@ public sealed partial class MainWindow : Window
         settings.LogDirectory = LogDirectoryPath.Text ?? settings.LogDirectory;
         settings.TransmitCapturePath = TransmitCapturePath.Text ?? string.Empty;
         settings.ReceiveCapturePath = ReceiveCapturePath.Text ?? string.Empty;
+        settings.WireTracePath = WireTracePath.Text ?? string.Empty;
         settings.LimsOrderNumber = LimsOrderNumberPath.Text ?? string.Empty;
         settings.LimsCalibration = LimsCalibrationPath.Text ?? string.Empty;
         settings.LimsOutputPath = LimsOutputPath.Text ?? string.Empty;
@@ -196,11 +198,12 @@ public sealed partial class MainWindow : Window
                 throw new InvalidOperationException("Enter a positive numeric baud rate.");
             var txCapture = string.IsNullOrWhiteSpace(TransmitCapturePath.Text) ? null : TransmitCapturePath.Text;
             var rxCapture = string.IsNullOrWhiteSpace(ReceiveCapturePath.Text) ? null : ReceiveCapturePath.Text;
-            serial = new Nir5000SerialSession(new Nir5000SerialOptions(SerialPortPath.Text ?? string.Empty, baud, 1000, txCapture, rxCapture));
+            var wireTrace = string.IsNullOrWhiteSpace(WireTracePath.Text) ? null : WireTracePath.Text;
+            serial = new Nir5000SerialSession(new Nir5000SerialOptions(SerialPortPath.Text ?? string.Empty, baud, 1000, txCapture, rxCapture, wireTrace));
             serial.Open();
             SerialStatus.Text = $"Connected to {SerialPortPath.Text} at {baud} baud.";
             if (sender is Avalonia.Controls.Button button) button.Content = "Close serial";
-            logger.Info($"Serial opened: {SerialPortPath.Text} at {baud} baud; capture={(txCapture is null ? "off" : "on")}.");
+            logger.Info($"Serial opened: {SerialPortPath.Text} at {baud} baud; capture={(txCapture is null ? "off" : "on")}; trace={(wireTrace is null ? "off" : wireTrace)}.");
         }
         catch (Exception ex)
         {

@@ -56,11 +56,13 @@
       <Button Grid.Column="8" Click="SubmitNova">Submit Nova</Button>
     </Grid>
     <Grid Grid.Row="8" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
-      <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto,*" ColumnSpacing="8" Margin="16,12,16,0">
+      <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto,*,Auto,*" ColumnSpacing="8" Margin="16,12,16,0">
         <TextBlock Foreground="#D7E3F4" VerticalAlignment="Center">TX capture</TextBlock>
         <TextBox Grid.Column="1" x:Name="TransmitCapturePath" Foreground="#D7E3F4" />
         <TextBlock Grid.Column="2" Foreground="#D7E3F4" VerticalAlignment="Center">RX capture</TextBlock>
         <TextBox Grid.Column="3" x:Name="ReceiveCapturePath" Foreground="#D7E3F4" />
+        <TextBlock Grid.Column="4" Foreground="#D7E3F4" VerticalAlignment="Center">Trace</TextBlock>
+        <TextBox Grid.Column="5" x:Name="WireTracePath" Foreground="#D7E3F4" />
       </Grid>
       <Border Grid.Row="1" Background="#101820" CornerRadius="8" Padding="16">
       <Grid RowDefinitions="Auto,Auto,*" RowSpacing="12">

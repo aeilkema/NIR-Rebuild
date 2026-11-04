@@ -9,7 +9,8 @@ public sealed record Nir5000SerialOptions(
     int BaudRate,
     int TimeoutMs = 1000,
     string? TransmitCapturePath = null,
-    string? ReceiveCapturePath = null);
+    string? ReceiveCapturePath = null,
+    string? WireTracePath = null);
 
 public sealed class Nir5000SerialSession : IDisposable
 {
@@ -33,7 +34,7 @@ public sealed class Nir5000SerialSession : IDisposable
         if ((options.TransmitCapturePath is null) != (options.ReceiveCapturePath is null))
             throw new ArgumentException("Transmit and receive capture paths must be supplied together.", nameof(options));
         capture = options.TransmitCapturePath is not null
-            ? new Nir5000WireCapture(options.TransmitCapturePath, options.ReceiveCapturePath!)
+            ? new Nir5000WireCapture(options.TransmitCapturePath, options.ReceiveCapturePath!, options.WireTracePath)
             : null;
         protocol = new Nir5000ProtocolSession(new SerialPortTransport(port), capture);
     }

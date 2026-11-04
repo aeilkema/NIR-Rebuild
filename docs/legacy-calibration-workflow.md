@@ -43,3 +43,11 @@ reference/gain workflows. Static inspection did not reveal a duty-cycle or
 overdrive setting. NIR-Rebuild currently has no real lamp-control command and
 cannot increase lamp load by itself; it only opens the COM transport and
 records bytes when explicitly configured.
+
+Additional static disassembly found the exported lamp API InstrSetLamp and
+InstrWasLampOn in Nirsinst.dll. InstrSetLamp(handle, enabled) builds an
+internal two-byte request: 02 FF for enabled and 02 00 for disabled. This is
+the command payload observed inside the old driver, not yet the complete
+ENQ/frame sequence. The new core exposes this observed request as a diagnostic
+constant and deliberately does not transmit it until the outer frame and
+acknowledgement are confirmed.

@@ -11,7 +11,8 @@ public sealed record SerialTcpBridgeOptions(
     IPAddress? ListenAddress = null,
     int ReadTimeoutMs = 250,
     string? TransmitCapturePath = null,
-    string? ReceiveCapturePath = null);
+    string? ReceiveCapturePath = null,
+    string? WireTracePath = null);
 
 /// <summary>
 /// Transparent raw-byte bridge. It does not translate, impersonate or unlock
@@ -111,7 +112,7 @@ public sealed class SerialTcpBridge(SerialTcpBridgeOptions options) : IAsyncDisp
             throw new ArgumentException("Transmit and receive capture paths must be supplied together.", nameof(value));
         return value.TransmitCapturePath is null
             ? null
-            : new Nir5000WireCapture(value.TransmitCapturePath, value.ReceiveCapturePath!);
+            : new Nir5000WireCapture(value.TransmitCapturePath, value.ReceiveCapturePath!, value.WireTracePath);
     }
 
     private static SerialPort CreateSerial(SerialTcpBridgeOptions value)
