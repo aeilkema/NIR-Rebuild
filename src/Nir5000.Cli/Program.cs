@@ -51,6 +51,23 @@ if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIg
         "2026-01-01T00:00:00.000Z", "abc"u8, "SECRET");
     if (starlimsSignature != "rDLdIDJty34nHHMrM8Ao+DBc6LGvVplPOI0psWdF6SU=")
         throw new InvalidOperationException("STARLIMS HMAC signature self-test failed.");
+    var uploadFixture = Path.Combine(Path.GetTempPath(), "nir5000-starlims-upload-test.txt");
+    File.WriteAllText(uploadFixture, "abc");
+    using (var uploadHandler = new CapturingStarLimsHandler())
+    using (var uploadHttp = new HttpClient(uploadHandler))
+    {
+        var uploader = new StarLimsUploadClient(uploadHttp, new StarLimsUploadOptions(
+            new Uri("https://lims/rest.web.api/upload"), "ACCESS", "SECRET"));
+        var uploadResult = await uploader.UploadFileAsync(uploadFixture);
+        if (!uploadResult.IsSuccess || uploadHandler.Body != "abc" ||
+            uploadHandler.ContentType != "application/octet-stream" ||
+            uploadHandler.FileName != "nir5000-starlims-upload-test.txt" ||
+            uploadHandler.Signature != StarLimsUploadClient.CreateSignature(
+                uploadHandler.RequestUri!, "POST", "ACCESS", "upload", uploadHandler.Timestamp!,
+                System.Text.Encoding.UTF8.GetBytes("abc"), "SECRET"))
+            throw new InvalidOperationException("STARLIMS HTTP uploader self-test failed.");
+    }
+    File.Delete(uploadFixture);
     if (!Nir5000LampCommands.BuildObservedRequest(true).SequenceEqual(new byte[] { 0x02, 0xFF }) ||
         !Nir5000LampCommands.BuildObservedRequest(false).SequenceEqual(new byte[] { 0x02, 0x00 }))
         throw new InvalidOperationException("NIR 5000 lamp request self-test failed.");
@@ -456,6 +473,27 @@ sealed class CapturingNovaHandler : HttpMessageHandler
         {
             Content = new StringContent("accepted")
         };
+    }
+}
+
+sealed class CapturingStarLimsHandler : HttpMessageHandler
+{
+    public Uri? RequestUri { get; private set; }
+    public string? Body { get; private set; }
+    public string? ContentType { get; private set; }
+    public string? FileName { get; private set; }
+    public string? Signature { get; private set; }
+    public string? Timestamp { get; private set; }
+
+    protected override async Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+    {
+        RequestUri = request.RequestUri;
+        Body = request.Content is null ? null : await request.Content.ReadAsStringAsync(cancellationToken);
+        ContentType = request.Content?.Headers.ContentType?.MediaType;
+        FileName = request.Headers.TryGetValues("SL-API-Filename", out var fileNames) ? fileNames.Single() : null;
+        Signature = request.Headers.TryGetValues("SL-API-Signature", out var signatures) ? signatures.Single() : null;
+        Timestamp = request.Headers.TryGetValues("SL-API-Timestamp", out var timestamps) ? timestamps.Single() : null;
+        return new HttpResponseMessage(HttpStatusCode.Accepted) { Content = new StringContent("accepted") };
     }
 }
 
