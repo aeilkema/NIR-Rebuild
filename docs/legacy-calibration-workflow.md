@@ -27,6 +27,14 @@ diagnostic program. The production `Prod5000.ini` separately uses its product
 configuration, including `BaudRate=5` (resolved by this project as 38400 baud),
 so the two files must not be mixed blindly.
 
+Static strings in the legacy `DIAGNSTC.EXE` add the following named diagnostic
+operations to the workflow inventory: `GET_VISGAIN`, `GET_NIRGAIN`,
+`SET_DIAGNOSTICS_FLAG`, instrument-response testing, wavelength-accuracy
+testing, and uploading the maximum-statistics K/Phi values to the instrument.
+These names confirm additional driver operations, but the old executable is a
+16-bit NE binary and its import/caller table still requires separate static
+decoding before any of them can be emitted as new serial commands.
+
 ## What is and is not a command specification
 
 The operation names and order above are supported by static evidence. The
