@@ -31,9 +31,23 @@ Static strings in the legacy `DIAGNSTC.EXE` add the following named diagnostic
 operations to the workflow inventory: `GET_VISGAIN`, `GET_NIRGAIN`,
 `SET_DIAGNOSTICS_FLAG`, instrument-response testing, wavelength-accuracy
 testing, and uploading the maximum-statistics K/Phi values to the instrument.
-These names confirm additional driver operations, but the old executable is a
-16-bit NE binary and its import/caller table still requires separate static
-decoding before any of them can be emitted as new serial commands.
+These names confirm additional driver operations. The executable is a 16-bit
+NE binary and statically imports `LANG`, `FILEIO`, `Prod_INI`, `PVPLUS`,
+`WINCTL`, `COMMDLG`, `GDI`, `KERNEL`, `USER` and `WIN87EM`; the diagnostic
+program therefore delegates part of its protocol/configuration work to those
+legacy modules. The operation inventory is complete at the name level, but
+the byte payload and acknowledgement for each operation still require static
+caller decoding or a captured/vendor-verified exchange.
+
+## Static structure of `DIAGNSTC.EXE`
+
+The repository copy is a 16-bit Windows NE executable rather than a modern PE
+file. Its module-reference table confirms the ten imports listed above. This
+is important for completeness: the calibration workflow is not implemented
+only in the diagnostic screen, and a simple string search cannot be treated as
+a complete protocol specification. The modern project records every located
+operation and keeps unknown operations disabled until their caller and wire
+format are proven.
 
 ## What is and is not a command specification
 
@@ -55,7 +69,9 @@ COM connection is explicitly opened.
 Additional static disassembly found the exported lamp API InstrSetLamp and
 InstrWasLampOn in Nirsinst.dll. InstrSetLamp(handle, enabled) builds an
 internal two-byte request: 02 FF for enabled and 02 00 for disabled. This is
-the command payload observed inside the old driver, not yet the complete
-ENQ/frame sequence. The new core exposes this observed request as a diagnostic
-constant and deliberately does not transmit it until the outer frame and
-acknowledgement are confirmed.
+the command payload observed inside the old driver. The new core sends exactly
+this two-byte request after the user explicitly opens the COM connection and
+logs it as `TX 02 FF` or `TX 02 00`. The old driver path does not read a reply;
+`InstrWasLampOn` reports the driver's cached state. Therefore the application
+does not claim an instrument acknowledgement for this command, and the wire
+trace is the authoritative diagnostic record.
