@@ -252,7 +252,7 @@ public sealed partial class MainWindow : Window
             var rxCapture = string.IsNullOrWhiteSpace(ReceiveCapturePath.Text) ? null : ReceiveCapturePath.Text;
             var wireTrace = string.IsNullOrWhiteSpace(WireTracePath.Text) ? null : WireTracePath.Text;
             bridge = new SerialTcpBridge(new SerialTcpBridgeOptions(
-                SerialPortPath.Text ?? string.Empty, baud, tcpPort, listenAddress, 250, txCapture, rxCapture, wireTrace));
+                SerialPortPath.Text ?? string.Empty, baud, tcpPort, listenAddress, 250, txCapture, rxCapture, wireTrace, logger.Info));
             _ = RunBridgeAsync(bridge);
             BridgeStatus.Text = $"Bridge starting on {listenAddress}:{tcpPort}.";
             BridgeToggleButton.Content = "Stop bridge";

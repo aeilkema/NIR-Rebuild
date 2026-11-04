@@ -12,7 +12,8 @@ public sealed record SerialTcpBridgeOptions(
     int ReadTimeoutMs = 250,
     string? TransmitCapturePath = null,
     string? ReceiveCapturePath = null,
-    string? WireTracePath = null);
+    string? WireTracePath = null,
+    Action<string>? Log = null);
 
 /// <summary>
 /// Transparent raw-byte bridge. It does not translate, impersonate or unlock
@@ -31,19 +32,32 @@ public sealed class SerialTcpBridge(SerialTcpBridgeOptions options) : IAsyncDisp
     {
         if (IsRunning) throw new InvalidOperationException("The serial/TCP bridge is already running.");
         stopSource = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+        options.Log?.Invoke($"COM open requested: {options.PortName} at {options.BaudRate} baud.");
         serial.Open();
+        options.Log?.Invoke($"COM opened: {options.PortName}.");
         listener.Start();
         IsRunning = true;
+        options.Log?.Invoke($"TCP listener started: {listener.LocalEndpoint}.");
         try
         {
             while (!stopSource.Token.IsCancellationRequested)
             {
                 using var client = await listener.AcceptTcpClientAsync(stopSource.Token).ConfigureAwait(false);
                 client.NoDelay = true;
+                options.Log?.Invoke($"TCP client connected: {client.Client.RemoteEndPoint}.");
                 await RelayClientAsync(client, stopSource.Token).ConfigureAwait(false);
+                options.Log?.Invoke($"TCP client disconnected: {client.Client.RemoteEndPoint}.");
             }
         }
-        catch (OperationCanceledException) when (stopSource.Token.IsCancellationRequested) { }
+        catch (OperationCanceledException) when (stopSource.Token.IsCancellationRequested)
+        {
+            options.Log?.Invoke("Bridge cancellation received.");
+        }
+        catch (Exception ex)
+        {
+            options.Log?.Invoke($"Bridge relay failure: {ex.GetType().Name}: {ex.Message}");
+            throw;
+        }
         finally
         {
             IsRunning = false;
@@ -51,6 +65,7 @@ public sealed class SerialTcpBridge(SerialTcpBridgeOptions options) : IAsyncDisp
             if (serial.IsOpen) serial.Close();
             stopSource.Dispose();
             stopSource = null;
+            options.Log?.Invoke("Bridge resources closed.");
         }
     }
 
@@ -74,6 +89,10 @@ public sealed class SerialTcpBridge(SerialTcpBridgeOptions options) : IAsyncDisp
         relayStop.Cancel();
         try { await Task.WhenAll(tcpToSerial, serialToTcp).ConfigureAwait(false); }
         catch (OperationCanceledException) when (relayStop.IsCancellationRequested) { }
+        catch (Exception ex) when (ex is IOException or SocketException or InvalidOperationException)
+        {
+            options.Log?.Invoke($"Relay client failure: {ex.GetType().Name}: {ex.Message}");
+        }
     }
 
     private async Task CopyTcpToSerialAsync(NetworkStream stream, CancellationToken token)
