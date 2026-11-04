@@ -125,3 +125,8 @@ De exacte header- en payloadindeling voor een NIR 5000 is nog niet bewezen.
 Daarom verstuurt de GUI nog geen scancommando naar echte hardware. Voor die
 stap is een XDS-installatie of een gecontroleerde seriële capture nodig.
 Zie `docs/nir5000-protocol.md`.
+
+De historische kalibratie-/diagnoseworkflow en de lampbevindingen staan in
+`docs/legacy-calibration-workflow.md`. De oude applicatie heet `DIAGNSTC.EXE`;
+de exacte seriële kalibratiepayloads worden pas ingeschakeld nadat die met een
+gecontroleerde capture zijn bevestigd.
