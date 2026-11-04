@@ -420,6 +420,13 @@ if (args.Length == 1 && args[0].Equals("--inspect-command-inventory", StringComp
     return 0;
 }
 
+if (args.Length == 1 && args[0].Equals("--inspect-diagnostic-operations", StringComparison.OrdinalIgnoreCase))
+{
+    foreach (var operation in LegacyDiagnosticOperationInventory.All)
+        Console.WriteLine($"{operation.Name}; category={operation.Category}; status={operation.Status}; evidence={operation.Evidence}");
+    return 0;
+}
+
 if (args.Length == 2 && args[0].Equals("--inspect-diagnostics", StringComparison.OrdinalIgnoreCase))
 {
     var diagnostic = LegacyDiagnosticSettings.Load(args[1]);
@@ -448,7 +455,7 @@ if (args.Length == 2 && args[0].Equals("--inspect-calibration", StringComparison
 
 if (args.Length < 1)
 {
-Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-command-inventory | --inspect-diagnostics <Diagnstc.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --upload-starlims <file.txt> <endpoint> <accessKey> <secretKey> [apiMethod] | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
+Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-command-inventory | --inspect-diagnostic-operations | --inspect-diagnostics <Diagnstc.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --upload-starlims <file.txt> <endpoint> <accessKey> <secretKey> [apiMethod] | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
     return 2;
 }
 

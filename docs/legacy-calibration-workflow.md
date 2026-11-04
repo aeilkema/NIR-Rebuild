@@ -41,8 +41,12 @@ metadata, not emitted as instrument writes.
 
 Static strings in the legacy `DIAGNSTC.EXE` add the following named diagnostic
 operations to the workflow inventory: `GET_VISGAIN`, `GET_NIRGAIN`,
-`SET_DIAGNOSTICS_FLAG`, instrument-response testing, wavelength-accuracy
-testing, and uploading the maximum-statistics K/Phi values to the instrument.
+`SET_DIAGNOSTICS_FLAG`, `GET_K`, `GET_PHI`, `PUT_K`, `PUT_PHI`,
+`DOWNLOAD_K_AND_PHI`, `REGISTER_NIRQA_INI`, instrument-response testing,
+wavelength-accuracy testing and NIR-repeatability testing. The UI also names
+separate callback/test boundaries `FNRESPONSEWNDPROC`, `FNWAVEACCTESTWNDPROC`,
+`FNNIRREPEATGRAPHWNDPROC` and `FNINSTRESPONSERESULTSWNDPROC`, plus the
+diagnostic file/resource names `WAVEACC`, `NIRPEAT` and `RESPONSE`.
 These names confirm additional driver operations. The executable is a 16-bit
 NE binary and statically imports `LANG`, `FILEIO`, `Prod_INI`, `PVPLUS`,
 `WINCTL`, `COMMDLG`, `GDI`, `KERNEL`, `USER` and `WIN87EM`; the diagnostic
