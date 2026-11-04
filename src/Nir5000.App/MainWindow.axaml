@@ -1,0 +1,39 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Nir5000.App.MainWindow"
+        Width="900" Height="620" MinWidth="700" MinHeight="480"
+        Title="NIR 5000 Rebuild">
+  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
+    <StackPanel Grid.Row="0" Spacing="6">
+      <TextBlock FontSize="26" FontWeight="SemiBold">NIR 5000 Rebuild</TextBlock>
+      <TextBlock Foreground="Gray">64-bit test application for FOSS NIR 5000 compatibility</TextBlock>
+    </StackPanel>
+    <Grid Grid.Row="1" ColumnDefinitions="*,Auto,Auto" ColumnSpacing="10">
+      <TextBox x:Name="ProfilePath" Watermark="Path to Prod5000.ini" />
+      <Button Grid.Column="1" Click="LoadProfile">Load profile</Button>
+      <Button Grid.Column="2" Click="AcquireSimulation">Simulate scan</Button>
+    </Grid>
+    <Grid Grid.Row="2" ColumnDefinitions="*,Auto" ColumnSpacing="10">
+      <TextBox x:Name="NirPath" Watermark="Path to legacy .NIR file" />
+      <Button Grid.Column="1" Click="LoadNir">Load legacy NIR</Button>
+    </Grid>
+    <Grid Grid.Row="3" ColumnDefinitions="Auto,120,Auto,120,Auto,*" ColumnSpacing="8">
+      <TextBlock VerticalAlignment="Center">Serial port</TextBlock>
+      <TextBox Grid.Column="1" x:Name="SerialPortPath" Text="COM1" />
+      <TextBlock Grid.Column="2" VerticalAlignment="Center">Baud</TextBlock>
+      <TextBox Grid.Column="3" x:Name="SerialBaudPath" Text="9600" />
+      <Button Grid.Column="4" Click="ToggleSerial">Open serial</Button>
+      <TextBlock Grid.Column="5" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />
+    </Grid>
+    <Border Grid.Row="4" Background="#101820" CornerRadius="8" Padding="16">
+      <Grid RowDefinitions="Auto,Auto,*" RowSpacing="12">
+        <TextBlock x:Name="ProfileSummary" Foreground="#D7E3F4" />
+        <TextBlock Grid.Row="1" x:Name="Status" Foreground="#8FD694" />
+        <ScrollViewer Grid.Row="2" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+          <TextBlock x:Name="SpectrumPreview" FontFamily="Consolas" Foreground="#D7E3F4" />
+        </ScrollViewer>
+      </Grid>
+    </Border>
+    <TextBlock Grid.Row="5" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument.</TextBlock>
+  </Grid>
+</Window>

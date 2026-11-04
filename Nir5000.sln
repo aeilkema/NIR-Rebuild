@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nir5000.Core", "src\Nir5000.Core\Nir5000.Core.csproj", "{A7C4D2F1-7E10-4A92-9D20-010203040501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nir5000.Cli", "src\Nir5000.Cli\Nir5000.Cli.csproj", "{A7C4D2F1-7E10-4A92-9D20-010203040502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nir5000.App", "src\Nir5000.App\Nir5000.App.csproj", "{A7C4D2F1-7E10-4A92-9D20-010203040503}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C4D2F1-7E10-4A92-9D20-010203040501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C4D2F1-7E10-4A92-9D20-010203040503}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
