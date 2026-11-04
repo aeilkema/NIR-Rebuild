@@ -54,3 +54,10 @@ publicaties met:
 Get-FileHash .\publish\app-win-x64\Nir5000.App.exe -Algorithm SHA256
 Get-FileHash .\publish\cli-win-x64\Nir5000.Cli.exe -Algorithm SHA256
 ```
+
+Lokale verificatie op 4 november 2026 met .NET SDK 8.0.427 gaf:
+
+```text
+Nir5000.App.exe  688BFE8830DCECC71FF33994B88737307B699C6A9062A7968E376B37600656F9
+Nir5000.Cli.exe  1C4EFA437D99D046AB0626587CD56241C36636B53A276FB4955126E8B00BA1FC
+```
