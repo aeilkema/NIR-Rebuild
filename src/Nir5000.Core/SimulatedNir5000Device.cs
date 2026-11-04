@@ -6,7 +6,7 @@ public sealed record Nir5000InstrumentIdentity(string Model, string SerialNumber
 /// Offline instrument substitute for development and regression tests. It
 /// models the public spectrum workflow, not unverified wire-level headers.
 /// </summary>
-public sealed class SimulatedNir5000Device
+public sealed class SimulatedNir5000Device : INir5000Instrument
 {
     private readonly ISpectrumSource spectrumSource;
 
@@ -31,4 +31,16 @@ public sealed class SimulatedNir5000Device
         cancellationToken.ThrowIfCancellationRequested();
         return await spectrumSource.AcquireAsync(wavelengthsNm, cancellationToken);
     }
+
+    public Task<Spectrum> AcquireReferenceAsync(IReadOnlyList<double> wavelengthsNm, CancellationToken cancellationToken = default) =>
+        AcquireSpectrumAsync(wavelengthsNm, cancellationToken);
+
+    public ValueTask TerminateAsync(CancellationToken cancellationToken = default)
+    {
+        cancellationToken.ThrowIfCancellationRequested();
+        IsInitialized = false;
+        return ValueTask.CompletedTask;
+    }
+
+    public ValueTask DisposeAsync() => TerminateAsync();
 }

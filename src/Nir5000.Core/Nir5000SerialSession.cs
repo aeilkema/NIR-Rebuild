@@ -2,12 +2,20 @@ using System.IO.Ports;
 
 namespace Nir5000.Core;
 
-public sealed record Nir5000SerialOptions(string PortName, int BaudRate, int TimeoutMs = 3000);
+// Sic.dll's statically reconstructed read wrapper uses a 1000 ms timeout.
+// Keep it as the compatibility default while allowing diagnostics to override it.
+public sealed record Nir5000SerialOptions(
+    string PortName,
+    int BaudRate,
+    int TimeoutMs = 1000,
+    string? TransmitCapturePath = null,
+    string? ReceiveCapturePath = null);
 
 public sealed class Nir5000SerialSession : IDisposable
 {
     private readonly SerialPort port;
     private readonly Nir5000ProtocolSession protocol;
+    private readonly Nir5000WireCapture? capture;
 
     public Nir5000SerialSession(Nir5000SerialOptions options)
     {
@@ -22,7 +30,12 @@ public sealed class Nir5000SerialSession : IDisposable
             DtrEnable = false,
             RtsEnable = false
         };
-        protocol = new Nir5000ProtocolSession(new SerialPortTransport(port));
+        if ((options.TransmitCapturePath is null) != (options.ReceiveCapturePath is null))
+            throw new ArgumentException("Transmit and receive capture paths must be supplied together.", nameof(options));
+        capture = options.TransmitCapturePath is not null
+            ? new Nir5000WireCapture(options.TransmitCapturePath, options.ReceiveCapturePath!)
+            : null;
+        protocol = new Nir5000ProtocolSession(new SerialPortTransport(port), capture);
     }
 
     public bool IsOpen => protocol.IsOpen;
@@ -38,7 +51,11 @@ public sealed class Nir5000SerialSession : IDisposable
         return protocol.ReceiveFrame(payloadLength);
     }
 
-    public void Dispose() => protocol.Dispose();
+    public void Dispose()
+    {
+        protocol.Dispose();
+        capture?.Dispose();
+    }
 
     private sealed class SerialPortTransport(SerialPort port) : INir5000ByteTransport
     {

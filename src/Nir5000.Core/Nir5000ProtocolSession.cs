@@ -12,8 +12,13 @@ public interface INir5000ByteTransport : IDisposable
 public sealed class Nir5000ProtocolSession : IDisposable
 {
     private readonly INir5000ByteTransport transport;
+    private readonly INir5000WireRecorder? recorder;
 
-    public Nir5000ProtocolSession(INir5000ByteTransport transport) => this.transport = transport;
+    public Nir5000ProtocolSession(INir5000ByteTransport transport, INir5000WireRecorder? recorder = null)
+    {
+        this.transport = transport;
+        this.recorder = recorder;
+    }
     public bool IsOpen => transport.IsOpen;
     public void Open() => transport.Open();
     public void Dispose() => transport.Dispose();
@@ -21,9 +26,9 @@ public sealed class Nir5000ProtocolSession : IDisposable
     public void SendFrame(ReadOnlySpan<byte> header, ReadOnlySpan<byte> payload)
     {
         RequireOpen();
-        transport.Write(Nir5000FrameCodec.BuildSendPreamble());
+        Write(Nir5000FrameCodec.BuildSendPreamble());
         Expect(Nir5000ProtocolConstants.Ack);
-        transport.Write(Nir5000FrameCodec.BuildSendFrame(header, payload));
+        Write(Nir5000FrameCodec.BuildSendFrame(header, payload));
         Expect(Nir5000ProtocolConstants.Ack);
     }
 
@@ -49,12 +54,22 @@ public sealed class Nir5000ProtocolSession : IDisposable
         if (actual != expected) throw new InvalidDataException($"Expected 0x{expected:X2}, received 0x{actual:X2}.");
         return actual;
     }
-    private byte ReadByte() => checked((byte)transport.ReadByte());
+    private byte ReadByte()
+    {
+        var value = checked((byte)transport.ReadByte());
+        recorder?.RecordReceive(value);
+        return value;
+    }
     private void ReadExactly(Span<byte> destination)
     {
-        for (var offset = 0; offset < destination.Length; offset++) destination[offset] = checked((byte)transport.ReadByte());
+        for (var offset = 0; offset < destination.Length; offset++) destination[offset] = ReadByte();
     }
-    private void WriteByte(byte value) => transport.Write([value]);
+    private void WriteByte(byte value) => Write([value]);
+    private void Write(ReadOnlySpan<byte> data)
+    {
+        recorder?.RecordTransmit(data);
+        transport.Write(data);
+    }
     private void RequireOpen()
     {
         if (!transport.IsOpen) throw new InvalidOperationException("Open the NIR 5000 serial session first.");

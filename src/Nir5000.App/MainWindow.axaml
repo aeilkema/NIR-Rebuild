@@ -1,9 +1,9 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="Nir5000.App.MainWindow"
-        Width="900" Height="620" MinWidth="700" MinHeight="480"
-        Title="NIR 5000 Rebuild">
-  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
+        Width="900" Height="700" MinWidth="700" MinHeight="520"
+        Title="NIR 5000 Rebuild" Opened="OnOpened">
+  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
     <StackPanel Grid.Row="0" Spacing="6">
       <TextBlock FontSize="26" FontWeight="SemiBold">NIR 5000 Rebuild</TextBlock>
       <TextBlock Foreground="Gray">64-bit test application for FOSS NIR 5000 compatibility</TextBlock>
@@ -17,7 +17,12 @@
       <TextBox x:Name="NirPath" Watermark="Path to legacy .NIR file" />
       <Button Grid.Column="1" Click="LoadNir">Load legacy NIR</Button>
     </Grid>
-    <Grid Grid.Row="3" ColumnDefinitions="Auto,120,Auto,120,Auto,*" ColumnSpacing="8">
+    <Grid Grid.Row="3" ColumnDefinitions="*,Auto,Auto" ColumnSpacing="10">
+      <TextBox x:Name="EqaModelPath" Watermark="Path to EQA model JSON or legacy .eqa" />
+      <Button Grid.Column="1" Click="PredictEqa">Predict from EQA</Button>
+      <Button Grid.Column="2" Click="PredictLegacyEqa">Predict legacy EQA</Button>
+    </Grid>
+    <Grid Grid.Row="4" ColumnDefinitions="Auto,120,Auto,120,Auto,*" ColumnSpacing="8">
       <TextBlock VerticalAlignment="Center">Serial port</TextBlock>
       <TextBox Grid.Column="1" x:Name="SerialPortPath" Text="COM1" />
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Baud</TextBlock>
@@ -25,7 +30,29 @@
       <Button Grid.Column="4" Click="ToggleSerial">Open serial</Button>
       <TextBlock Grid.Column="5" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />
     </Grid>
-    <Border Grid.Row="4" Background="#101820" CornerRadius="8" Padding="16">
+    <Grid Grid.Row="5" ColumnDefinitions="Auto,*,Auto,*,Auto" ColumnSpacing="8">
+      <CheckBox x:Name="AutoConnectPath" VerticalAlignment="Center">Auto-connect at startup</CheckBox>
+      <TextBlock Grid.Column="2" VerticalAlignment="Center">Log directory</TextBlock>
+      <TextBox Grid.Column="3" x:Name="LogDirectoryPath" />
+      <Button Grid.Column="4" Click="SaveSettings">Save settings</Button>
+    </Grid>
+    <Grid Grid.Row="6" ColumnDefinitions="Auto,*,Auto,*,Auto,*,Auto" ColumnSpacing="8">
+      <TextBlock VerticalAlignment="Center">LIMS order</TextBlock>
+      <TextBox Grid.Column="1" x:Name="LimsOrderNumberPath" />
+      <TextBlock Grid.Column="2" VerticalAlignment="Center">Calibration</TextBlock>
+      <TextBox Grid.Column="3" x:Name="LimsCalibrationPath" />
+      <TextBlock Grid.Column="4" VerticalAlignment="Center">Output</TextBlock>
+      <TextBox Grid.Column="5" x:Name="LimsOutputPath" />
+      <Button Grid.Column="6" Click="ExportLims">Export LIMS</Button>
+    </Grid>
+    <Grid Grid.Row="7" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
+      <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto,*" ColumnSpacing="8" Margin="16,12,16,0">
+        <TextBlock Foreground="#D7E3F4" VerticalAlignment="Center">TX capture</TextBlock>
+        <TextBox Grid.Column="1" x:Name="TransmitCapturePath" Foreground="#D7E3F4" />
+        <TextBlock Grid.Column="2" Foreground="#D7E3F4" VerticalAlignment="Center">RX capture</TextBlock>
+        <TextBox Grid.Column="3" x:Name="ReceiveCapturePath" Foreground="#D7E3F4" />
+      </Grid>
+      <Border Grid.Row="1" Background="#101820" CornerRadius="8" Padding="16">
       <Grid RowDefinitions="Auto,Auto,*" RowSpacing="12">
         <TextBlock x:Name="ProfileSummary" Foreground="#D7E3F4" />
         <TextBlock Grid.Row="1" x:Name="Status" Foreground="#8FD694" />
@@ -33,7 +60,8 @@
           <TextBlock x:Name="SpectrumPreview" FontFamily="Consolas" Foreground="#D7E3F4" />
         </ScrollViewer>
       </Grid>
-    </Border>
-    <TextBlock Grid.Row="5" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument.</TextBlock>
+      </Border>
+    </Grid>
+    <TextBlock Grid.Row="8" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument. EQA prediction runs locally and does not require Nova, SQL Express or a dongle.</TextBlock>
   </Grid>
 </Window>

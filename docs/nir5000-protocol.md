@@ -26,7 +26,36 @@ This document records only facts supported by static analysis of the supplied
 - `0x5B`: serial-number transfer (`GET_SERNO`/`PUT_SERNO`).
 - `0x5D`: spectrum/response transfer (`GET_NIR` and `GET_RESPONSE`).
 
+Additional static evidence from the typed wrappers in `Nirsinst.dll` narrows
+the command dispatcher without over-naming the operations: wrappers call the
+shared exchange routine with `0x5A` and `0x5B` plus a 3-byte typed exchange,
+with `0x5C` and `0x5D` plus a 2-byte typed exchange, and with `0x5E` plus an
+8-byte typed exchange. Both getter and setter wrappers are present. This
+proves command IDs and typed exchange sizes at the driver boundary; it does
+not yet prove that the 2-byte `0x5D` wrapper is the full spectrum payload.
+
 ## Still unknown
+
+The ISIscan installer provides useful static evidence about the surrounding
+driver contract. `Nirsinst.dll` exports `InstrInitialize`, `InstrCloseComm`,
+`InstrReOpenComm`, `InstrGetReference`, `InstrGetSpectrum` and
+`InstrTerminate`, and contains strings for COM/baud configuration, spectrum
+acquisition, transport timeout and command-range errors. These names identify
+the correct integration boundary, but they do not reveal the NIR 5000 wire
+payload or make the 32-bit vendor DLL usable from the 64-bit application.
+
+The same binary imports `Sic.dll`; that companion exports `SicRead` and
+`SicWrite` and uses the normal Win32 serial APIs (`CreateFileA`, `ReadFile`,
+`WriteFile`, `SetCommState`, `SetCommTimeouts`, `PurgeComm` and `SetupComm`).
+This confirms that the hardware side is a conventional COM transport rather
+than a proprietary USB-only layer. It validates the transport choice in
+`Nir5000SerialSession`, but not the still-unknown scan payload.
+
+Static disassembly further shows that the legacy `SicRead` wrapper supplies a
+caller buffer, a 16-bit byte count and a fixed 1000 ms internal timeout. The
+new transport keeps timeout explicit rather than hard-coding this value, so
+the same behavior can be selected for compatibility while diagnostics can use
+a longer timeout.
 
 - Exact meaning and byte order of every header field for a FOSS NIR 5000 scan.
 - Baud-rate table entry corresponding to the legacy `BaudRate=5` setting.
