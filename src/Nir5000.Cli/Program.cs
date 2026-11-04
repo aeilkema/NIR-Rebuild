@@ -77,6 +77,55 @@ if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIg
     var calibrationTable = Nir5000CalibrationTable.Parse(headerBytes);
     if (calibrationTable.Blocks.Count != 1 || calibrationTable.Blocks[0] != new Nir5000CalibrationBlock(1.25f, 2.5f, 4f))
         throw new InvalidOperationException("NIR 5000 calibration-table parser self-test failed.");
+    var fixtureRoot = Path.Combine(Path.GetTempPath(), "nir5000-self-test-" + Guid.NewGuid().ToString("N"));
+    Directory.CreateDirectory(fixtureRoot);
+    try
+    {
+        var fixtureNir = Path.Combine(fixtureRoot, "fixture.nir");
+        var roundTripNir = Path.Combine(fixtureRoot, "roundtrip.nir");
+        var fixtureBytes = new byte[LegacyNirFile.SpectrumOffset + 3 * sizeof(float)];
+        System.Buffers.Binary.BinaryPrimitives.WriteUInt16LittleEndian(fixtureBytes.AsSpan(2, 2), 1);
+        System.Buffers.Binary.BinaryPrimitives.WriteUInt16LittleEndian(fixtureBytes.AsSpan(6, 2), 3);
+        WriteFixedAscii(fixtureBytes, 0x12, 80, "offline regression fixture");
+        WriteFixedAscii(fixtureBytes, 0x52, 16, "SIM-5000");
+        System.Buffers.Binary.BinaryPrimitives.WriteUInt16LittleEndian(fixtureBytes.AsSpan(0x80, 2), 11);
+        WriteFixedAscii(fixtureBytes, 0x82, 32, "NIRSystem 5000");
+        var fixtureValues = new[] { 1.25d, 2.5d, 3.75d };
+        for (var index = 0; index < fixtureValues.Length; index++)
+            System.Buffers.Binary.BinaryPrimitives.WriteInt32LittleEndian(
+                fixtureBytes.AsSpan(LegacyNirFile.SpectrumOffset + index * sizeof(float), sizeof(float)),
+                BitConverter.SingleToInt32Bits((float)fixtureValues[index]));
+        File.WriteAllBytes(fixtureNir, fixtureBytes);
+        var fixture = LegacyNirFile.Read(fixtureNir, new ScanRange(1100, 1104, 2));
+        fixture.WriteSingleSpectrum(roundTripNir, fixture.Spectrum);
+        if (!fixture.Spectrum.Values.SequenceEqual(fixtureValues) ||
+            !File.ReadAllBytes(fixtureNir).SequenceEqual(File.ReadAllBytes(roundTripNir)))
+            throw new InvalidOperationException("NIR 5000 legacy-file roundtrip self-test failed.");
+
+        var projectPath = Path.Combine(fixtureRoot, "Prod5000.ini");
+        File.WriteAllText(projectPath, """
+[Stats]
+NumProducts=1
+[0]
+InstrumentType=11
+ProductCode=42
+Description=Regression product
+Check cell=1
+[ScanRange0]
+Starting0=1100
+Ending0=1104
+Increment0=2
+""");
+        var project = Nir5000Project.Load(projectPath);
+        if (project.Profile.InstrumentType != 11 || project.Products.Count != 1 ||
+            project.Products[0].ProductCode != 42 || !project.Products[0].IsCheckCell ||
+            project.Products[0].ScanRange.Wavelengths().Count != 3)
+            throw new InvalidOperationException("NIR 5000 project-file self-test failed.");
+    }
+    finally
+    {
+        if (Directory.Exists(fixtureRoot)) Directory.Delete(fixtureRoot, recursive: true);
+    }
     Console.WriteLine("NIR 5000 codec, transport and command self-tests passed.");
     return 0;
 }
@@ -142,6 +191,12 @@ return 0;
 
 static void WriteHeaderFloat(Span<byte> destination, int offset, float value) =>
     System.Buffers.Binary.BinaryPrimitives.WriteInt32LittleEndian(destination.Slice(offset, sizeof(float)), BitConverter.SingleToInt32Bits(value));
+
+static void WriteFixedAscii(Span<byte> destination, int offset, int length, string value)
+{
+    var bytes = System.Text.Encoding.ASCII.GetBytes(value);
+    bytes.AsSpan(0, Math.Min(bytes.Length, length)).CopyTo(destination.Slice(offset, length));
+}
 
 sealed class LoopbackTransport : INir5000ByteTransport
 {
