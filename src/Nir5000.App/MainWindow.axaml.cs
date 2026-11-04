@@ -35,6 +35,9 @@ public sealed partial class MainWindow : Window
         LimsOrderNumberPath.Text = settings.LimsOrderNumber;
         LimsCalibrationPath.Text = settings.LimsCalibration;
         LimsOutputPath.Text = settings.LimsOutputPath;
+        LimsApiEndpointPath.Text = settings.LimsApiEndpoint;
+        LimsApiAccessKeyPath.Text = settings.LimsApiAccessKey;
+        LimsApiMethodPath.Text = settings.LimsApiMethod;
         NovaBaseUriPath.Text = settings.NovaBaseUri;
         NovaInstrumentTypePath.Text = settings.NovaInstrumentTypeId.ToString();
         NovaChassisPath.Text = settings.NovaChassisId.ToString();
@@ -66,6 +69,9 @@ public sealed partial class MainWindow : Window
         settings.LimsOrderNumber = LimsOrderNumberPath.Text ?? string.Empty;
         settings.LimsCalibration = LimsCalibrationPath.Text ?? string.Empty;
         settings.LimsOutputPath = LimsOutputPath.Text ?? string.Empty;
+        settings.LimsApiEndpoint = LimsApiEndpointPath.Text ?? string.Empty;
+        settings.LimsApiAccessKey = LimsApiAccessKeyPath.Text ?? string.Empty;
+        settings.LimsApiMethod = LimsApiMethodPath.Text ?? "upload";
         settings.NovaBaseUri = NovaBaseUriPath.Text ?? string.Empty;
         settings.NovaInstrumentTypeId = int.TryParse(NovaInstrumentTypePath.Text, out var typeId) ? typeId : 0;
         settings.NovaChassisId = long.TryParse(NovaChassisPath.Text, out var chassisId) ? chassisId : 0;
@@ -341,6 +347,35 @@ public sealed partial class MainWindow : Window
         {
             Status.Text = $"Nova error: {ex.Message}";
             logger.Error("Nova submit failed", ex);
+        }
+    }
+
+    private async void UploadLims(object? sender, RoutedEventArgs e)
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(LimsOutputPath.Text) || !File.Exists(LimsOutputPath.Text))
+                throw new InvalidOperationException("Export the CommaSep2 file first and verify its output path.");
+            if (!Uri.TryCreate(LimsApiEndpointPath.Text, UriKind.Absolute, out var endpoint))
+                throw new InvalidOperationException("Enter a valid STARLIMS API endpoint.");
+            if (string.IsNullOrWhiteSpace(LimsApiAccessKeyPath.Text) || string.IsNullOrWhiteSpace(LimsApiSecretKeyPath.Text))
+                throw new InvalidOperationException("Enter the STARLIMS access key and secret key for this session.");
+
+            using var client = new HttpClient { Timeout = Timeout.InfiniteTimeSpan };
+            var uploader = new StarLimsUploadClient(client, new StarLimsUploadOptions(
+                endpoint,
+                LimsApiAccessKeyPath.Text,
+                LimsApiSecretKeyPath.Text,
+                string.IsNullOrWhiteSpace(LimsApiMethodPath.Text) ? "upload" : LimsApiMethodPath.Text));
+            var result = await uploader.UploadFileAsync(LimsOutputPath.Text);
+            SaveSettings(null, null);
+            Status.Text = $"STARLIMS upload {(result.IsSuccess ? "succeeded" : "failed")}: {(int)result.StatusCode} {result.StatusCode}";
+            logger.Info($"STARLIMS upload: status={(int)result.StatusCode}; endpoint={endpoint}; method={LimsApiMethodPath.Text}; file={result.FileName}; response={result.ResponseBody}");
+        }
+        catch (Exception ex)
+        {
+            Status.Text = $"STARLIMS upload error: {ex.Message}";
+            logger.Error("STARLIMS upload failed", ex);
         }
     }
 

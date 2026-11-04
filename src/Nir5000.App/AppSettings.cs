@@ -18,6 +18,9 @@ public sealed class AppSettings
     public string LimsOrderNumber { get; set; } = string.Empty;
     public string LimsCalibration { get; set; } = string.Empty;
     public string LimsOutputPath { get; set; } = string.Empty;
+    public string LimsApiEndpoint { get; set; } = string.Empty;
+    public string LimsApiAccessKey { get; set; } = string.Empty;
+    public string LimsApiMethod { get; set; } = "upload";
     public string NovaBaseUri { get; set; } = "http://localhost:8080/api";
     public int NovaInstrumentTypeId { get; set; }
     public long NovaChassisId { get; set; }
