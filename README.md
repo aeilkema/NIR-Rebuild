@@ -145,3 +145,8 @@ De historische kalibratie-/diagnoseworkflow en de lampbevindingen staan in
 `docs/legacy-calibration-workflow.md`. De oude applicatie heet `DIAGNSTC.EXE`;
 de exacte seriële kalibratiepayloads worden pas ingeschakeld nadat die met een
 gecontroleerde capture zijn bevestigd.
+
+De complete native corpusinventaris (40 EXE/DLL/LIB/SYS-bestanden) met de
+status per bestand staat in `docs/legacy-binary-inventory.md`. Dat document
+maakt expliciet onderscheid tussen statische inventarisatie en
+protocolgedetailleerde reverse engineering.
