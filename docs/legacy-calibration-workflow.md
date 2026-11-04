@@ -27,6 +27,18 @@ diagnostic program. The production `Prod5000.ini` separately uses its product
 configuration, including `BaudRate=5` (resolved by this project as 38400 baud),
 so the two files must not be mixed blindly.
 
+The same diagnostic profile contains two configured wavelength ranges:
+
+- visible/reference range: 400.00–1098.00 nm, increment 2.00 nm;
+- NIR range: 1100.00–2498.00 nm, increment 2.00 nm.
+
+Its active reference peak list is `805.23`, `878.52`, `1143.63`, `1681.27`,
+`2166.40` and `2305.93` nm; reference slots 7 and 8 are zero. The diagnostic
+UI also exposes “Edit Reference Wavelengths”, “Wavelength Accuracy”, “Auto
+Diagnostics”, “Add diagnostic scans to the file (NIR file)”, gain settings and
+repeatability wavelength ranges. These values are now recorded as calibration
+metadata, not emitted as instrument writes.
+
 Static strings in the legacy `DIAGNSTC.EXE` add the following named diagnostic
 operations to the workflow inventory: `GET_VISGAIN`, `GET_NIRGAIN`,
 `SET_DIAGNOSTICS_FLAG`, instrument-response testing, wavelength-accuracy
