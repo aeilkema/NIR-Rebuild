@@ -1,6 +1,15 @@
 # Reproduceerbare verificatie
 
-De bron wordt gebouwd met .NET 8 op de REA-VM:
+De bron wordt gebouwd met een .NET SDK die `net8.0` ondersteunt. Op Windows
+gebruikt `Install-NirRebuild.ps1` de meegeleverde `NuGet.Config`, herstelt ook de
+`win-x64` runtime-assets en publiceert daarna zonder een tweede restore:
+
+```text
+dotnet restore Nir5000.sln --configfile NuGet.Config --runtime win-x64 --force
+dotnet build Nir5000.sln -c Release --no-restore
+```
+
+Op de REA-VM kan de bron ook met .NET 8 worden gebouwd:
 
 ```text
 dotnet build Nir5000.sln -c Release

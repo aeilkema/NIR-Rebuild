@@ -24,7 +24,10 @@ offline zelftest uit. Voor lokale wijzigingen terug naar GitHub:
 .\Install-NirRebuild.ps1 -SkipBuild -PushChanges -CommitMessage "Mijn wijziging"
 ```
 
-Vereist op de laptop: Git en de .NET 8 SDK. De hoofdbranch wordt niet gewijzigd;
+Vereist op de laptop: Git en een .NET SDK die `net8.0` ondersteunt (de .NET 8
+SDK of nieuwer, zoals .NET 11). Het script herstelt pakketten via de meegeleverde
+`NuGet.Config` vanaf `https://api.nuget.org/v3/index.json`; die URL moet vanaf de
+laptop bereikbaar zijn. De hoofdbranch wordt niet gewijzigd;
 de moderne bron staat op `codex/nir5000-modern`.
 
 Als je de eerste run al in een bestaande checkout deed en Git meldt dat
