@@ -88,7 +88,23 @@ else {
 if (-not $SkipBuild) {
     Write-Host 'Building Nir5000.sln...' -ForegroundColor Cyan
     Invoke-Git @('-C', $Root, 'status', '--short')
-    & dotnet build (Join-Path $Root 'Nir5000.sln') -c Release
+    $nugetConfig = Join-Path $Root 'NuGet.Config'
+    if (-not (Test-Path -LiteralPath $nugetConfig)) {
+        throw "NuGet.Config is missing from $Root. Re-run the bootstrap script so the current branch is checked out."
+    }
+
+    $sdkList = (& dotnet --list-sdks 2>$null) -join [Environment]::NewLine
+    if ([string]::IsNullOrWhiteSpace($sdkList)) {
+        throw 'No .NET SDK was found. Install the .NET 8 SDK or a newer SDK that supports targeting net8.0.'
+    }
+
+    Write-Host 'Restoring NuGet packages from nuget.org...' -ForegroundColor Cyan
+    & dotnet restore (Join-Path $Root 'Nir5000.sln') --configfile $nugetConfig --force
+    if ($LASTEXITCODE -ne 0) {
+        throw "dotnet restore failed. Check internet/proxy access to https://api.nuget.org/v3/index.json and install the .NET 8 targeting packs. Exit code: ${LASTEXITCODE}"
+    }
+
+    & dotnet build (Join-Path $Root 'Nir5000.sln') -c Release --no-restore
     if ($LASTEXITCODE -ne 0) { throw "dotnet build failed with exit code $LASTEXITCODE" }
 
     $publishRoot = Join-Path $Root 'publish'
@@ -97,16 +113,16 @@ if (-not $SkipBuild) {
     New-Item -ItemType Directory -Path $publishRoot -Force | Out-Null
 
     Write-Host 'Publishing self-contained x64 CLI...' -ForegroundColor Cyan
-    & dotnet publish (Join-Path $Root 'src\Nir5000.Cli\Nir5000.Cli.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $cliPublish
+    & dotnet publish (Join-Path $Root 'src\Nir5000.Cli\Nir5000.Cli.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $cliPublish --no-restore
     if ($LASTEXITCODE -ne 0) { throw "CLI publish failed with exit code $LASTEXITCODE" }
 
     Write-Host 'Publishing self-contained x64 GUI...' -ForegroundColor Cyan
-    & dotnet publish (Join-Path $Root 'src\Nir5000.App\Nir5000.App.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $appPublish
+    & dotnet publish (Join-Path $Root 'src\Nir5000.App\Nir5000.App.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $appPublish --no-restore
     if ($LASTEXITCODE -ne 0) { throw "GUI publish failed with exit code $LASTEXITCODE" }
 
     Write-Host 'Running offline regression self-test...' -ForegroundColor Cyan
     $selfTest = Join-Path $env:TEMP 'nir5000-selftest-win'
-    & dotnet publish (Join-Path $Root 'src\Nir5000.Cli\Nir5000.Cli.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $selfTest | Out-Host
+    & dotnet publish (Join-Path $Root 'src\Nir5000.Cli\Nir5000.Cli.csproj') -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o $selfTest --no-restore | Out-Host
     if ($LASTEXITCODE -ne 0) { throw "Self-test publish failed with exit code $LASTEXITCODE" }
     & (Join-Path $selfTest 'Nir5000.Cli.exe') --self-test
     if ($LASTEXITCODE -ne 0) { throw "Offline self-test failed with exit code $LASTEXITCODE" }
