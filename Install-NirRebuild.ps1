@@ -54,7 +54,33 @@ else {
     Invoke-Git @('-C', $Root, 'fetch', 'origin', $Branch)
     $localBranch = (& git -C $Root branch --show-current).Trim()
     if ($localBranch -ne $Branch) {
-        Invoke-Git @('-C', $Root, 'checkout', '-B', $Branch, "origin/$Branch")
+        # The bootstrap script is often copied into an existing checkout before
+        # the first run. Git must not reject the branch switch merely because
+        # that untracked copy would be replaced by the tracked version.
+        $bootstrapPath = Join-Path $Root 'Install-NirRebuild.ps1'
+        $bootstrapBackup = $null
+        if (Test-Path -LiteralPath $bootstrapPath) {
+            $trackedBootstrap = (& git -C $Root ls-files --error-unmatch -- Install-NirRebuild.ps1 2>$null)
+            if ($LASTEXITCODE -ne 0) {
+                $bootstrapBackup = Join-Path ([IO.Path]::GetTempPath()) ("nir-rebuild-bootstrap-" + [guid]::NewGuid().ToString('N') + '.ps1')
+                Copy-Item -LiteralPath $bootstrapPath -Destination $bootstrapBackup -Force
+                Remove-Item -LiteralPath $bootstrapPath -Force
+            }
+        }
+        try {
+            Invoke-Git @('-C', $Root, 'checkout', '-B', $Branch, "origin/$Branch")
+        }
+        catch {
+            if ($bootstrapBackup -and (Test-Path -LiteralPath $bootstrapBackup)) {
+                Copy-Item -LiteralPath $bootstrapBackup -Destination $bootstrapPath -Force
+            }
+            throw
+        }
+        finally {
+            if ($bootstrapBackup -and (Test-Path -LiteralPath $bootstrapBackup)) {
+                Remove-Item -LiteralPath $bootstrapBackup -Force
+            }
+        }
     }
     Invoke-Git @('-C', $Root, 'pull', '--ff-only', 'origin', $Branch)
 }
