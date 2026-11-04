@@ -5,6 +5,7 @@ param(
     [string]$InstallPath = (Get-Location).Path,
     [switch]$SkipBuild,
     [switch]$Launch,
+    [switch]$InstallStartup,
     [switch]$PushChanges,
     [string]$CommitMessage = 'Update NIR-Rebuild modern 64-bit application'
 )
@@ -135,6 +136,22 @@ if (-not $SkipBuild) {
     if ($Launch) {
         Start-Process -FilePath (Join-Path $appPublish 'Nir5000.App.exe') -WorkingDirectory $appPublish
     }
+}
+
+if ($InstallStartup) {
+    $startupExe = Join-Path $Root 'publish\app-win-x64\Nir5000.App.exe'
+    if (-not (Test-Path -LiteralPath $startupExe)) {
+        throw "The published GUI was not found at $startupExe. Run without -SkipBuild first."
+    }
+    $startupFolder = [Environment]::GetFolderPath([Environment+SpecialFolder]::Startup)
+    $shortcutPath = Join-Path $startupFolder 'NIR 5000 Rebuild.lnk'
+    $shell = New-Object -ComObject WScript.Shell
+    $shortcut = $shell.CreateShortcut($shortcutPath)
+    $shortcut.TargetPath = $startupExe
+    $shortcut.WorkingDirectory = Split-Path -Parent $startupExe
+    $shortcut.Description = 'NIR 5000 Rebuild with configured serial auto-connect'
+    $shortcut.Save()
+    Write-Host "Startup shortcut installed: $shortcutPath" -ForegroundColor Green
 }
 
 if ($PushChanges) {

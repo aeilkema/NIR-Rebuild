@@ -16,6 +16,13 @@ Set-ExecutionPolicy -Scope Process Bypass
 .\Install-NirRebuild.ps1 -Launch
 ```
 
+Voor automatisch starten bij Windows-aanmelding, met de in de GUI opgeslagen
+seriële auto-connectinstelling:
+
+```powershell
+.\Install-NirRebuild.ps1 -InstallStartup -Launch
+```
+
 Het script haalt branch `codex/nir5000-modern` uit de private repository,
 bouwt de solution, publiceert self-contained `win-x64`-binaries en voert de
 offline zelftest uit. Voor lokale wijzigingen terug naar GitHub:
