@@ -26,6 +26,17 @@ This document records only facts supported by static analysis of the supplied
 - `0x5B`: serial-number transfer (`GET_SERNO`/`PUT_SERNO`).
 - `0x5D`: spectrum/response transfer (`GET_NIR` and `GET_RESPONSE`).
 
+## Lamp control
+
+`Nirsinst.dll` exports `InstrSetLamp` and `InstrWasLampOn`. Static
+disassembly of `InstrSetLamp` shows a call through the imported `SicWrite`
+function with a two-byte request buffer: `02 FF` when enabled and `02 00`
+when disabled. This is a direct serial write in the legacy driver, not one of
+the typed 0x5A–0x5E exchange wrappers. The 64-bit implementation exposes the
+same request through `Nir5000SerialSession.SetLamp` and logs the bytes. The
+legacy status function returns cached driver state, so the GUI reports the
+request as sent rather than claiming a device acknowledgement.
+
 Additional static evidence from the typed wrappers in `Nirsinst.dll` narrows
 the command dispatcher without over-naming the operations: wrappers call the
 shared exchange routine with `0x5A` and `0x5B` plus a 3-byte typed exchange,
