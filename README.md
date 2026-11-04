@@ -27,6 +27,16 @@ offline zelftest uit. Voor lokale wijzigingen terug naar GitHub:
 Vereist op de laptop: Git en de .NET 8 SDK. De hoofdbranch wordt niet gewijzigd;
 de moderne bron staat op `codex/nir5000-modern`.
 
+Als je de eerste run al in een bestaande checkout deed en Git meldt dat
+`Install-NirRebuild.ps1` ongetrackt wordt overschreven, herstel je eenmalig met:
+
+```powershell
+Rename-Item .\Install-NirRebuild.ps1 .\Install-NirRebuild.bootstrap.ps1
+git fetch origin codex/nir5000-modern
+git checkout -B codex/nir5000-modern origin/codex/nir5000-modern
+.\Install-NirRebuild.ps1 -Launch
+```
+
 ## Huidige release
 
 De self-contained Windows-builds staan lokaal in `.staging`:
