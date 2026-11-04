@@ -18,7 +18,10 @@ dotnet publish src/Nir5000.Cli/Nir5000.Cli.csproj -c Release -r linux-x64 --self
 ```
 
 De zelftest controleert frame roundtrip, ENQ/ACK, ontvangst-ACK, checksum-NAK,
-transportsegmentatie, capture parsing, baudrate mapping en de kalibratiebuffer.
+transportsegmentatie, capture parsing, baudrate mapping, de kalibratiebuffer,
+een synthetische legacy `.NIR` byte-roundtrip en een synthetisch
+`Prod5000.ini`-project. De fixtures worden tijdelijk aangemaakt en daarna
+verwijderd; er worden geen onbekende target-binaries uitgevoerd.
 
 Project- en legacybestandcontrole:
 
@@ -42,3 +45,12 @@ Nir5000.Cli.exe  2717D751268A55531E7132BB2F6946E5460E06F2899AB52DA95C79051FF5BC3
 De hashes horen bij de laatst gepubliceerde GUI- en CLI-build. Hardware-uitlezing
 is nog niet als voltooid aangemerkt: daarvoor ontbreken de echte NIR 5000
 handshake, instrumentheader en responsekalibratiegegevens.
+
+Na wijzigingen in de CLI-bron moet de publicatie opnieuw worden gemaakt voordat
+deze hashes als release-identificatie worden gebruikt. Controleer nieuwe
+publicaties met:
+
+```powershell
+Get-FileHash .\publish\app-win-x64\Nir5000.App.exe -Algorithm SHA256
+Get-FileHash .\publish\cli-win-x64\Nir5000.Cli.exe -Algorithm SHA256
+```
