@@ -22,13 +22,15 @@
       <Button Grid.Column="1" Click="PredictEqa">Predict from EQA</Button>
       <Button Grid.Column="2" Click="PredictLegacyEqa">Predict legacy EQA</Button>
     </Grid>
-    <Grid Grid.Row="4" ColumnDefinitions="Auto,120,Auto,120,Auto,*" ColumnSpacing="8">
+    <Grid Grid.Row="4" ColumnDefinitions="Auto,120,Auto,120,Auto,Auto,Auto,*" ColumnSpacing="8">
       <TextBlock VerticalAlignment="Center">Serial port</TextBlock>
       <TextBox Grid.Column="1" x:Name="SerialPortPath" Text="COM1" />
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Baud</TextBlock>
       <TextBox Grid.Column="3" x:Name="SerialBaudPath" Text="9600" />
       <Button Grid.Column="4" Click="ToggleSerial">Open serial</Button>
-      <TextBlock Grid.Column="5" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />
+      <Button Grid.Column="5" Click="LampOn">Lamp on</Button>
+      <Button Grid.Column="6" Click="LampOff">Lamp off</Button>
+      <TextBlock Grid.Column="7" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />
     </Grid>
     <Grid Grid.Row="5" ColumnDefinitions="Auto,*,Auto,*,Auto" ColumnSpacing="8">
       <CheckBox x:Name="AutoConnectPath" VerticalAlignment="Center">Auto-connect at startup</CheckBox>

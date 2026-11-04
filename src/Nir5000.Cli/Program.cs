@@ -37,6 +37,13 @@ if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIg
     if (!Nir5000LampCommands.BuildObservedRequest(true).SequenceEqual(new byte[] { 0x02, 0xFF }) ||
         !Nir5000LampCommands.BuildObservedRequest(false).SequenceEqual(new byte[] { 0x02, 0x00 }))
         throw new InvalidOperationException("NIR 5000 lamp request self-test failed.");
+    using var lampFake = new LoopbackTransport();
+    var lampSession = new Nir5000ProtocolSession(lampFake);
+    lampSession.Open();
+    lampSession.SetLamp(true);
+    lampSession.SetLamp(false);
+    if (!lampFake.Writes.SelectMany(bytes => bytes).SequenceEqual(new byte[] { 0x02, 0xFF, 0x02, 0x00 }))
+        throw new InvalidOperationException("NIR 5000 lamp transport self-test failed.");
     if (!Nir5000BaudRates.TryResolve(5, out var legacyBaud) || legacyBaud != 38400)
         throw new InvalidOperationException("NIR 5000 baud-rate mapping self-test failed.");
     var simulatedDevice = new SimulatedNir5000Device();

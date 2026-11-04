@@ -40,9 +40,9 @@ serial capture is required before enabling these operations against hardware.
 The legacy resources explicitly contain `Lamp is off`, `Turn Lamp Off ?` and
 `Turn off the lamp`. They also show a warm-up requirement and separate
 reference/gain workflows. Static inspection did not reveal a duty-cycle or
-overdrive setting. NIR-Rebuild currently has no real lamp-control command and
-cannot increase lamp load by itself; it only opens the COM transport and
-records bytes when explicitly configured.
+overdrive setting. NIR-Rebuild now exposes the observed lamp on/off request in
+the GUI and logs the exact bytes sent; the request is only available after the
+COM connection is explicitly opened.
 
 Additional static disassembly found the exported lamp API InstrSetLamp and
 InstrWasLampOn in Nirsinst.dll. InstrSetLamp(handle, enabled) builds an

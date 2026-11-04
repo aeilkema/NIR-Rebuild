@@ -32,6 +32,18 @@ public sealed class Nir5000ProtocolSession : IDisposable
         Expect(Nir5000ProtocolConstants.Ack);
     }
 
+    /// <summary>
+    /// Sends the two-byte lamp request statically reconstructed from
+    /// Nirsinst.dll InstrSetLamp -> SicWrite. SicWrite does not wait for a
+    /// response for this operation; the legacy driver tracks lamp state
+    /// locally through InstrWasLampOn.
+    /// </summary>
+    public void SetLamp(bool enabled)
+    {
+        RequireOpen();
+        Write(Nir5000LampCommands.BuildObservedRequest(enabled));
+    }
+
     public Nir5000Frame ReceiveFrame(int payloadLength)
     {
         RequireOpen();

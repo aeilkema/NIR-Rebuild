@@ -214,6 +214,26 @@ public sealed partial class MainWindow : Window
         }
     }
 
+    private void LampOn(object? sender, RoutedEventArgs e) => SetLamp(true);
+
+    private void LampOff(object? sender, RoutedEventArgs e) => SetLamp(false);
+
+    private void SetLamp(bool enabled)
+    {
+        try
+        {
+            if (serial is null) throw new InvalidOperationException("Open the serial connection first.");
+            serial.SetLamp(enabled);
+            SerialStatus.Text = $"Lamp {(enabled ? "on" : "off")} request sent (02 {(enabled ? "FF" : "00")}); legacy driver reports state locally.";
+            logger.Info($"Lamp {(enabled ? "on" : "off")} request sent: {Convert.ToHexString(Nir5000LampCommands.BuildObservedRequest(enabled))}.");
+        }
+        catch (Exception ex)
+        {
+            SerialStatus.Text = $"Lamp error: {ex.Message}";
+            logger.Error("Lamp command failed", ex);
+        }
+    }
+
     private async void SubmitNova(object? sender, RoutedEventArgs e)
     {
         try

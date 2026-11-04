@@ -47,6 +47,8 @@ public sealed class Nir5000SerialSession : IDisposable
         protocol.SendFrame(header, payload);
     }
 
+    public void SetLamp(bool enabled) => protocol.SetLamp(enabled);
+
     public Nir5000Frame ReceiveFrame(int payloadLength)
     {
         return protocol.ReceiveFrame(payloadLength);
