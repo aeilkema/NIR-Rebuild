@@ -99,7 +99,9 @@ if (-not $SkipBuild) {
     }
 
     Write-Host 'Restoring NuGet packages from nuget.org...' -ForegroundColor Cyan
-    & dotnet restore (Join-Path $Root 'Nir5000.sln') --configfile $nugetConfig --force
+    # Restore the target runtime too. This makes the later --no-restore publish
+    # deterministic and prevents NETSDK1047 when win-x64 assets are absent.
+    & dotnet restore (Join-Path $Root 'Nir5000.sln') --configfile $nugetConfig --runtime win-x64 --force
     if ($LASTEXITCODE -ne 0) {
         throw "dotnet restore failed. Check internet/proxy access to https://api.nuget.org/v3/index.json and install the .NET 8 targeting packs. Exit code: ${LASTEXITCODE}"
     }
