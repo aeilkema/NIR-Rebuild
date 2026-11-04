@@ -39,10 +39,13 @@ if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIg
     using var fake = new LoopbackTransport();
     var session = new Nir5000ProtocolSession(fake);
     session.Open();
+    if (!session.IsOpen) throw new InvalidOperationException("NIR 5000 protocol open-state self-test failed.");
     session.SendFrame(header, payload);
     var expectedWrites = Nir5000FrameCodec.BuildSendPreamble().Concat(encoded);
     if (!fake.Writes.SelectMany(bytes => bytes).SequenceEqual(expectedWrites))
         throw new InvalidOperationException("NIR 5000 serial-layer self-test failed.");
+    session.Dispose();
+    if (session.IsOpen) throw new InvalidOperationException("NIR 5000 protocol disposal self-test failed.");
     using var receiveFake = new LoopbackTransport(new[] { Nir5000ProtocolConstants.Enquiry }.Concat(encoded));
     var received = new Nir5000ProtocolSession(receiveFake);
     received.Open();

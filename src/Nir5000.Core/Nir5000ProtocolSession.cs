@@ -9,12 +9,14 @@ public interface INir5000ByteTransport : IDisposable
 }
 
 /// <summary>Transport-independent implementation of the reconstructed NIR protocol.</summary>
-public sealed class Nir5000ProtocolSession
+public sealed class Nir5000ProtocolSession : IDisposable
 {
     private readonly INir5000ByteTransport transport;
 
     public Nir5000ProtocolSession(INir5000ByteTransport transport) => this.transport = transport;
+    public bool IsOpen => transport.IsOpen;
     public void Open() => transport.Open();
+    public void Dispose() => transport.Dispose();
 
     public void SendFrame(ReadOnlySpan<byte> header, ReadOnlySpan<byte> payload)
     {

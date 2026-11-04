@@ -11,7 +11,9 @@ public sealed class Nir5000SerialSession : IDisposable
 
     public Nir5000SerialSession(Nir5000SerialOptions options)
     {
-        if (options.BaudRate <= 0) throw new ArgumentOutOfRangeException(nameof(options));
+        if (string.IsNullOrWhiteSpace(options.PortName)) throw new ArgumentException("A COM port name is required.", nameof(options));
+        if (options.BaudRate <= 0) throw new ArgumentOutOfRangeException(nameof(options), "Baud rate must be positive.");
+        if (options.TimeoutMs <= 0) throw new ArgumentOutOfRangeException(nameof(options), "Timeout must be positive.");
         port = new SerialPort(options.PortName, options.BaudRate, Parity.None, 8, StopBits.One)
         {
             Handshake = Handshake.None,
@@ -23,6 +25,7 @@ public sealed class Nir5000SerialSession : IDisposable
         protocol = new Nir5000ProtocolSession(new SerialPortTransport(port));
     }
 
+    public bool IsOpen => protocol.IsOpen;
     public void Open() => protocol.Open();
 
     public void SendFrame(ReadOnlySpan<byte> header, ReadOnlySpan<byte> payload)
@@ -35,7 +38,7 @@ public sealed class Nir5000SerialSession : IDisposable
         return protocol.ReceiveFrame(payloadLength);
     }
 
-    public void Dispose() => port.Dispose();
+    public void Dispose() => protocol.Dispose();
 
     private sealed class SerialPortTransport(SerialPort port) : INir5000ByteTransport
     {
