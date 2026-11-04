@@ -1,0 +1,35 @@
+###################################################
+monitor                       	                                                                                
+#POP                          	&File                                                                           
+8500                          	Use &Dialog to Enter Data                                                       
+8503                          	Choose &Referecne File                                                          
+8504                          	Choose &Equation File                                                           
+8505                          	Choose &Auxiliary File                                                          
+8501                          	&Print Setup...                                                                 
+8506                          	&Clear All Files From Menu                                                      
+8502                          	E&xit to Project Manager                                                        
+#POP                          	F&unctions                                                                      
+8516                          	&Calculate                                                                      
+8517                          	&Output Options                                                                 
+8518                          	&Select Pairs                                                                   
+8519                          	Control &Limits                                                                 
+#POP                          	&Prediction Basis                                                               
+8522                          	&Dry Matter                                                                     
+8523                          	&As Received                                                                    
+8524                          	&Fixed Percent                                                                  
+7011                          	&Fixed Percentage Value                                                         
+8525                          	Missing &Value                                                                  
+8526                          	Ignore &Negative Values                                                         
+8520                          	&Math Treatment                                                                 
+8521                          	P&roduct Options                                                                
+#POP                          	&Entry Level                                                                    
+8509                          	Level &1                                                                        
+8510                          	Level &2                                                                        
+8511                          	Level &3                                                                        
+8512                          	&Set Passwords                                                                  
+#POP                          	&Help                                                                           
+8513                          	&Contents                                                                       
+8514                          	&How to Use Help                                                                
+8515                          	&About                                                                          
+###################################################
+                              	                                                                                

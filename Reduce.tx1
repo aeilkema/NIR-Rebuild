@@ -1,0 +1,51 @@
+-1	 
+
+940	 Abort
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3000	 Calculations aborted
+3002	 Calculations Complete
+3004	 Cannot extend file.   Reduced file must have been created using WINISI (not DOS Similar).
+3006	 Number of datapoints don't match
+3008	 Cannot deal with wave_type
+3010	 Invalid instrument type
+3012	 Invalid number of segments
+3014	 Master numbers are different.  Continue anyway?
+3016	 The maximum number of constituents has been reached after constituent matching.  Constituent matchi
+3018	 Too many segments... maximum is 15.
+3020	 You must choose an output file
+3022	 The output file must have an extension of 'red'.
+3024	 The segments must have the same increment.
+3026	 Not enough computed wavelength positions to continue

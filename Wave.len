@@ -1,0 +1,401 @@
+-Visible region
+400
+700
+-Electronic vibrations
+400
+700
+-Violet
+400
+426
+-Blue
+426
+492
+-green
+492
+576
+-yellow
+576
+586
+-Orange
+586
+646
+-Red
+646
+700
+-Transition between VIS and NIR
+702
+1098
+-?-? ANY CONSTITUENT
+702
+856
+-C-H STARCH or CELLULOSE
+858
+868
+-N-H PROTEIN
+870
+874
+-C-H STARCH
+876
+884
+-C-? SUGAR
+886
+888
+-CH2 OIL
+890
+892
+-C-H STARCH or CELLULOSE
+894
+902
+-C-H STARCH or CELLULOSE
+904
+906
+-N-H PROTEIN
+908
+910
+-CH2 OIL
+912
+914
+-C-H STARCH or CELLULOSE
+916
+918
+-?-? ANY CONSTITUENT
+920
+928
+-CH2 OIL
+930  
+932
+-O-H WATER
+934
+950   
+-O-H WATER
+952  
+960
+-CH2 OIL
+962
+968
+-?-? ANY CONSTITUENTS
+970 
+982
+-O-H WATER
+984
+988
+-O-H WATER
+990
+996
+-CH2 OIL
+998
+1002
+-C-H SUGAR
+1004     
+1006
+-O-H WATER
+1008 
+1012
+-C-? PROTEIN or OIL
+1014
+1032
+-C-H STARCH WATER
+1028
+1032
+-?-? ANY CONSTITUENT
+1034
+1046
+-N-H PROTEIN
+1048
+1052
+-NIR region
+1100
+2500
+-Absorption by stretching - bending
+1100
+2500
+-H-O WATER
+1148
+1152
+-C-H 2nd OT - AROMATIC
+1140
+1150
+-C=O stretch 4th OT - C=O
+1158
+1162
+-C-H 2nd OT - .HC=CH
+1166
+1176
+-C-H 2nd OT - .CH3
+1190
+1200
+-C-H 2nd OT - .CH2
+1210
+1220
+-C-H 2nd OT - .CH
+1220
+1230
+-C-H CB - .CH3
+1356
+1366
+-C-H CB - .CH2
+1390
+1400
+-O-H 1st OT - ROH - WATER
+1406
+1416
+-C-H OIL
+1410
+1414
+-C-H CB - .CH
+1412
+1418
+-C-H CB - AROMATIC
+1416
+1420
+-O-H CB - AROH
+1418
+1422
+-C-H CB - CH2
+1436
+1446
+-C-H CB - AROMATIC
+1444
+1448
+-O-H stretch 1st OT - STARCH
+1440
+1460
+-O-H stretch 1st OT - WATER
+1450
+1450
+-C=O stretch 3rd OT - C=O
+1450
+1450
+-N-H stretch 1st OT - UREA
+1460
+1460
+-N-H stretch 1st OT - .CONH2
+1460
+1464
+-N-H stretch 1st OT - .CONHR
+1470
+1472
+-N-H stretch 1st OT - .CONH2
+1480
+1484
+-N-H stretch 1st OT - .CONHR 
+1484
+1496
+-O-H stretch 1st OT - CELLULOSE
+1484
+1496
+-N-H stretch 1st OT - UREA
+1484
+1496
+-N-H stretch 1st OT - ARNH2
+1484
+1496
+-N-H stretch 1st OT - .NH
+1496
+1506
+-N-H stretch 1st OT - PROTEIN
+1506
+1516
+-N-H stretch 1st OT - UREA
+1516
+1526
+-N-H stretch 1st OT - RNH2
+1526
+1536
+-O-H stretch 1st OT - STARCH
+1536
+1546
+-N-H stretch 1st OT - CONH
+1566
+1576
+-C-H stretch 1st OT - =CH2
+1616
+1626
+-C-H stretch 1st OT - AROMATIC
+1680
+1690
+-C-H stretch 1st OT - .CH3
+1690
+1700
+-C-H stretch 1st OT - .CH3
+1690
+1700
+-C-O OIL
+1720
+1724
+-C-H stretch 1st OT - .CH2
+1720
+1730
+-S-H stretch 1st OT - -SH
+1736
+1746
+-C-H OIL
+1758
+1762
+-C-H stretch 1st OT - CH2
+1760
+1770
+-C-H stretch 1st OT - CELLULOSE
+1770
+1780
+-C-H stretch/HOH deform CB - CELLULOSE
+1780
+1786
+-O-H CB - WATER
+1786
+1796
+-O-H stretch/C-O 2nd OT CB - CELLULOSE
+1816
+1826 
+-C-CL stretch 6th OT - C-CL
+1856
+1866
+-C=O stretch 2nd OT - -CO2H
+1896
+1906
+-O-H stretch 1st OT - P-OH
+1906
+1910
+-C=O stretch 2nd OT - CONH
+1916
+1926
+-O-H stretch/HOH deform CB - STARCH
+1920
+1930
+-O-H stretch/HOH deform CB - CELLULOSE
+1928
+1932  
+-O-H bend 2nd OT - WATER
+1936
+1946
+-C=O stretch 2nd OT - -CO2R
+1946
+1956
+-O-H stretch/O-H bend CB - STARCH
+1956
+1966
+-N-H stretch/amide II CB - CONH2
+1976
+1986
+-N-H stretch/N-H bend CB - UREA
+1986
+1996
+-C=O stretch 2nd OT - UREA
+2026
+2036
+-N-H/Amide II CB - CONH2
+2046
+2056
+-N-H/Amide III CB - CONH2
+2046
+2056
+-N-H stretch/amide I CB - PROTEIN
+2050
+2060
+-N-H bend 2nd OT or CB - PROTEIN
+2056
+2066
+-N-H2 deform OT - UREA
+2066
+2076
+-O-H CB - OIL
+2066
+2076
+-O-H CB - .OH
+2086
+2096
+-O-H bend /C-O stretch CB - STARCH
+2096
+2106
+-C-O-O stretch 3rd OT - STARCH or CELLULOSE
+2096
+2106
+-C-H stretch/C=O CB - OIL
+2136
+2146
+-C-H stretch/C-H deform CB - .HC=CH
+2166
+2176
+-N-H bend 2nd OT - PROTEIN
+2176
+2186 
+-C-H stretch/C=O CB - PROTEIN
+2176
+2186
+-C-H stretch/amide III CB - PROTEIN
+2176
+2186
+-C-H stretch/C=O CB - -CHO
+2196
+2206
+-O-H stretch/C-O CB - CELLULOSE
+2266
+2276
+-C-H stretch/CH2 deform CB - STARCH
+2276
+2286
+-C-H bend 2nd OT - PROTEIN
+2296
+2306
+-C-H bend 2nd OT - OIL
+2304
+2308
+-C-H stretch/CH2 deform CB - STARCH
+2320
+2324
+-C-H stretch/CH2 deform CB - STARCH
+2326
+2336
+-C-H stretch/C-H deform - CELLULOSE
+2330
+2340
+-C-O OIL
+2344
+2348
+-CH2 bend 2nd OT - CELLULOSE
+2350
+2354
+-C-H stretch/C-C CB - OIL
+2376
+2386
+-C-H CB - .CH2
+2466
+2476
+-C-N-C stretch 1st OT - PROTEIN
+2466
+2476
+-C-H stretch/C-C CB - CELLULOSE
+2480
+2490
+-C-H stretch/C-C abd C-O-C stretch - STARCH
+2496
+2506
+-C-N-C stretch 1st OT - PROTEIN
+2526
+2536
+-OH - GLYCOL
+1406
+1426
+-OH - ALCOHOLS
+1400
+1460
+-OH - PHENOLS
+1416
+1512
+-COOH - CARBOXYLIC
+1450
+1488
+-OLEFINS
+1610
+1636
+-PH GROUPS
+1870
+1900
+-OH - PHENOL
+1956
+2036
+-CH - NYLON
+2300
+2496
+
+

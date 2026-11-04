@@ -1,0 +1,256 @@
+###################################################
+Predict                       	Predict                                                                         
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+860                           	Input Files                                                                     
+405                           	Input file to be predicted                                                      
+708                           	Product library file                                                            
+760                           	Repeatability file                                                              
+734                           	PSD file                                                                        
+860                           	Output Files                                                                    
+620                           	ANL output file                                                                 
+316                           	Full regression output file                                                     
+317                           	Full sample output file                                                         
+119                           	Batch output file                                                               
+###################################################
+Spectra                       	Reduce                                                                          
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+405                           	Input library filename                                                          
+620                           	Output filename                                                                 
+###################################################
+StatusLine                    	                                                                                
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	&Save options on changes                                                        
+287                           	Copy data to clipboard in Excel format                                          
+###################################################
+NUMBER                        	Choose a number                                                                 
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+860                           	&Number                                                                         
+###################################################
+MathTreatment                 	Math Treatment                                                                  
+865                           	&Scatter                                                                        
+861                           	Derivative                                                                      
+862                           	Gap                                                                             
+863                           	Smooth                                                                          
+864                           	Smooth 2                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+WaveMathGroup                 	Wavelengths and math treatment groups                                           
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+860                           	Edit/Add Segment                                                                
+860                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+737                           	Wave/Math group                                                                 
+105                           	Add group                                                                       
+757                           	Remove group                                                                    
+860                           	Constituents in group                                                           
+735                           	Wavelengths                                                                     
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+860                           	Derivative                                                                      
+860                           	Gap                                                                             
+860                           	Smooth                                                                          
+860                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+PickCon                       	Pick Constituent                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Choose one of the following constituents                                        
+###################################################
+PickCons                      	Pick Constituents                                                               
+860                           	Choose any number of constituents                                               
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	Select &all                                                                     
+961                           	Cl&ear                                                                          
+###################################################
+Text                          	Output                                                                          
+1                             	&OK                                                                             
+790                           	&Save as...                                                                     
+700                           	&Print...                                                                       
+2                             	&Don't show again                                                               
+###################################################
+FullSample                    	Full sample prediction                                                          
+1                             	&OK                                                                             
+790                           	&Save as...                                                                     
+2                             	&Don't show again                                                               
+###################################################
+Bias                          	Bias adjustments                                                                
+241                           	OK                                                                              
+2                             	Cancel                                                                          
+1                             	Change                                                                          
+762                           	Reset All                                                                       
+860                           	Bias adjustment for highlighted constituent:                                    
+###################################################
+Display                       	Results Menu                                                                    
+163                           	&Close menu                                                                     
+752                           	&Redo                                                                           
+960                           	&Undo                                                                           
+384                           	Histogram                                                                       
+665                           	X&Y display                                                                     
+290                           	E&xit to Project Manager                                                        
+###################################################
+Redo                          	Redo                                                                            
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+173                           	Help                                                                            
+860                           	Highlight the samples that you want included in the redo                        
+860                           	Choose a constituent                                                            
+620                           	Output filename                                                                 
+860                           	Ascii data filename                                                             
+860                           	Ascii sample filename                                                           
+###################################################
+Hist                          	Histogram selection                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Select the histogram you want to print                                          
+363                           	Actual values                                                                   
+374                           	Predicted values                                                                
+364                           	Difference (Actual-Predicted) values                                            
+365                           	Global H values                                                                 
+371                           	Neighborhood H values                                                           
+###################################################
+Fname                         	Enter the output filename                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+Limits                        	Set outlier limits                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+860                           	Low level                                                                       
+860                           	High level                                                                      
+860                           	'T' outliers                                                                    
+860                           	GH outliers                                                                     
+860                           	NH outliers                                                                     
+###################################################
+Select                        	Outlier selection                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Select the outlier types                                                        
+998                           	Zero predicted values                                                           
+997                           	Zero difference values                                                          
+485                           	Low 'T' outliers                                                                
+362                           	High 'T' outliers                                                               
+483                           	Low GH outliers                                                                 
+360                           	High GH outliers                                                                
+484                           	Low NH outliers                                                                 
+361                           	High NH outliers                                                                
+###################################################
+Options                       	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+142                           	Calibration variables                                                           
+453                           	Outlier cutoff values                                                           
+861                           	Selected samples                                                                
+862                           	Minimum number of samples                                                       
+863                           	Maximum number of factors used in PLS regression                                
+864                           	Minimum number of factors removed from prediction                               
+865                           	Critical T outlier value                                                        
+866                           	Maximum elimination passes                                                      
+845                           	Maximize speed                                                                  
+315                           	Show full output for each sample                                                
+900                           	Stop until continue is pressed                                                  
+644                           	Pause for                                                                       
+867                           	seconds                                                                         
+980                           	Wavelengths and math treatment...                                               
+120                           	Enable bias adjustments                                                         
+124                           	Bias Adjustments...                                                             
+119                           	Enable batch processing                                                         
+123                           	Batch processing options...                                                     
+608                           	Other processing options...                                                     
+###################################################
+Options2                      	Other processing options                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+652                           	Correlation by peaks                                                            
+782                           	Use sample weights                                                              
+245                           	Check for duplicate samples in scatter plot                                     
+860                           	RSQ cutoff for selecting samples                                                
+860                           	Wavelength weight cutoff                                                        
+860                           	Spectra outlier factor                                                          
+860                           	Cutoff ratio                                                                    
+3500                          	Enable GH and NH cutoff values                                                  
+861                           	GH cutoff value                                                                 
+862                           	NH cutoff value                                                                 
+740                           	Weighted H calculations                                                         
+741                           	Normal H calculations                                                           
+###################################################
+LocalMatch                    	Match constituents                                                              
+860                           	Input file constituents                                                         
+860                           	Selected Product file constituents                                              
+962                           	Move up                                                                         
+242                           	Move down                                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+OverwriteExtend               	                                                                                
+860                           	Static                                                                          
+630                           	Overwrite                                                                       
+292                           	Extend                                                                          
+2                             	Cancel                                                                          
+###################################################
+Batch                         	Batch options                                                                   
+861                           	Selected samples                                                                
+862                           	Maximum number of factors used in PLS regression                                
+863                           	Minimum number of factors removed from prediction                               
+123                           	Add                                                                             
+124                           	Add                                                                             
+125                           	Add                                                                             
+126                           	Remove                                                                          
+127                           	Remove                                                                          
+128                           	Remove                                                                          
+241                           	OK                                                                              
+2                             	Cancel                                                                          
+480                           	Load...                                                                         
+###################################################
+PsdBias                       	PSD Bias Adjustment                                                             
+860                           	Constituent                                                                     
+860                           	File\t\tBias                                                                    
+241                           	&OK                                                                             
+2                             	Cancel                                                                          
+1                             	Change                                                                          
+158                           	&Reset constituent                                                              
+159                           	Reset &all                                                                      
+###################################################
+PickBatch                     	Batch options selection                                                         
+1                             	Use this batch                                                                  
+550                           	View next                                                                       
+2                             	Cancel                                                                          
+860                           	Max samples                                                                     
+860                           	Max factors                                                                     
+860                           	Min factors                                                                     

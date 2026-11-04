@@ -1,0 +1,223 @@
+1	 Edit INI Files
+6	 ----- Default Values -----
+21	 Next Page
+22	 Prev. Page
+30	 Cannot allocate negative memory!
+31	 Could not allocate enough memory!
+32	 Could not read product defaults from initialization file.
+33	 Could not read product from initialization file.
+34	 Could not write product to initialization file.
+35	 Could not read constituent defaults from initialization file.
+36	 Could not read constituent from initialization file.
+37	 Could not write constituent to initialization file.
+38	 No product code selected.
+39	 Overwrite project defaults?
+40	 No Prod.INI file exists for this project.  Would you like to pick a file to copy as this projects Prod.INI
+41	 Could not copy default prod.ini file!
+42	 Could not read file %s
+43	 No products found in this file.  Add current info. as the default?
+44	 Could not create file %s
+45	 Pick an equation initialization file to edit.
+46	 No more than 64 constituents allowed in an equation INI file.
+47	 Overwrite constituent default settings?
+48	 This file is not a PROD.INI file!
+64	 Analyzing Prod.INI file...
+65	 Delete the current product?
+66	 This product %d already exists!  Choose a different product number.
+75	 Product %d Constituents:
+76	 Set Control Limits : 
+77	 Database calculated values:
+78	 Product %d Calculated Equations:
+300	 None
+301	 Model Setup
+302	 Instrument Setup
+303	 Data Collection
+304	 General Analysis
+305	 Report Generation
+306	 Control Charts
+307	 Continuous Analysis
+308	 Special Conditions
+400	 Enter New Product Description
+500	 No constituent selected.
+501	 No constituents found in this file.  Add current info. as the default?
+502	 Edit %s
+503	 Cannot delete equation defaults.
+504	 Cannot delete product defaults.
+505	 This constituent name already exists!
+506	 Choose a Prod.INI file from an existing project.
+507	 Choose a Prod.INI file to copy defaults from.
+508	 Choose an equation or database file for this product.
+509	 Cannot write changes to prod.ini
+510	 Product Number must be between %d and %d!
+511	 This file has no calculated equations.
+900	 None
+901	 Ask
+903	 DM
+904	 Moisture
+905	 Instrument
+906	 All
+1000	 No
+1001	 R
+1002	 H
+1003	 D
+1007	 Trends
+1008	 X-Double Bar
+1009	 R-Bar
+1020	 Before Scan
+1021	 After Scan
+1060	 Spinning
+1061	 Transport
+1062	 Auto Changer
+1063	 Static Cup
+1064	 DCFA
+1065	 RCA
+1066	 Beverage analyzer
+1067	 Fiber Optic Probe
+1068	 Not Used
+1069	 Not Used
+1070	 Remote Reflectance
+1080	 Small Ring Cup
+1081	 Rectangular Cup
+1082	 High Fat/Moisture
+1083	 Standard Flow Cell
+1084	 Cuvette
+1085	 Large Cup with Dump
+1086	 Fiber Optics
+1101	 None
+1102	 Dry Matter
+1103	 Moisture
+1104	 As Analyzed
+1105	 User Specified %
+1120	 Single Point
+1121	 Multiplexer
+1122	 Remote Reflectance
+1123	 Direct Light
+1130	 Channel 1
+1131	 Channel 2
+1132	 Channel 3
+1133	 Channel 4
+1134	 Channel 5
+1135	 Channel 6
+1140	 X1
+1141	 X10
+1142	 X100
+1150	 1/4 Full
+1151	 1/2 Full
+1152	 3/4 Full
+1153	 Full
+1155	 NIRSystems 6500
+1156	 NIRSystems 5500
+1157	 NIRSystems 5000
+1158	 NIRSystems 4500
+1159	 Infratec 2 Cable
+1160	 Infratec Single Cable
+1161	 Online NIRSystems 6500
+1162	 Online NIRSystems 5500
+1163	 Online NIRSystems 5000
+1164	 Online NIRSystems 4500
+1165	 Technicon 500
+1166	 Technicon 450
+1167	 Technicon 400
+1168	 Technicon 2000
+1169	 Percon
+1170	 Zeiss Corona
+1190	 Store Yes
+1191	 Store No
+1192	 Store High GH or NH
+1300	 Syntax error
+1301	 Constituent name not found
+1302	 Unbalanced parentheses
+1303	 No expression present
+1304	 Variable already defined
+1400	 Enter input value...
+2634	 Unable to display view
+2635	 System Error
+2654	 Unsupported File Type!
+2655	 DEBUG Omnipotent: File should be open for this function.
+2700	 A file must be chosen before setting control limits.
+2802	 Add and delete products
+2803	 Options to set up the Product file
+2804	 Control charts
+2805	 Instrument Setup
+2806	 Add calcs from .CLC file
+2808	 Set database options
+2810   Select Product File Entry
+2811   Add calculated equations
+2813   Bias adjustment
+2814   Other processing options
+2900	 This product %d already exists!  Product code not changed.
+2902	 A file must be choosen before setting options.
+3000	 Exists
+3010	 Analyzing file...
+3011	 Unable to load %s
+3012	 Load Standardization for new product?
+3013	 Ref. scans before must be one or greater when reusing reference scans
+3014	 Are you sure you want to reset all the bias adjustments?
+9001	 Delete Equations from 
+9003	 Calculated Equations File:
+9004	 Could not open file!
+9005	 Cannot delete original file!
+9006	 New file name is 
+9007	 Equation Files (*.eqa)|*.eqa|
+9008	 Cannot read file header!
+9009	 Cannot write file header!
+9010	 Could not read calculated equation.
+9011	 %u of %u Calcualted equations have been added.
+9012	 Cannot write calculated equation to file.
+9013	 Cannot write file header!
+9014	 Recompute All Statistics?
+9015	 Select a window with statistics and try again.
+9016	 '%s' already exists and cannot be overwritten.
+9017	 There are no samples selected.  Use Select Samples to choose samples before using this option.
+9018	 Cannot create destination file!
+9019	 Cannot open source file!
+9020	 Cannot read sample!
+9021	 Cannot write sample!
+9022	 Cannot set file position!
+9023	 Cannot read instrument header!
+9024	 Cannot write instrument header!
+9025	 Cannot open destination file!
+9026	 A file needs to be opened to perform this operation.
+9027	 Unable to display dialog box!
+9028	 Invalid sample to access!
+9029	 Samples cannot be marked for delete with this filetype.
+9030	 Entry is out of bounds!
+9031	 Could not lock statistics memory!
+9032	 Unique Code
+9034	 Samples of Total
+9035	 Could not lock product code memory!
+9036	 Cannot complete reordering of constituents!\012No changes made.
+9037	 File is possibly corrupted.
+9038	 Scanning All Samples...
+9039	 Unexpected End Of File!
+9040	 Computing Locations...
+9041	 Could not write to ouput file!
+9042	 Could not lock equation file memory!
+9043	 Cannot create a new file to put reordered equations in. No Changes Made!
+9044	 Cannot replace old file with the reordered version. No Changes Made!
+9045	 Cannot rename temporary file.
+9046	 Record this file name. It is the Reordered file:\012
+9047	 Could not lock file positioning memory!
+9048	 Could not lock deleted sample memory!
+9049	 The number of constituents is too large or too small.
+9051	 Cannot add constituent.  A sample in this file will have more then 32 constituents!
+9052	 Unable to write constituents!
+9053	 Unable to read NIR spectra data!
+9054	 Unable to write NIR spectra data!
+9055	 Unable to read instrument header!
+9056	 Unable to write instrument header!
+9057	 Analyzing delete flags...
+9058	 The file header information is incorrect.  Set the file header with corrected information?
+9059	 Unable to read constituents!
+9060	 File has no samples.  Cannot read data.
+9061	 Cannot add calculated variable.  Prod.ini already contains 64!
+9065	 Improper file type for this function.
+9066	 The size of the sample is invalid!
+9067	 The previous group insert is not complete yet!
+9068	 Initialize group insert before use.
+9069	 File has 0 samples.  Cannot remove sample.
+9070	 ASCII file has too many lines!  View of file will be truncated.
+9071	 Enter an Expression
+9073	 Choose Constituents to Delete
+9074	 Constituents:
+

@@ -1,0 +1,78 @@
+Please read the following message.
+Infrasoft International LLC. Software License Agreement
+
+This is a legal agreement between you, the end user, 
+and Infrasoft International LLC. By opening and reading these words/file,
+you are agreeing to be bound by the terms of this agreement. 
+If you do not agree to the terms of this agreement, 
+promptly return this software package and the accompanying items
+( including written materials and binders or other containers )
+to Infrasoft International LLC. R.D #1 109 Sellers Lane, Port Matilda, PA 16870
+for a full refund.
+
+
+Infrasoft International LLC. Software License
+
+
+1.  GRANT OF LICENSE.  Infrasoft International LLC.grants you to the right
+to use one copy of the enclosed software program (the "SOFTWARE")
+for each Foss NIRSystems Inc.  instrument purchased.
+
+2.  COPYRIGHT.  The SOFTWARE is owned by Infrasoft International LLC.
+or its suppliers and is protected by United States copyright laws
+and international treaty provisions.  Therefore, you must treat
+the SOFTWARE like any other copyrighted material except that you
+may either make one copy of the SOFTWARE solely for backup or
+archival purposes or, transfer the SOFTWARE to a single hard disk
+provided you keep the original solely for backup or archival purposes.  You may not copy the written materials accompanying the SOFTWARE.  You may not use the SOFTWARE on more than one computer or computer terminal at the same time.  The SOFTWARE may be freely moved from one computer location to another providing there is no possibility of it being used on more than one computer at a time.
+
+3.  OTHER RESTRICTIONS.  You may not rent or lease the SOFTWARE,
+but you may transfer the SOFTWARE and accompanying written materials
+on a permanent basis provide that you retain no copies
+and the receipt agrees to the terms of this Agreement. 
+You may not reverse engineer, decompile, or disassemble the SOFTWARE.
+
+4.  You may not use, copy, modify, or transfer the SOFTWARE
+or any copy in whole or in part, except as expressly provided
+in this license.  All rights not expressly granted are reversed
+by the company or its suppliers.
+
+
+Limited Warranty
+
+
+LIMITED WARRANTY.  Infrasoft International LLC. warrants that the SOFTWARE
+will perform substantially in accordance with the accompanying
+statistics for a period of one year from the date of the receipt.
+ANY IMPLIED WARRANTIES ON THE SOFTWARE ARE LIMITED TO ONE YEAR.
+SOME STATES DO NOT ALLOW LIMITATIONS ON THE DURATION OF AN 
+IMPLIED WARRANTIES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+CUSTOMER REMEDIES. Infrasoft International LLC. entire liability and your
+exclusive remedy shall be, at Infrasoft International LLC. option,
+either (a) return of the price paid or (b) repair or replacement
+of the SOFTWARE that does not meet Infrasoft International LLC. Limited
+Warranty and which is returned to Infrasoft International LLC.  
+with a copy of your receipt.  This Limited Warranty is void if
+failure of the SOFTWARE has resulted from, accident, abuse,
+or misapplication.  Any replacement SOFTWARE will be warranted for
+the original warranty period on one year from date of receipt.  
+
+NO OTHER WARRANTIES.  Infrasoft International LLC. DISCLAIMS ALL OTHER
+WARRANTIES, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED
+TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE, WITH RESPECT TO THE SOFTWARE AND THE
+ACCOMPANYING WRITTEN MATERIALS.  THIS LIMITED WARRANTY GIVES
+YOU SPECIFIC LEGAL RIGHTS.  YOU MAY HAVE OTHERS WHICH VARY FROM
+STATE TO STATE.
+
+NO LIABILITY FOR CONSEQUENTIAL DAMAGES.  IN NO EVENT SHALL
+Infrasoft International LLC. OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES
+WHATSOEVER ( INCLUDING, WITHOUT LIMITATIONS, DAMAGES FOR LOSS OF
+BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS
+INFORMATION, OR OTHER PECUNIARY LOSS ) ARISING OUT OF THE 
+USE OF OR INABILITY TO USE THIS PRODUCT, EVEN IF Infrasoft International LLC.
+HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
+BECAUSE SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATIONS
+OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES,
+THE ABOVE LIMITATION MAY NOT APPLY TO YOU.

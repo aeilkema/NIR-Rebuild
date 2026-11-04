@@ -1,0 +1,254 @@
+###################################################
+Graphisi                      	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+700                           	P&rint...\tCtrl+P                                                               
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Graph                         	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Graph Options                                                                  
+193                           	&Cursor                                                                         
+333                           	&Grid                                                                           
+158                           	&Clear                                                                          
+420                           	Set &Labels...                                                                  
+196                           	&Custom Options                                                                 
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Spectrum                      	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Options                                                                        
+608                           	Spectrum Display &Options                                                       
+3090                          	Specify &Secondary File                                                         
+790                           	Sa&ve Selected Curves                                                           
+3146                          	Set L&imits for Current Axis                                                    
+762                           	&Reset All Axis                                                                 
+158                           	Cl&ear                                                                          
+3110                          	&Next Sample                                                                    
+818                           	Se&lect Samples                                                                 
+3111                          	&Plot All                                                                       
+512                           	&Math Treatment                                                                 
+118                           	&Average                                                                        
+3114                          	Standard &Deviation                                                             
+3115                          	Sp&read                                                                         
+3116                          	S&ummation                                                                      
+3117                          	Di&fference                                                                     
+3150                          	&Correlation                                                                    
+3154                          	&Wavelength Correlation                                                         
+420                           	Set &Labels...                                                                  
+#POP                          	Clipboard                                                                       
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+193                           	C&ursor                                                                         
+195                           	S&how Spectrum Curves                                                           
+3140                          	Display LAB &Values                                                             
+410                           	Selec&t LAB Data                                                                
+3175                          	Set Backgound Color                                                             
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Curvefit                      	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Options                                                                        
+220                           	Curvefit &Display Options...                                                    
+3070                          	&Select Sample Number                                                           
+3072                          	&Find Absorption Peaks                                                          
+3073                          	&Plot Composite                                                                 
+3074                          	&Edit Absorption Peak Table                                                     
+608                           	Additional &Options...                                                          
+790                           	Output &Absorption Peaks to a File                                              
+#POP                          	Clipboard                                                                       
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+193                           	&Cursor                                                                         
+333                           	&Grid                                                                           
+158                           	&Clear                                                                          
+420                           	Set &Labels...                                                                  
+3175                          	Set Backgound Color                                                             
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Histogram                     	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Graph Options                                                                  
+193                           	&Cursor                                                                         
+333                           	&Grid                                                                           
+158                           	&Clear                                                                          
+420                           	Set &Labels...                                                                  
+#POP                          	Clipboard                                                                       
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+3175                          	Set Backgound Color                                                             
+3075                          	&Histogram Options                                                              
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Scatter                       	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Graph Options                                                                  
+193                           	&Cursor                                                                         
+333                           	&Grid                                                                           
+158                           	&Clear                                                                          
+420                           	Set &Labels...                                                                  
+190                           	Draw &Crosshairs on Cursor                                                      
+#POP                          	Clipboard                                                                       
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+3175                          	Set Backgound Color                                                             
+#POP                          	&Scatter Plot Options                                                           
+3090                          	Specify &Secondary File                                                         
+3092                          	Select &X Variable                                                              
+3093                          	Select &Y Variable                                                              
+3094                          	Sta&tistics                                                                     
+3095                          	&Axis type                                                                      
+#POP                          	&Residual Plot                                                                  
+3100                          	&Off                                                                            
+3101                          	&Concentration (Actual-Predicted)                                               
+3102                          	&Sample Position (Actual-Predicted)                                             
+3103                          	&Concentration (Adjusted Residuals)                                             
+3104                          	&Sample Position (Adjusted Residuals)                                           
+906                           	S&witch axis                                                                    
+608                           	Scatter plot &display options...                                                
+196                           	Customization...                                                                
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+Control                       	                                                                                
+#POP                          	&File                                                                           
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+163                           	&Close\tAlt+C                                                                   
+701                           	&Print Data\tCtrl+P                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Graph Options                                                                  
+193                           	&Cursor                                                                         
+333                           	&Grid                                                                           
+420                           	Set &Labels...                                                                  
+190                           	Draw &Crosshairs on Cursor                                                      
+#POP                          	Clipboard                                                                       
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+3175                          	Set Backgound Color                                                             
+3075                          	&Control Options                                                                
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+PopupMenu                     	                                                                                
+3000                          	&Spectrum                                                                       
+3001                          	&Histogram                                                                      
+3002                          	Scatter &plot                                                                   
+3003                          	&Control chart                                                                  
+#POP                          	Curve &fit                                                                      
+3004                          	&Find Absorptions                                                               
+3005                          	&Create Absorptions                                                             
+###################################################
+                              	                                                                                

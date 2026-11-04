@@ -1,0 +1,21 @@
+###################################################
+NUMBER                        	Choose a number                                                                 
+###################################################
+ListNum                       	Identify the input file type                                                    
+###################################################
+PickType                      	Identify the input file format                                                  
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+760                           	&Restore Defaults                                                               
+351                           	&Help                                                                           
+600                           	Skip files that already exist                                                   
+601                           	Automatically overwrite files that already exist                                
+602                           	&Keep a log of all file conversions (fileconv.log)                              
+###################################################
+String                        	Discrim                                                                         
+###################################################
+YesNoAll                      	                                                                                
+###################################################
+YesAll                        	                                                                                

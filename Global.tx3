@@ -1,0 +1,229 @@
+###################################################
+DataMenu                      	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calibration                                                              
+692                           	Preferences...                                                                  
+791                           	&Save output files                                                              
+3170                          	Save &Loadings...                                                               
+#POP                          	&Print                                                                          
+3150                          	&Cross validation errors                                                        
+3151                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3210                          	Ordered as &T                                                                   
+3211                          	Ordered as &GH                                                                  
+3212                          	Ordered as &X                                                                   
+#POP                          	Output to &File                                                                 
+3152                          	&Cross validation errors                                                        
+3153                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3200                          	Ordered as &T                                                                   
+3201                          	Ordered as &GH                                                                  
+3202                          	Ordered as &X                                                                   
+#POP                          	Output to &Clipboard                                                            
+3154                          	&Cross validation errors                                                        
+3155                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3220                          	Ordered as &T\tCtrl+C                                                           
+3221                          	Ordered as &GH                                                                  
+3222                          	Ordered as &X                                                                   
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+174                           	&Complete regression                                                            
+280                           	Eliminate &selected samples                                                     
+550                           	&Next constituent                                                               
+815                           	&Select outlier types...                                                        
+961                           	Clear &all selections                                                           
+154                           	Change &limits for sample elimination                                           
+#POP                          	&Pause data...                                                                  
+690                           	Until user presses &continue                                                    
+691                           	For a period of seconds                                                         
+#POP                          	&Tables                                                                         
+#POP                          	&List all information                                                           
+465                           	Ordered as &T                                                                   
+462                           	Ordered as &GH                                                                  
+466                           	Ordered as &X                                                                   
+460                           	&List coefficients                                                              
+190                           	&Show cross validation statistics                                               
+905                           	&Show regression statistics                                                     
+#POP                          	&Graphs                                                                         
+#POP                          	&Histograms                                                                     
+363                           	&Actual values                                                                  
+374                           	&Predicted values                                                               
+380                           	&Residuals                                                                      
+382                           	&T distribution                                                                 
+370                           	&GH distribution                                                                
+383                           	&X distribution                                                                 
+665                           	&XY scatter                                                                     
+660                           	&3D display                                                                     
+663                           	&Loadings or patterns                                                           
+661                           	&Equation coefficients                                                          
+#POP                          	&Help                                                                           
+346                           	&Calculations\tF1                                                               
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StepUpMenu                    	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calibration                                                              
+692                           	Preferences...                                                                  
+791                           	&Save output files                                                              
+#POP                          	&Print                                                                          
+3151                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3210                          	Ordered as &T                                                                   
+3211                          	Ordered as &GH                                                                  
+3212                          	Ordered as &X                                                                   
+#POP                          	Output to &File                                                                 
+3153                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3200                          	Ordered as &T                                                                   
+3201                          	Ordered as &GH                                                                  
+3202                          	Ordered as &X                                                                   
+#POP                          	Output to &Clipboard                                                            
+3155                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3220                          	Ordered as &T\tCtrl+C                                                           
+3221                          	Ordered as &GH                                                                  
+3222                          	Ordered as &X                                                                   
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+892                           	&Add a term\tCtrl+A                                                             
+895                           	&Replace a term                                                                 
+893                           	&Delete a term                                                                  
+280                           	Eliminate &selected samples                                                     
+894                           	&Next constituent\tCtrl+N                                                       
+815                           	&Select outlier types...                                                        
+961                           	Clear &all selections                                                           
+154                           	Change &limits for sample elimination                                           
+#POP                          	&Pause data...                                                                  
+690                           	Until user presses &continue                                                    
+691                           	For a period of seconds                                                         
+#POP                          	&Tables                                                                         
+#POP                          	&List all information                                                           
+465                           	Ordered as &T                                                                   
+462                           	Ordered as &GH                                                                  
+460                           	&List coefficients                                                              
+905                           	&Show regression statistics                                                     
+#POP                          	&Graphs                                                                         
+664                           	&Show RSQ graph                                                                 
+#POP                          	&Histograms                                                                     
+363                           	&Actual values                                                                  
+374                           	&Predicted values                                                               
+380                           	&Residuals                                                                      
+382                           	&T distribution                                                                 
+370                           	&GH distribution                                                                
+383                           	&X distribution                                                                 
+665                           	&XY scatter                                                                     
+660                           	&3D display                                                                     
+663                           	&Loadings or patterns                                                           
+661                           	&Equation coefficients                                                          
+#POP                          	&Help                                                                           
+346                           	&Calculations\tF1                                                               
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StepWiseMenu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calibration                                                              
+692                           	Preferences...                                                                  
+791                           	&Save output files                                                              
+#POP                          	&Print                                                                          
+3151                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3210                          	Ordered as &T                                                                   
+3211                          	Ordered as &GH                                                                  
+3212                          	Ordered as &X                                                                   
+#POP                          	Output to &File                                                                 
+3153                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3200                          	Ordered as &T                                                                   
+3201                          	Ordered as &GH                                                                  
+3202                          	Ordered as &X                                                                   
+#POP                          	Output to &Clipboard                                                            
+3155                          	&Regression                                                                     
+#POP                          	Tables                                                                          
+3220                          	Ordered as &T\tCtrl+C                                                           
+3221                          	Ordered as &GH                                                                  
+3222                          	Ordered as &X                                                                   
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+894                           	&Next constituent\tCtrl+N                                                       
+280                           	Eliminate &selected samples                                                     
+815                           	&Select outlier types...                                                        
+961                           	Clear &all selections                                                           
+154                           	Change &limits for sample elimination                                           
+#POP                          	&Pause data...                                                                  
+690                           	Until user presses &continue                                                    
+691                           	For a period of seconds                                                         
+#POP                          	&Tables                                                                         
+#POP                          	&List all information                                                           
+465                           	Ordered as &T                                                                   
+462                           	Ordered as &GH                                                                  
+460                           	&List coefficients                                                              
+190                           	&Show cross validation statistics                                               
+905                           	&Show regression statistics                                                     
+#POP                          	&Graphs                                                                         
+#POP                          	&Histograms                                                                     
+363                           	&Actual values                                                                  
+374                           	&Predicted values                                                               
+380                           	&Residuals                                                                      
+382                           	&T distribution                                                                 
+370                           	&GH distribution                                                                
+383                           	&X distribution                                                                 
+665                           	&XY scatter                                                                     
+660                           	&3D display                                                                     
+663                           	&Loadings or patterns                                                           
+661                           	&Equation coefficients                                                          
+#POP                          	&Help                                                                           
+346                           	&Calculations\tF1                                                               
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+ExpandableMenu                	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calibration                                                              
+692                           	Preferences...                                                                  
+791                           	&Save output files                                                              
+#POP                          	&Print                                                                          
+3150                          	&Cross validation errors                                                        
+3151                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3210                          	Ordered as &T                                                                   
+3211                          	Ordered as &GH                                                                  
+3212                          	Ordered as &X                                                                   
+#POP                          	Output to &File                                                                 
+3152                          	&Cross validation errors                                                        
+3153                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3200                          	Ordered as &T                                                                   
+3201                          	Ordered as &GH                                                                  
+3202                          	Ordered as &X                                                                   
+#POP                          	Output to &Clipboard                                                            
+3154                          	&Cross validation errors                                                        
+3155                          	&Regression statistics                                                          
+#POP                          	Tables                                                                          
+3220                          	Ordered as &T\tCtrl+C                                                           
+3221                          	Ordered as &GH                                                                  
+3222                          	Ordered as &X                                                                   
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+174                           	&Continue with calibration                                                      
+#POP                          	Maximum number of terms for display                                             
+967                           	Use preset number from equation file                                            
+970                           	User setting...                                                                 
+#POP                          	&Pause data...                                                                  
+690                           	Until user presses &continue                                                    
+691                           	For a period of seconds                                                         
+#POP                          	&Help                                                                           
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

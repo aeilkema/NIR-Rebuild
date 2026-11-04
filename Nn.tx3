@@ -1,0 +1,54 @@
+###################################################
+MainMenu                      	                                                                                
+#POP                          	&File                                                                           
+220                           	&Display filelist menu\tCtrl+D                                                  
+692                           	Preferences...                                                                  
+700                           	&Print...\tCtrl+P                                                               
+290                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+172                           	Constituents                                                                    
+850                           	Split (% of samples in calibration group)                                       
+572                           	Number of factors                                                               
+958                           	T value to move outliers to calibration set                                     
+117                           	Automatic outlier elimination                                                   
+408                           	Itinerations before outlier test is made                                        
+286                           	Examine residuals chart automatically pops up                                   
+#POP                          	&Pause data...                                                                  
+690                           	Until user presses &continue                                                    
+691                           	For a period of seconds                                                         
+980                           	Wavelengths and math treatment...                                               
+201                           	Data transformation options                                                     
+202                           	Restore default options                                                         
+141                           	&Calibrate                                                                      
+#POP                          	&Help                                                                           
+346                           	Calibration Display\tF1                                                         
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+DataMenu                      	                                                                                
+#POP                          	&File                                                                           
+174                           	&Continue calibrations                                                          
+900                           	&Abort calibrations                                                             
+692                           	Preferences...                                                                  
+700                           	&Print...\tCtrl+P                                                               
+703                           	Output to &File                                                                 
+176                           	Output to &Clipboard\tCtrl+C                                                    
+290                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Display                                                                        
+224                           	&Display data                                                                   
+227                           	Display outliers in &OLN file                                                   
+#POP                          	&Histograms                                                                     
+363                           	&Actual values                                                                  
+374                           	&Predicted values                                                               
+364                           	&Difference values                                                              
+665                           	&XY display                                                                     
+#POP                          	&Help                                                                           
+346                           	Calibration Display\tF1                                                         
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

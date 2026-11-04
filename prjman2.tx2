@@ -1,0 +1,64 @@
+###################################################
+TopToolbar                    	                                                                                
+###################################################
+StatusLine                    	                                                                                
+###################################################
+NewProject1                   	New Project                                                                     
+1                             	Next >                                                                          
+2                             	Cancel                                                                          
+861                           	Project Name:                                                                   
+###################################################
+NewProject2                   	Select a directory for the project                                              
+4423                          	< &Back                                                                         
+815                           	&Select Directory                                                               
+2                             	&Cancel                                                                         
+864                           	Current Directory:                                                              
+863                           	Drives                                                                          
+864                           	ISI files in Current Directory:                                                 
+1                             	&Update                                                                         
+###################################################
+Password                      	Level 2                                                                         
+861                           	Enter Password:                                                                 
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+SetPassword                   	Password Setup                                                                  
+861                           	Level 2 Password:                                                               
+862                           	Level 3 Password:                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+EditInfo                      	Edit Project                                                                    
+861                           	Name:                                                                           
+862                           	Number:                                                                         
+863                           	Directory:                                                                      
+122                           	Browse Directories                                                              
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+176                           	Copy to Current &Directory                                                      
+4017                          	&Add/Move/Delete files                                                          
+###################################################
+Edit                          	Add/Move/Delete files                                                           
+1                             	&Done                                                                           
+103                           	<<  &Add  <<                                                                    
+757                           	>>  &Move  >>                                                                   
+206                           	<< D&elete                                                                      
+758                           	<< &Rename                                                                      
+4320                          	Current Project:                                                                
+533                           	Delete multiple files                                                           
+864                           	Working directory:                                                              
+862                           	ISI files in working directory:                                                 
+863                           	Drives                                                                          
+###################################################
+History                       	History File Addendum                                                           
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+String                        	Discrim                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+###################################################
+DelMult                       	Select the files you wish to delete                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Project directory                                                               

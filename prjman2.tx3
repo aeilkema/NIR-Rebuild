@@ -1,0 +1,184 @@
+###################################################
+PrjMan                        	                                                                                
+#POP                          	&Projects                                                                       
+548                           	&New Project...\tCtrl+N                                                         
+250                           	&Edit Project...\tCtrl+E                                                        
+385                           	Append &history file...                                                         
+962                           	Move Up\tCtrl+Up Arrow                                                          
+242                           	Move Down\tCtrl+Down Arrow                                                      
+838                           	Sort Alphebetically                                                             
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&Instruments                                                                    
+4027                          	&Routine Analysis                                                               
+#POP                          	&Diagnostics                                                                    
+4030                          	Use dialog to select tests                                                      
+4036                          	&Check schedule on startup                                                      
+#POP                          	&Standardization                                                                
+#POP                          	&NIRSystems Instruments                                                         
+4040                          	Create a &Standardization file                                                  
+4041                          	Convert a &Host Spectra file                                                    
+4049                          	&Trim spectra                                                                   
+#POP                          	&Infratec Instruments Standardization                                           
+4050                          	Create a &Standardization file                                                  
+4051                          	Convert a &Host Spectra file                                                    
+4052                          	Slope && &Bias Adjustment                                                       
+#POP                          	Other &Monochromator Instruments                                                
+4042                          	Create a &Standardization file                                                  
+4045                          	Convert a &Host Spectra file                                                    
+4048                          	&Offset Spectra                                                                 
+4049                          	&Trim spectra                                                                   
+#POP                          	Monochromator &to Filter Instruments                                            
+4043                          	Create a &Standardization file                                                  
+4046                          	Convert a &Host Spectra file                                                    
+#POP                          	&Filter to Filter Instruments                                                   
+4044                          	Create a &Standardization file                                                  
+4047                          	Convert a &Host Spectra file                                                    
+#POP                          	&Files                                                                          
+#POP                          	&View && Modify Files                                                           
+4060                          	Spectra &Files                                                                  
+4061                          	Calibration &Equation && Support Files                                          
+4062                          	Product &Library && Support Files                                               
+4063                          	&Other Files                                                                    
+4064                          	&All File Types                                                                 
+753                           	&Reduce Spectra Files                                                           
+#POP                          	&Make && Use Scores                                                             
+4070                          	&Create Score File From Spectra File                                           
+4071                          	C&ompare a Score File to a Spectra File                                         
+4072                          	&Select Samples From a Spectra File                                             
+4073                          	&Expand a Product File With New Spectra                                         
+4074                          	&Select Local Samples From a Product File                                       
+#POP                          	&Plot Spectra && Scores                                                         
+4080                          	&Spectrum                                                                       
+4081                          	&Histogram                                                                      
+4082                          	&XY Scatter                                                                     
+4083                          	&Control Chart                                                                  
+4087                          	&3D Graphics                                                                    
+#POP                          	Curve &Fit                                                                      
+4084                          	Find Absorptions                                                                
+4085                          	Create Absorptions                                                              
+#POP                          	&Regression Equations                                                           
+#POP                          	&Global Equations                                                               
+4095                          	Develop equations with the f&ull spectrum                                       
+4097                          	Develop expandable &equations                                                   
+4096                          	Develop equations using &indicator variables                                    
+4094                          	Develop equations with &selected wavelengths                                    
+482                           	&Local Equations                                                                
+553                           	&Neural Network Equations                                                       
+4091                          	&Discriminant Equations                                                         
+#POP                          	Monitor Results                                                                 
+4100                          	Compare &Predicted and Reference Values                                         
+4101                          	Compare Predicted V&alues                                                       
+4102                          	Compare &Reference Files                                                        
+4104                          	Compare Spectra and &Equations                                                  
+4103                          	&Contrast Spectra                                                               
+4106                          	&Discriminate groups                                                            
+4105                          	&Network Comparison                                                             
+4180                          	&File Conversion                                                                
+4170                          	&Generate Reports                                                               
+#POP                          	&Create                                                                         
+4160                          	&Client File                                                                    
+4161                          	C&alculations File                                                              
+4162                          	&Equations File from Keyboard                                                   
+4163                          	&LAB File                                                                       
+4164                          	&Form File                                                                      
+4110                          	&File Manager                                                                   
+#POP                          	&Entry Level                                                                    
+430                           	Level &1\tCtrl+1                                                                
+431                           	Level &2\tCtrl+2                                                                
+432                           	Level &3\tCtrl+3                                                                
+4123                          	Set Passwords                                                                   
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help\tCtrl+F1                                                       
+102                           	&About                                                                          
+###################################################
+hPopupDiagnostics             	                                                                                
+#POP							x
+4030                          	Use dialog to select tests                                                      
+4036                          	&Check schedule on startup                                                      
+###################################################
+hPopupStandardization         	                                                                                
+#POP							x
+#POP                          	&NIRSystems Instruments                                                         
+4040                          	Create a &Standardization file
+4041                          	Convert a &Host Spectra file                                                    
+4049                          	&Trim spectra                                                                   
+#POP                          	&Infratec Instruments Standardization                                           
+4050                          	Create a &Standardization file                                                  
+4051                          	Convert a &Host Spectra file                                                    
+4052                          	Slope && &Bias Adjustment                                                       
+#POP                          	Other &Monochromator Instruments                                                
+4042                          	Create a &Standardization file                                                  
+4045                          	Convert a &Host Spectra file                                                    
+4048                          	&Offset Spectra                                                                 
+4049                          	&Trim spectra                                                                   
+#POP                          	Monochromator &to Filter Instruments                                            
+4043                          	Create a &Standardization file                                                  
+4046                          	Convert a &Host Spectra file                                                    
+#POP                          	&Filter to Filter Instruments                                                   
+4044                          	Create a &Standardization file                                                  
+4047                          	Convert a &Host Spectra file                                                    
+###################################################
+hPopupFileview                	                                                                                
+#POP							x
+4060                          	Spectra &Files                                                                 
+4061                          	Calibration &Equation && Support Files                                          
+4062                          	Product &Library && Support Files                                               
+4063                          	&Other Files                                                                    
+4064                          	&All File Types                                                                 
+753                           	&Reduce Spectra Files                                                           
+4070                          	&Create Score File From Spectra File                                            
+4071                          	C&ompare a Score File to a Spectra File                                         
+4072                          	&Select Samples From a Spectra File                                             
+4073                          	&Expand a Product File With New Spectra                                         
+4074                          	&Select Local Samples From a Product File                                       
+###################################################
+hPopupGraphisi                	                                                                                
+#POP							x
+4080                          	&Spectrum                                                                       
+4081                          	&Histogram                                                                      
+4082                          	&XY Scatter                                                                     
+4083                          	&Control Chart                                                                  
+4087                          	&3D Graphics                                                                    
+#POP                          	Curve &Fit                                                                      
+4084                          	Find Absorptions                                                                
+4085                          	Create Absorptions                                                              
+###################################################
+hPopupEquations               	                                                                                
+#POP							x
+#POP                          	&Global Equations                                                               
+4095                          	Develop equations with the f&ull spectrum                                       
+4097                          	Develop expandable &equations                                                   
+4096                          	Develop equations using &indicator variables                                    
+4094                          	Develop equations with &selected wavelengths                                    
+482                           	&Local Equations                                                                
+553                           	&Neural Network Equations                                                       
+4091                          	&Discriminant Equations                                                         
+###################################################
+hPopupCreate                  	                                                                                
+#POP							x
+4160                          	&Client File                                                                    
+4161                          	C&alculations File                                                              
+4162                          	&Equations File from Keyboard                                                   
+4163                          	&LAB File                                                                       
+4164                          	&Form File                                                                      
+###################################################
+hPopupMonitor                 	                                                                                
+#POP							x
+4100                          	Compare &Predicted and Reference Values                                         
+4101                          	Compare Predicted V&alues                                                       
+4102                          	Compare &Reference Files                                                        
+4104                          	Compare Spectra and &Equations                                                  
+4103                          	&Contrast Spectra                                                               
+4106                          	&Discriminate groups                                                            
+4105                          	&Network Comparison                                                             
+###################################################
+hPopupExplore                 	                                                                                
+#POP							x
+4190                          	WinISI home page                                                                
+4191                          	WinISI private site                                                             
+4194                          	WinISI program updates                                                          
+4192                          	WinISI instrument accuracy                                                      
+###################################################
+                              	                                                                                

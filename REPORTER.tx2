@@ -1,0 +1,20 @@
+###################################################
+Reporter                      	Reporter                                                                        
+135                           	Input files                                                                     
+136                           	Output file                                                                     
+147                           	Print price                                                                     
+121                           	Printer output                                                                  
+###################################################
+SelectSamples                 	Select Samples                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+123                           	Help                                                                            
+135                           	Highlight the samples that you want included                                    
+129                           	Header Information                                                              
+130                           	Sample Information                                                              
+###################################################
+Summary                       	Summary of Analysis                                                             
+1                             	&OK                                                                             
+145                           	&Next product                                                                   
+146                           	P&rev product                                                                   
+123                           	&Help                                                                           

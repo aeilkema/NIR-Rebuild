@@ -1,0 +1,17 @@
+###################################################
+DiagStatus                    	Running Wavelength Accuracy..............                                       
+707                           	Abort                                                                           
+709                           	<<<<Aborting - Please wait!!>>>>                                                
+###################################################
+EditDiagOutput                	Edit Diag Labels                                                                
+2                             	Cancel                                                                          
+702                           	Response                                                                        
+704                           	Instrument Confidence                                                           
+703                           	NIR Repeatability                                                                           
+705                           	Diagnostics Test Output                                                         
+701                           	Wavelength Accuracy                                                             
+1                             	OK                                                                              
+###################################################
+EditText                      	New text for control label                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          

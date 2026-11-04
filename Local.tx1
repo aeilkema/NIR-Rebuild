@@ -1,0 +1,98 @@
+-1	 Variable      SEP     BIAS   SEP(C) Predictions  Total  Ave GH  Ave NH     RSQ   Sl
+940	 Exit to the Project Manager
+941	 Display File Entry Menu
+942	 Abort Calculations
+943	 View Predictions and Summary
+944	 View Full Regression
+945	 View Full Sample
+946	 Continue
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3000	 Sample        Variable Actual Predict   Diff     GH     NH      N
+3001	 Variable   NumPred   Total    SEP    Bias   SEP(C)   Slope    RSQ    Ave. GH    Ave. NH
+3002	 Term   Prediction    X-residuals    SD Reg Coef
+3003	 Sample               Variable  Actual Predict    Diff     GH     NH    N
+3010	 RSQ
+3011	 Actual
+3012	 Pred
+3013	 Diff
+3014	 GH
+3015	 NH
+3020	 SEP
+3021	 Bias
+3022	 SEP(C)
+3023	 NumPred
+3024	 Total
+3025	 Ave GH
+3026	 Ave NH
+3027	 Slope
+3040	 You can press the full display button to see full regression and sample display during calculation
+3041	 The rep file must be a reduced file if the product library file is also a reduced file.
+3042	 You can only use a reduced product library file if the input file is also a reduced file.
+3043	 Instrument types and datapoints don't match.
+3044	 If the input file is a reduced file, then the product library file must also be a reduced file.
+3045	 Note: Only the top %d constituents in the Input file constituent list will be used.
+3046	 The math treatment of the reduced input file is different than the reduced product file.\nContinue anywa
+3047	 You must choose a batch output file
+3048	 The batch file has nothing to do... please check your batch options and try again.
+3100	 Overview of Similar
+3101	 Reduce spectra files
+3102	 Calculations and screen output
+3103	 Calculations and file output
+3104	 Prediction
+3600	 Calibration variables
+3602	 Number of datapoints don't match
+3604	 Elapsed time
+3606	 Cannot deal with wave_type
+3608	 Initializing.   Please wait...
+3610	 Instrument types do not match
+3612	 Invalid instrument type
+3614	 Making predictions
+3616	 You must choose an input file
+3618	 You must choose a product file
+3620	 You must stop calculations before you can execute this command.
+3622	 Out of class instances.  Cannot eliminate further.
+3624	 You must choose at least one constituent
+3626	 No data to display
+3628	 No wavelengths selected
+3630	 There are no samples to display
+3632	 Enter number of seconds to pause
+3634	 Reading File
+3636	 Reading library file
+3638	 Reading repeatability file
+3640	 Sample
+3642	 Not enough computed wavelength positions to continue
+3644	 Variable
+3646	 Wavelength mismatch

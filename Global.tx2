@@ -1,0 +1,272 @@
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+StatusLine                    	                                                                                
+###################################################
+WaveMath                      	Wavelengths and math treatment                                                  
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+735                           	Wavelengths                                                                     
+863                           	Edit/Add Segment                                                                
+862                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+866                           	Derivative                                                                      
+867                           	Gap                                                                             
+868                           	Smooth                                                                          
+869                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+NumDef                        	Choose a number                                                                 
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+205                           	&Default                                                                        
+860                           	&Number                                                                         
+###################################################
+PickCons                      	Pick Constituents                                                               
+860                           	Choose any number of constituents                                               
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	Select &all                                                                     
+961                           	Cl&ear                                                                          
+###################################################
+PickInd                       	Constituents                                                                    
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Choose constituents and indicators                                              
+862                           	Constituents                                                                    
+863                           	Indicators                                                                      
+###################################################
+Limits                        	Cal                                                                             
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+205                           	&Defaults                                                                       
+861                           	Limits for sample elimination                                                   
+862                           	Critical 'T' outlier value                                                      
+863                           	Critical 'GH' outlier value                                                     
+864                           	Critical 'X' outlier value                                                      
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	S&ave options on changes                                                        
+731                           	&Prompt before overwriting/extending files                                      
+982                           	&Automatically set wavelengths to default values.                               
+793                           	&Automatically save output files when paused and output file(s) entered.        
+829                           	&Prompt user when not saving output files.                                      
+287                           	Copy data to clipboard in Excel format                                          
+###################################################
+Select                        	Outlier selection                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Choose the outlier types to be selected                                         
+819                           	'T' outliers                                                                    
+817                           	'GH' outliers                                                                   
+821                           	'X' outliers                                                                    
+###################################################
+SelectSamples                 	Select Samples                                                                  
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	&Select All                                                                     
+961                           	Cl&ear                                                                          
+406                           	&Invert                                                                         
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+File1                         	Develop equations with selected wavelenghts                                     
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+861                           	Input Files                                                                     
+140                           	C&alibration file                                                               
+556                           	&Repeatability file                                                             
+973                           	&Validation file                                                                
+862                           	Output Files                                                                    
+285                           	E&quation file                                                                  
+421                           	Infratec model file                                                             
+422                           	Infratec dir file                                                               
+863                           	Choose a regression method                                                      
+897                           	Step-up                                                                         
+898                           	Stepwise                                                                        
+###################################################
+File2                         	Develop equations with the full spectrum                                        
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+861                           	Input Files                                                                     
+140                           	C&alibration file                                                               
+556                           	&Repeatability file                                                             
+973                           	&Validation file                                                                
+862                           	Output Files                                                                    
+285                           	E&quation file                                                                  
+480                           	L&oadings file                                                                  
+109                           	&Prediction file                                                                
+421                           	Infratec model file                                                             
+422                           	Infratec dir file                                                               
+863                           	Choose a regression method                                                      
+532                           	Modified PLS                                                                    
+680                           	PLS                                                                             
+651                           	PCR                                                                             
+###################################################
+File3                         	Develop equations using indicator variables                                     
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+860                           	Input Files                                                                     
+140                           	C&alibration file                                                               
+556                           	&Repeatability file                                                             
+860                           	Output Files                                                                    
+285                           	E&quation file                                                                  
+109                           	&Prediction file                                                                
+650                           	&PCA file                                                                       
+452                           	&Library file                                                                   
+421                           	Infratec model file                                                             
+422                           	Infratec dir file                                                               
+860                           	Choose a regression method                                                      
+532                           	Modified PLS                                                                    
+680                           	PLS                                                                             
+530                           	MLR                                                                             
+651                           	PCR                                                                             
+180                           	Create loading and score files                                                  
+###################################################
+File4                         	Develop expandable equations                                                    
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to the Project Manager                                                    
+860                           	Input Files                                                                     
+140                           	&New file for expansion                                                         
+451                           	Product &library score file                                                     
+556                           	&Repeatability file                                                             
+860                           	Output Files                                                                    
+285                           	E&quation file                                                                  
+650                           	&Loading file                                                                   
+452                           	&Score file                                                                     
+421                           	Infratec model file                                                             
+422                           	Infratec dir file                                                               
+180                           	Create loading and score files                                                  
+###################################################
+Options1                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+172                           	Constituents                                                                    
+206                           	Selected samples to delete                                                      
+876                           	Maximum number of terms                                                         
+870                           	Number of outlier &elimination passes                                           
+871                           	Missing data value                                                              
+872                           	Minimum F value                                                                 
+873                           	Critical '&T' outlier value                                                     
+243                           	Downweight outliers                                                             
+245                           	Check for duplicate samples in scatter plot                                     
+735                           	Pause data...                                                                   
+690                           	Until user presses continue                                                     
+691                           	For a period of seconds                                                         
+874                           	Math Treatment                                                                  
+875                           	Scatter                                                                         
+860                           	Wavelengths                                                                     
+980                           	Wavelengths and Math Treatment...                                               
+815                           	Select outlier types                                                            
+###################################################
+Options2                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+172                           	Constituents                                                                    
+206                           	Selected samples to delete                                                      
+876                           	Maximum number of terms                                                         
+3124                          	Cross validation groups                                                         
+870                           	Number of outlier &elimination passes                                           
+877                           	Missing data value                                                              
+878                           	Critical '&T' outlier value                                                     
+879                           	Critical '&GH' outlier value                                                    
+880                           	Critical '&X' outlier value                                                     
+150                           	Enable changing number of terms before regression                               
+815                           	Select outlier types                                                            
+735                           	Pause data...                                                                   
+690                           	Until user presses continue                                                     
+691                           	For a period of seconds                                                         
+874                           	Math Treatment                                                                  
+875                           	Scatter                                                                         
+881                           	Wavelengths                                                                     
+980                           	Wavelengths and Math Treatment...                                               
+243                           	Downweight outliers                                                             
+245                           	Check for duplicate samples in scatter plot                                     
+560                           	Normal cross validation display                                                 
+315                           	Full cross validation display                                                   
+###################################################
+Options3                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+403                           	Constituents                                                                    
+206                           	Selected samples to delete                                                      
+876                           	Maximum number of terms                                                         
+3124                          	Cross validation groups                                                         
+870                           	Number of outlier &elimination passes                                           
+871                           	Missing data value                                                              
+878                           	Critical '&T' outlier value                                                     
+879                           	Critical '&GH' outlier value                                                    
+880                           	Critical '&X' outlier value                                                     
+872                           	Minimum F value                                                                 
+815                           	Select outlier types                                                            
+243                           	Downweight outliers                                                             
+245                           	Check for duplicate samples in scatter plot                                     
+150                           	Enable changing number of terms before regression                               
+735                           	Pause data...                                                                   
+690                           	Until user presses continue                                                     
+691                           	For a period of seconds                                                         
+874                           	Math Treatment                                                                  
+875                           	Scatter                                                                         
+881                           	Wavelengths                                                                     
+980                           	Wavelengths and Math Treatment...                                               
+736                           	Equation indicator output                                                       
+307                           	First group                                                                     
+108                           	All groups                                                                      
+118                           	Average                                                                         
+560                           	Normal cross validation display                                                 
+315                           	Full cross validation display                                                   
+###################################################
+Options4                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+735                           	Pause data...                                                                   
+690                           	Until user presses continue                                                     
+691                           	For a period of seconds                                                         
+737                           	Maximum number of terms for display                                             
+967                           	Use preset number from equation file                                            
+970                           	User setting                                                                    
+738                           	File ID of output files                                                         
+740                           	Input CAL file                                                                  
+741                           	Input LIB file                                                                  
+742                           	User setting                                                                    
+560                           	Normal cross validation display                                                 
+315                           	Full cross validation display                                                   
+150                           	Enable changing number of terms before regression                               
+###################################################
+OverwriteExtend               	                                                                                
+860                           	Static                                                                          
+630                           	Overwrite                                                                       
+292                           	Extend                                                                          
+2                             	Cancel                                                                          

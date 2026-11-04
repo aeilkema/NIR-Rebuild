@@ -1,0 +1,23 @@
+###################################################
+DiscrimMenu                   	                                                                                
+#POP                          	&File                                                                           
+174                           	&Write PSD file                                                                 
+900                           	&Abort calculations                                                             
+692                           	Preferences...                                                                  
+700                           	&Print...\tCtrl+P                                                               
+703                           	Output to &File                                                                 
+176                           	Output to &Clipboard\tCtrl+C                                                    
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+156                           	Show &Chart                                                                     
+905                           	&Show &Summary                                                                  
+991                           	&XY plot                                                                        
+100                           	&3d graph                                                                       
+#POP                          	&Help                                                                           
+346                           	&Discriminate results\tF1                                                       
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

@@ -1,0 +1,128 @@
+940	 Exit to the Project Manager
+941	 Display File Entry Menu
+942	 Abort Calculations
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3100	 The five major score options
+3101	 Create a score file from a spectra file
+3102	 Compare spectra to a score file
+3103	 Select samples from a spectra file
+3104	 Expand a product file with new spectra
+3105	 Select local samples from a product file
+3106	 Interpretation of the results of creating a score file from a spectra file
+3107	 Interpretation of  the comparison of a spectra file to a score file
+3108	 Interpretation of  the results of selecting samples from a spectra file
+3109	 Interpretation of the expansion of a product file with new spectra
+3110	 Interpretation of selecting local samples from a product file
+3112	 Number of factors or terms
+3115	 Groups for selection
+3116	 Groups for expansion
+3117	 Match Consitit help
+3150	 Create score options
+3151	 Compare score options
+3152	 Select samples options
+3153	 Expand file options
+3154	 Local options
+3200	 Pos
+3201	 Sample
+3202	 H
+3203	 Number
+3204	 Distance
+3205	 R
+3206	 Similar to
+3210	 Ave dist =
+3211	 Med dist =
+3212	 Dist from sample#
+3213	 Dist from:
+3214	 Mean
+3220	 Closest
+3222	 Order
+3224	 GH
+3226	 NH
+3300	 Different number of datapoints in loadings file
+3304	 Building output file
+3306	 Building vectors
+3308	 Calculations aborted
+3310	 Calculations Complete
+3312	 Cannot access constituents
+3316	 Cannot create outlier file.
+3318	 Cannot create temporary file
+3319	 You cannot display that graph in the current option
+3320	 You cannot display that table in the current option
+3321	 Too few datapoints to compute scatter correction
+3322	 Cannot find file needed for 3D display
+3323	 The file you chose cannot be used with the pca file
+3324	 Components
+3326	 Copying samples...
+3328	 Cutoff
+3330	 Number of datapoints don't match
+3332	 Developing PLS scores for file
+3334	 Computing Distance Matrix
+3336	 Error while writing PCA file
+3340	 File must have at least three samples to be run
+3342	 Finding Center
+3344	 Finding Distances
+3345	 The input and product files cannot be the same.  Use 'Select samples from a spectra file' instead.
+3346	 Cannot have more datapoints in the pca file than in the input file.
+3347	 Cutoff number outside of sample range
+3348	 Loading Center
+3350	 Loading File
+3352	 In order to display this graphics option, a library file must be created.
+3353	 In order to display this graphics option, output files must be created.
+3356	 You must select an input file
+3358	 You must select a loading file
+3362	 You must select an output file
+3364	 You must select a product file
+3368	 There are no samples to display
+3370	 Not all samples have been considered
+3372	 There are not enough samples to display this graph
+3374	 There are no constituents in the destination file.  Merge without data
+3376	 Changing options in the middle of calculations could lead to unpredictable results.  Do you wish to conti
+3380	 The PCA file does not contain any data.  Try creating the file again.
+3382	 Program and PCA defaults differ, do you want to continue?
+3384	 PLS file contains no constituents
+3386	 Not all constituents in the pls file have been matched
+3388	 Purging samples marked for delete
+3392	 Reading library file
+3394	 You cannot create loading or score files using the R-Squared option.  Do you wish to continue?
+3396	 Selected
+3398	 Similar to library
+3400	 Similar to selected
+3404	 Spectra not matched
+3406	 Stage 1 of calculating principal components
+3408	 Stage 2 of calculating principal components
+3410	 Stage 3 of calculating principal components
+3412	 Not enough samples to perform calculations
+3414	 Computing Triangular Distance Matrix
+3418	 <zeros>

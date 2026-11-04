@@ -1,0 +1,165 @@
+663	 Enter which loading to plot
+893	 Enter term to delete
+895	 Enter term to replace
+940	 Exit to the Project Manager
+941	 Abort Calibrations
+942	 Eliminate &selected samples
+943	 List ordered T values
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3000	 Scatter Corrected
+3001	 Scatter Corr.
+3002	 B(0)
+3003	 Saving dataset on disk
+3004	 Restoring dataset from disk
+3005	 Sample No\t Position\t  Rank\t    Actual\t     Pred\t    resid\t  'T'\t   'H'\t   
+3010	 Posn    Wave     Coeff
+3011	 Sample No
+3012	 Pos
+3013	 Rank
+3014	 Actual
+3020	 Pred
+3021	 Resid
+3022	 'T'
+3023	 'GH'
+3024	 \t     SEC\t         R~\t           F
+3030	 \t         SECV         1-VR
+3031	 CVREP
+3032	 \t    SEV\t   BIAS\t   SECV
+3033	 SECV\t 1-VR
+3034	 SECV\t 1-VR
+3040	 Sample Numbr Posn Pass   Actual     Pred   resid    'T'    'H'
+3041	 'E'
+3042	 List of ordered X residuals
+3043	 List of ordered 'H' values
+3044	 List of ordered residuals
+3050	 Equation file already contains maximum (64) number of equations
+3052	 Too many temp files.  All temp files will be erased and the current calibration terminated.
+3053	 SEC
+3054	 RSQ
+3060	 F
+3062	 REP
+3063	 SECV
+3064	 1-VR
+3070	 BIAS
+3071	 SECV
+3072	 VPR
+3073	 1-VR
+3074	 SEV
+3075	 SEV(C)
+3080	 Coefficient
+3081	 Data Point
+3082	 Wavelength
+3083	 Outlier pass #%d - %d samples
+3084	 Pass
+3090	 Term
+3091	 Average
+3092	 Input File
+3093	 REP File
+3094	 Validation File
+3100	 Equation File
+3101	 Regression Statistics
+3103	 Standard deviation
+3104	 Std Dev.
+3105	 User setting...
+3120	 Cross validation errors for
+3121	 Not enough chemical data to calibrate
+3122	 Missing &data value
+3123	 Minimum &F value
+3124	 &Cross validation groups
+3126	 Group
+3401	 Equations With Selected Wavelengths
+3402	 Equations With the Full Spectrum
+3403	 Equations Using Indicator Variables
+3404	 Expandable Equation Development
+3450	 Step-up
+3451	 Stepwise
+3452	 PCR
+3453	 PLS
+3454	 Modified PLS
+3500	 Equation file already contains maximum number of equations
+3502	 Indicator values must be 0 or 1 - - %g is invalid
+3504	 Calibration aborted
+3506	 Calibration complete
+3508	 Cannot use a variable as both a constituent and an indicator
+3510	 The %s calibration cannot be copied
+3512	 Constituent
+3514	 Constituents
+3516	 Critical '&H' outlier value
+3518	 Critical '&T' outlier value
+3520	 Critical '&X' outlier value
+3522	 Number of datapoints don't match
+3524	 Date
+3526	 &Selected samples to delete
+3528	 Displaying regression statistics...
+3530	 Downweighting passes
+3532	 Downweight outliers
+3534	 First variable cannot be used as an indicator
+3536	 Invalid filetype
+3538	 Input library and pca file mismatch
+3540	 No library file constituents match input file constituents
+3542	 Math Treatment
+3544	 Maximum number of terms
+3546	 Mean
+3548	 Sample %s has %d non-zero indicator values
+3550	 You must choose a calibration file
+3552	 You must choose a library file
+3554	 You must stop calculations before you can execute this command.
+3556	 No
+3558	 You must choose at least one constituent
+3560	 No wavelengths selected
+3562	 Number of outlier &elimination passes
+3564	 Number of samples
+3566	 Number of terms
+3568	 Number of variables
+3570	 Not enough wavelengths for step-up regression
+3572	 For %d seconds
+3574	 Enter number of seconds to pause
+3576	 The PCA file does not contain any data.  Try creating the file again.
+3578	 PCA file entered is not a PCA type
+3580	 Performing cross validations...
+3582	 Loading to plot
+3584	 Range
+3586	 Reading sample number
+3588	 No base group - - form a base group by eliminating an indicator variable.
+3590	 Stage 1 of calculating principal components
+3592	 Stage 2 of calculating principal components
+3594	 Stage 3 of calculating principal components
+3596	 Terms
+3598	 Validation file constituents do not match calibration file constituents
+3600	 Writing LIB file
+3602	 Writing PCA file
+3603	 Writing file for graphics program
+3604	 Yes

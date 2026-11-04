@@ -1,0 +1,399 @@
+###################################################
+TopToolbar                    	
+768                           	Percent Complete:
+###################################################
+StatusLine                    	
+###################################################
+controlpanel1                 	Instrument Diagnostics
+256                           	Instrument Data:
+500                           	Model Number:
+501                           	Serial Number:
+584                           	Instrument Port:
+585                           	Baud Rate:
+586                           	Use Drawer Switches
+1181                          	Messages:
+200                           	testing
+386                           	Instrument Response
+253                           	Wavelength Accuracy
+252                           	NIR Repeatability
+259                           	Display Schedule
+1001                          	Auto Diagnostics
+459                           	Help
+1                             	Close
+2                             	Exit to Project Manager
+1025                          	Reflectance
+1026                          	Transmission
+###################################################
+controlpanel2                 	Instrument Diagnostics
+256                           	Instrument Data:
+500                           	Model Number:
+501                           	Serial Number:
+584                           	Instrument Port:
+585                           	Baud Rate:
+586                           	Use Drawer Switches
+1181                          	Messages:
+200                           	testing
+386                           	Instrument Response
+253                           	Wavelength Accuracy
+252                           	NIR Repeatability
+259                           	Display Schedule
+1001                          	Auto Diagnostics
+459                           	Help
+1                             	Close
+2                             	Exit to Project Manager
+###################################################
+Accuracy                      	Wavelength Accuracy
+496                           	Instrument:
+608                           	Model
+396                           	Test
+2                             	Cancel
+369                           	Output Options
+393                           	Save Options
+390                           	Restore Options
+682                           	Default Settings
+391                           	Help
+499                           	Spectral Region
+250                           	Edit Reference Wavelengths
+1003                          	Edit K and Phi Values
+1001                          	Scanning Options
+502                           	Number of reference scans to average before sample:
+384                           	16
+503                           	Number of sample scans to average:
+385                           	16
+482                           	Number of reference scans to average after sample:
+458                           	16
+445                           	Number of  repetitions:
+392                           	2
+1002                          	Instrument Options
+790                           	Output Files
+791                           	NIR Filename:
+792                           	filename
+793                           	DAT Filename:
+794                           	filename
+1334                          	Information
+###################################################
+Password                      	Level 2
+1051                          	Enter Password:
+1                             	OK
+###################################################
+Setpswrd                      	Password Setup
+1051                          	Level 2 Password:
+1052                          	Level 3 Password:
+1                             	OK
+2                             	Cancel
+###################################################
+ResOutputOptions              	Instument Response Output Options
+1                             	OK
+2                             	Cancel
+638                           	Save Options
+637                           	Restore Options
+639                           	Default Settings
+607                           	Help
+1001                          	Output Options
+605                           	Output data to ASCII file
+606                           	Add diagnostic scans to the file (NIR file)
+710                           	Change NIR File Name
+711                           	Change ACSII File Name
+712                           	DEFAULT.ASC
+713                           	DEFAULT.NIR
+###################################################
+NIROutputOptions              	NIR Repeatability Output Options
+1                             	OK
+2                             	Cancel
+632                           	Save Options
+631                           	Restore Options
+633                           	Default Settings
+272                           	Help
+1001                          	Output Options
+276                           	Output data to ASCII file
+271                           	Add diagnostic scans to the file (NIR file)
+685                           	Change NIR File Name
+686                           	Change ACSII File Name
+687                           	DEFAULT.ASC
+688                           	DEFAULT.NIR
+###################################################
+AccOutOptions                 	Wavelength Accuracy Output Options
+1                             	OK
+2                             	Cancel
+635                           	Save Options
+634                           	Restore Options
+636                           	Default Settings
+600                           	Help
+1001                          	Output Options
+602                           	Output data to ASCII file
+603                           	Add diagnostic scans to the file (NIR file)
+701                           	Change NIR File Name
+702                           	Change ACSII File Name
+703                           	DEFAULT.ASC
+704                           	DEFAULT.NIR
+###################################################
+ScheduleSetup                 	Schedule Setup
+513                           	model
+514                           	serial
+504                           	Model Number:
+505                           	Serial Number:
+1                             	Done
+302                           	Save Options
+301                           	Restore Options
+303                           	Default Options
+340                           	Help
+367                           	Schedule Periods
+304                           	Information About Selected Instrument
+1051                          	NIR Repeatability Test:
+1052                          	Instrument Response Test:
+1053                          	Wavelength Accuracy Test:
+1245                          	Last Nir Repeatability Test Date:
+1249                          	Last Instrument Response Test Date:
+1247                          	Last Wavelength Accuracy Test Date:
+1246                          	NIR Date
+1248                          	WA Date
+1250                          	IR Date
+###################################################
+NIRrepeatGraph                	Photometric Repeatability Graph
+1                             	OK
+1185                          	Cursor
+1221                          	Zoom In
+1222                          	Print Plot
+1235                          	Print Report
+1223                          	Help
+1052                          	Pass  Segment      RMS     Bias   RMS(C)
+1229                          	Actual
+1225                          	Average
+1226                          	Minimum
+1227                          	Maximum
+###################################################
+EditNIRwavelengths            	NIR Wavelength Range
+1                             	OK
+2                             	Cancel
+421                           	Save Options
+430                           	Restore Options
+347                           	Default Options
+429                           	Help
+1131                          	Starting Wavelength
+1132                          	Ending Wavelength
+1133                          	Starting Wavelength
+1134                          	Ending Wavelength
+312                           	Edit Wavelength Range For Repeatability Report
+717                           	Second Segment
+716                           	First Segment
+1151                          	400
+1152                          	1098
+1153                          	1100
+1154                          	2498
+1051                          	nm
+1052                          	nm
+1053                          	nm
+1054                          	nm
+###################################################
+Repeatability                 	NIR Repeatability
+220                           	Instrument:
+394                           	Test
+2                             	Cancel
+395                           	Output Options
+383                           	Save Options
+380                           	Restore Options
+681                           	Default Settings
+381                           	Help
+336                           	Edit Wavelength Range
+1001                          	Scanning Options
+440                           	Number of reference scans to average before sample:
+222                           	16
+455                           	Number of sample scans to average:
+223                           	16
+442                           	Number of reference scans to average after sample:
+224                           	16
+493                           	Number of  repetitions:
+382                           	5
+609                           	Model
+1002                          	Instrument Options
+780                           	Output Files
+781                           	NIR Filename:
+782                           	Filename
+783                           	DAT Filename:
+784                           	Filename
+1322                          	Information
+###################################################
+InstResponseResults           	Instrument Response
+1                             	OK
+1185                          	Cursor
+674                           	Zoom In
+675                           	Print Plot
+676                           	Print Report
+651                           	Help
+1052                          	Segment  Min Value  Max Value  Autogain
+1053                          	(Data Pt)  (Data Pt)    Factor
+1058                          	Dark Period Values
+###################################################
+EditWavelengths               	Edit Reference Wavelengths
+1                             	OK
+2                             	Cancel
+421                           	Save Options
+430                           	Restore Options
+347                           	Default Options
+429                           	Help
+1131                          	Wavelength 1
+1132                          	Wavelength 2
+1133                          	Wavelength 3
+1134                          	Wavelength 4
+1135                          	Wavelength 5
+1136                          	Wavelength 6
+1137                          	Wavelength 7
+1138                          	Wavelength 8
+312                           	Enter Up To Eight Different Wavelengths
+1051                          	nm
+1052                          	nm
+1053                          	nm
+1054                          	nm
+1055                          	nm
+1056                          	nm
+1057                          	nm
+1058                          	nm
+1151                          	805.23
+1152                          	878.52
+1153                          	1143.63
+1154                          	1681.27
+1155                          	2166.40
+1156                          	2305.93
+1157                          	0
+1158                          	0
+###################################################
+Response                      	Instrument Response
+495                           	Instrument:
+610                           	Model
+364                           	Test
+2                             	Cancel
+231                           	Output Options
+235                           	Save Options
+232                           	Restore Options
+683                           	Default Settings
+233                           	Help
+1001                          	Scanning Options
+484                           	Number of repetitions:
+234                           	0
+800                           	Output Files
+662                           	Filename
+663                           	Filename
+661                           	NIR Filename:
+664                           	DAT Filename:
+1346                          	Information
+###################################################
+WaveAccTest                   	Wavelength Accuracy Test
+1051                          	Wavelength Accuracy Results
+1052                          	Scan    Wavelength Reference Peaks
+1053                          	Peak    Average      Diff.       S.D.
+1054                          	Actual Values   Suggested Values
+1                             	OK
+650                           	Help
+1232                          	Print Report
+1233                          	Accept Settings
+###################################################
+EditKPhi6500                  	Edit K and Phi Values
+1                             	OK
+2                             	Cancel
+1051                          	Enter The K And Phi For The Appropriate Regions
+728                           	Save Options
+729                           	Restore Options
+730                           	Default Settings
+731                           	Help
+1001                          	Visible Region
+726                           	0
+727                           	0
+722                           	K
+721                           	Phi
+1002                          	Near Infrared Region
+725                           	0
+724                           	0
+723                           	K
+720                           	Phi
+###################################################
+EditKPhi5500                  	Edit K and Phi Values
+1                             	OK
+2                             	Cancel
+1051                          	Enter The K And Phi For The Appropriate Regions
+728                           	Save Options
+729                           	Restore Options
+730                           	Default Settings
+731                           	Help
+1001                          	Visible Region
+726                           	0
+727                           	0
+722                           	K
+721                           	Phi
+###################################################
+EditKPhi5000                  	Edit K and Phi Values
+1                             	OK
+2                             	Cancel
+1051                          	Enter The K And Phi For The Appropriate Regions
+728                           	Save Options
+729                           	Restore Options
+730                           	Default Settings
+731                           	Help
+1002                          	Near Infrared Region
+726                           	0
+727                           	0
+723                           	K
+720                           	Phi
+###################################################
+EditKPhi4500                  	Edit K and Phi Values
+1                             	OK
+2                             	Cancel
+1051                          	Enter The K And Phi For The Appropriate Regions
+728                           	Save Options
+729                           	Restore Options
+730                           	Default Settings
+731                           	Help
+1002                          	Near Infrared Region
+726                           	0
+727                           	0
+723                           	K
+720                           	Phi
+###################################################
+TimeRemaining                 	
+1                             	OK
+2                             	Cancel
+1052                          	Time Remaining:
+###################################################
+AutoRunDlg                    	Auto Diagnostics
+1                             	Test
+2                             	Cancel
+3001                          	Save Options
+3002                          	Restore Options
+3003                          	Default Settings
+3004                          	Help
+1001                          	Instrument Response
+1081                          	0
+744                           	Visible Maximum:
+1051                          	Lower Bound
+1052                          	Upper Bound
+1082                          	0
+1083                          	0
+1053                          	NIR Maximum:
+1084                          	0
+1085                          	0
+1054                          	Dark Average:
+1086                          	0
+0                             	Wavelength Accuracy
+1087                          	0
+1055                          	Visible Error:
+1056                          	Ratio of Suggested Error vs. Current Error
+1088                          	0
+1058                          	NIR Error:
+0                             	Photometric Repeatability
+1089                          	0
+1057                          	Visible Repeatability:
+1059                          	Lower Bound
+1060                          	Upper Bound
+1090                          	0
+1091                          	0
+1061                          	Visible Bias:
+1092                          	0
+1093                          	0
+1062                          	NIR Repeatability:
+1094                          	0
+1095                          	0
+1063                          	NIR Bias:
+1096                          	0
+999                           	Change Diagnostic File
+1064                          	Static File Name
+0                             	Output File:
+

@@ -1,0 +1,14 @@
+###################################################
+EditControlOutput             	Edit Control Labels                                                             
+2                             	Cancel                                                                          
+602                           	Target                                                                          
+604                           	High Limit                                                                      
+603                           	Low Limit                                                                       
+605                           	Latest                                                                          
+601                           	Columns for Control Limits                                                      
+213                           	Constituent                                                                     
+1                             	OK                                                                              
+###################################################
+EditText                      	New text for control label                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          

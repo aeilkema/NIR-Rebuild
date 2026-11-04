@@ -1,0 +1,112 @@
+###################################################
+Display1Menu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calculations                                                             
+220                           	&Display file entry menu                                                        
+700                           	Print..\tCtrl+P                                                                 
+703                           	Print to file...                                                                
+176                           	Copy to clipboard\tCtrl+C                                                       
+706                           	Print setup...                                                                  
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Tables                                                                         
+920                           	&Spectral distances from the mean                                               
+#POP                          	&Graphs                                                                         
+384                           	&Histogram of H distances from the mean                                         
+221                           	&2D display                                                                     
+3030                          	&3D display                                                                     
+#POP                          	&Help                                                                           
+347                           	&Calculate - create scores\tF1                                                  
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+Display2Menu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calculations                                                             
+220                           	&Display file entry menu                                                        
+700                           	Print..\tCtrl+P                                                                 
+703                           	Print to file...                                                                
+176                           	Copy to clipboard\tCtrl+C                                                       
+706                           	Print setup...                                                                  
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Tables                                                                         
+920                           	&Spectral distances from the mean                                               
+#POP                          	&Graphs                                                                         
+384                           	&Histogram of H distances from the mean                                         
+3031                          	&3D display                                                                     
+#POP                          	&Help                                                                           
+348                           	&Calculate compare spectra to scores\tF1                                        
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+Display3Menu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calculations                                                             
+220                           	&Display file entry menu                                                        
+700                           	Print..\tCtrl+P                                                                 
+703                           	Print to file...                                                                
+176                           	Copy to clipboard\tCtrl+C                                                       
+706                           	Print setup...                                                                  
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Tables                                                                         
+921                           	&Input file neighbors                                                           
+923                           	&Selected samples                                                               
+#POP                          	&Graphs                                                                         
+372                           	&Histogram of input neighbors                                                   
+3032                          	&3D display                                                                     
+#POP                          	&Help                                                                           
+349                           	&Calculate select spectra\tF1                                                   
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+Display4Menu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calculations                                                             
+220                           	&Display file entry menu                                                        
+700                           	Print..\tCtrl+P                                                                 
+703                           	Print to file...                                                                
+176                           	Copy to clipboard\tCtrl+C                                                       
+706                           	Print setup...                                                                  
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Tables                                                                         
+921                           	&Input file neighbors                                                           
+922                           	&Product file neighbors                                                         
+923                           	&Selected samples                                                               
+#POP                          	&Graphs                                                                         
+372                           	&Histogram of input neighbors                                                   
+375                           	Histogram of &product neighbors                                                 
+3033                          	&3D display                                                                     
+#POP                          	&Help                                                                           
+350                           	&Calculate expand\tF1                                                           
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+Display5Menu                  	                                                                                
+#POP                          	&File                                                                           
+900                           	&Abort calculations                                                             
+220                           	&Display file entry menu                                                        
+700                           	Print..\tCtrl+P                                                                 
+703                           	Print to file...                                                                
+176                           	Copy to clipboard\tCtrl+C                                                       
+706                           	Print setup...                                                                  
+290                           	E&xit to Project Manager\tAlt+X                                                 
+#POP                          	&Tables                                                                         
+841                           	&Spectral distances from each sample                                            
+842                           	Spectra &not matched                                                            
+#POP                          	&Graphs                                                                         
+3034                          	&3D display                                                                     
+#POP                          	&Help                                                                           
+351                           	&Calculate local\tF1                                                            
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

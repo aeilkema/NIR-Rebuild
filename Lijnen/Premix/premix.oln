@@ -1,0 +1,55 @@
+
+File c:\winisi\premix\premix.cal
+Co
+Number of samples in Calibration set 75 out of 75
+Number of samples in Validation set 23 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+116641		   435.17	 856.10	-420.93	  -3.54
+116833		  2031.18	2349.00	-317.82	  -2.51
+
+File c:\winisi\premix\premix.cal
+Cu
+Number of samples in Calibration set 71 out of 75
+Number of samples in Validation set 25 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+115542		  1313.27	1778.00	-464.73	  -3.54
+115542		  1353.44	1778.00	-424.56	  -3.20
+115613		  1444.59	1836.00	-391.41	  -3.09
+115865		  1262.21	1632.00	-369.79	  -2.75
+
+File c:\winisi\premix\premix.cal
+Fe
+Number of samples in Calibration set 76 out of 75
+Number of samples in Validation set 23 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+114755		  7002.60	   1.00	7001.60	   2.52
+
+File c:\winisi\premix\premix.cal
+Mg
+Number of samples in Calibration set 71 out of 72
+Number of samples in Validation set 25 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+115862		     7.46	 363.00	-355.54	  -8.31
+
+File c:\winisi\premix\premix.cal
+Mn
+Number of samples in Calibration set 74 out of 75
+Number of samples in Validation set 25 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+114751		  4185.00	   2.10	4182.90	   5.68
+
+File c:\winisi\premix\premix.cal
+Se
+Number of samples in Calibration set 33 out of 33
+Number of samples in Validation set 9 out of 11
+Sample Number	Predicted	 Actual	   Diff	    'T'
+116435		   398.31	 468.20	 -69.89	  -3.33
+115291		   382.33	 314.60	  67.73	   3.26
+
+File c:\winisi\premix\premix.cal
+Premix
+Number of samples in Calibration set 77 out of 75
+Number of samples in Validation set 21 out of 25
+Sample Number	Predicted	 Actual	   Diff	    'T'
+116191		     4.97	  14.00	  -9.03	  -4.19
+115705		     5.13	  13.00	  -7.87	  -3.75

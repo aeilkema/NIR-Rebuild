@@ -1,0 +1,390 @@
+-1	 
+
+1100	 Accept the different samples?
+1101	 after
+1102	 All current options will be overwritten.  Continue with default options?
+1103	 All samples have now been omitted.  Processing will terminate.
+1104	 All current segments will be written over.  Continue with default settings?
+1105	 File contains maximum number of constituents
+1106	 Equation file already contains maximum number of equations
+1107	 Automatic outlier elimination
+1140	 You cannot choose that item.  Try again
+1141	 Invalid file type
+1142	 Group size must be from 2 to number of selected samples
+1143	 Indicator values must be 0 or 1 - - %g is invalid
+1144	 Input file does not match the evaluation file
+1145	 Input file does not match the offset file
+1146	 Different number of datapoints in loadings file
+1147	 Error forming master red - black corrections from samples 7 & 8
+1150	 Illegal value entered
+1151	 Error forming host red - black corrections from samples 7 & 8
+1152	 Virtual host instrument does not match the master instrument
+1153	 Error reading the virtual master standardization file
+1154	 Virtual master instrument does not match the host instrument
+1170	 Lab basis mismatch
+1171	 before
+1172	 Make bias adjustments to the predicted values
+1180	 Building library file
+1181	 Building spectrum data
+1182	 Building output file
+1183	 Building vectors
+1190	 Calculations aborted
+1191	 Calculations Complete
+1192	 Calculating initial weights
+1193	 < < < C A L C U L A T I N G > > >
+1194	 Measuring distance from center
+1195	 Calculating subset
+1200	 Calibration variables
+1201	 Calibration aborted
+1202	 Calibration complete
+1203	 Cannot access constituents
+1204	 You cannot do any calculations here
+1205	 You cannot change the cutoff using this option
+1206	 Cannot use a variable as both a constituent and an indicator
+1207	 Cannot convert file
+1208	 Only spectral files can be converted to this file format
+1209	 The %s calibration cannot be copied
+1210	 Cannot create file
+1211	 Cannot create directory
+1212	 Cannot create outlier file.
+1213	 Cannot create temporary file
+1214	 You cannot open the filelist dialog box here
+1215	 You cannot display this graph using the R-Squared option.
+1220	 Too few datapoints to compute scatter correction
+1221	 Cannot find file
+1222	 Only %d peaks found - - cannot linearize wavelengths
+1223	 Cannot open file
+1224	 You cannot open a file here
+1225	 Cannot open file.\nCheck to see if it is read-only.
+1226	 Cannot read constituents
+1227	 Cannot read current directory
+1228	 Cannot reallocate memory
+1229	 Cannot rename file
+1230	 &Critical value for starring small explainable variation
+1231	 Change learn factor
+1232	 Change momentum factor
+1233	 Changing options will clear all calculations.  Do you wish to continue?
+1234	 Components
+1235	 Computing the photometric corrections...
+1236	 Computing the wavelength corrections...
+1237	 Constituent
+1238	 Constituents
+1239	 Constituents do not match
+1240	 Press continue to resume
+1245	 Copying file...
+1246	 Copying samples...
+1247	 Do you wish to create the INI file now?
+1250	 Critical '&H' outlier value
+1251	 Critical '&T' outlier value
+1252	 Critical '&X' outlier value
+1253	 Critical 'T' for starring extreme &BIAS values
+1254	 Critical 'T' for starring small explained &variation values
+1255	 Critical 'T' for starring large &RMS values
+1256	 Critical 'T' value for redo
+1257	 %d Cross validations picks %d factors
+1260	 Cutoff
+1261	 Cutoff ratio
+1270	 Individual Adjustment Equations for Each Data Point or Wavelength
+1271	 Number of datapoints don't match
+1280	 Date
+1281	 &Selected samples to delete
+1282	 Derivative
+1283	 Deri&vatize the spectra
+1284	 Detrend only
+1300	 Developing PLS scores for file
+1301	 Output to ASCII file or disk
+1302	 Host position
+1303	 Standard error
+1304	 Display XY scatter plot?
+1305	 Displaying regression statistics...
+1306	 Computing Distance Matrix
+1307	 Downweighting passes
+1308	 Downeight outliers
+1310	 Dry matter
+1330	 Elapsed time
+1331	 Number of outlier eliminations
+1332	 Enter the calibration number
+1333	 Enter the constant moisture basis
+1334	 Enter the name of the moisture variable
+1335	 Enter the transmission path length
+1336	 Serial number of spectrum does not match serial number of equation
+1337	 Error while writing LIB file
+1338	 Error while writing PCA file
+1339	 File already exists. Extend it?
+1360	 Samples per factor
+1361	 File is empty
+1362	 File not found
+1363	 File must have at least three samples to be run
+1364	 Finalizing
+1365	 Number of points to use for Fourier transformations
+1370	 Finding Center
+1371	 Finding Distances
+1372	 First variable cannot be used as an indicator
+1373	 Fixed filter Hosts can only be standardized to similar masters
+1374	 Creating network struct
+1380	 Full regression output for each sample
+1381	 Full sample number display for each sample predicted
+1400	 Gap
+1401	 Group size of constituent values for testing
+1430	 Global H cutoff for displaying samples
+1431	 Cannot get device context
+1432	 Position            Sample
+1440	 Hidden learn
+1441	 Hidden momentum
+1442	 Hidden transfer
+1460	 Illegal characters in filename
+1461	 Cannot deal with wave_type
+1462	 Instrument and equation are incompatible
+1463	 Incorrect password
+1464	 INI file not found
+1465	 Initializing.   Please wait...
+1466	 Input Filename
+1467	 The input and output files cannot have the same name
+1468	 The input and product files cannot be the same.  Use 'Select samples from a spectra file' instead.
+1470	 Instrument types do not match
+1471	 Scanning range of Host must equal or exceed scanning range of Master
+1472	 Invalid character in segment
+1473	 Segment declared crosses between filters
+1474	 Invalid filetype
+1475	 Invalid instrument type
+1476	 Invalid math treatment
+1477	 Cutoff number outside of sample range
+1478	 Invalid scatter correction
+1479	 Inverse MSC
+1480	 Is this acceptable?
+1481	 Itinerations before outlier test is made
+1550	 Input library and pca file mismatch
+1551	 No library file constituents match input file constituents
+1552	 Loading Center
+1553	 Loading File
+1580	 Making predictions
+1581	 Mark missed samples for deletion?
+1582	 Correct master sample cups black(8) to red(7)
+1583	 Master file
+1584	 Master Instrument Filename
+1590	 Master numbers do not match
+1591	 Match library sample to more than one sample\t
+1592	 Math Treatment
+1593	 Warning! Math treatment not compatible with Infratec hardware
+1600	 Maximum
+1601	 Number of local samples
+1602	 Maximum number of terms
+1603	 The maximum number of windows has been reached
+1604	 Minimum factors
+1605	 Minimum number of samples
+1606	 Minimum
+1610	 Mean
+1611	 Merging...
+1612	 Merging Files
+1613	 Misses
+1614	 Modified file
+1615	 Moisture
+1616	 Import file contains more samples than target file
+1617	 Sample %s has %d non-zero indicator values
+1625	 This filename must be unique - other files must have a different name.
+1630	 You must choose at least two input files
+1631	 You must choose at least one constituent.
+1632	 You must choose a calibration file
+1633	 You must choose an equation file
+1634	 You must choose an input file
+1635	 You must choose a library file
+1636	 You must choose a master file
+1637	 You must choose an offset file
+1638	 You must choose an output file
+1639	 You must choose a pca file
+1640	 You must choose a product file
+1641	 You must choose a host file
+1642	 You must choose an std file
+1650	 In order to display this graphics option, a library file must be created.
+1651	 In order to display this graphics option, output files must be created.
+1652	 You must choose at least one input file for the wavelengths to be computed
+1653	 You must have a valid loading file before you can use this file.
+1654	 Choose new files before calculating
+1655	 In order to display this graphics option, a library file must be used.
+1656	 You must stop calculations before you can execute this command.
+1680	 Please name equation created
+1681	 Need CAL file to run
+1682	 Need PCA file to run with LIB file
+1690	 Instrument type does not match that of NIR file
+1691	 NIR data file has not been selected
+1700	 No
+1701	 Out of class instances.  Cannot eliminate further.
+1702	 There are no constituents in the input file
+1703	 You must choose at least one constituent
+1704	 No data to display
+1705	 No data file selected
+1706	 Input file contains no datapoints
+1707	 You must select an input file
+1708	 You must select a loading file
+1709	 Insufficient memory to continue
+1710	 You must select an output file
+1711	 There are no variables with matching names
+1712	 There are no predicted values to display
+1713	 You must select a product file
+1714	 No range in data
+1715	 This file does not have read permission.  It may currently be open by another file
+1716	 You must choose a sample number to be added or subtracted.
+1717	 File contains no samples
+1718	 Not enough chemical data to calibrate - prediction aborted.
+1719	 No variability in the spectral data
+1720	 No wavelengths selected
+1730	 None
+1731	 There are no deleted samples
+1732	 No samples have been selected
+1733	 There are no samples to delete
+1734	 There are no samples to display
+1735	 There are no samples to purge
+1736	 There are no samples to select
+1750	 Cannot make sense of input
+1751	 \nNote: By not accepting these samples, all samples will be omitted and processing will terminate.
+1752	 Not all samples have been considered
+1753	 All the constituents must be included in the order
+1754	 The purged file must have at least 3 samples in order to create the score and lib files.
+1755	 There are not enough samples to display this graph
+1760	 Number of o&mitted samples
+1761	 Number of &outlier downweighting passes
+1762	 Number of s&cale standardizations
+1763	 &Number of terms
+1770	 Number of outlier &elimination passes
+1771	 Number of factors
+1772	 Number of cross validation groups
+1773	 Number of samples
+1774	 Number of terms
+1775	 Number of samples to eliminate
+1776	 Number of variables
+1780	 Number is too large
+1781	 Warning - - samples differ: 
+1800	 Sample number in offset file to be &added
+1801	 Offset file
+1802	 Offset Filename
+1803	 Sample number in offset file to be &subtracted
+1810	 There are no constituents in the destination file.  Merge without data
+1811	 Not enough wavelengths for step-up regression
+1812	 Only 1 sample selected
+1813	 Changing options in the middle of calculations could lead to unpredictable results.  Do you wish to conti
+1820	 Output characterization file name
+1821	 Output learn
+1822	 Output momentum
+1823	 Output transfer
+1830	 File already exists. Overwrite it?
+1831	 File already exists.  Do you wish to overwrite or extend it?
+1850	 Pause calculations to examine results
+1851	 For %d seconds
+1852	 Enter number of seconds to pause
+1853	 The PCA file does not contain any data.  Try creating the file again.
+1854	 Program and PCA defaults differ, do you want to continue?
+1855	 PCA regression
+1856	 PCA file entered is not a PCA type
+1857	 PLS file contains no constituents
+1858	 No terms in pls2 -- cannot continue
+1859	 Not all constituents in the pls file have been matched
+1860	 PLS regression
+1861	 Correlation by peaks
+1870	 Performing PLS calculations %d of %d
+1871	 Predicting group %d of %d
+1872	 Preforming cross validations...
+1873	 Printer not ready
+1874	 Printer out of paper
+1875	 Now printing output...\n
+1876	 Cannot find prod.ini file
+1877	 Purging samples marked for delete
+1880	 Quadratic Wavelength Shift Between Host and Master
+1900	 Range
+1901	 Range in sigmoid curve transformation
+1902	 Error reading from file
+1903	 Reading File
+1904	 Reading library file
+1905	 Reading repeatability file
+1906	 Reading data file
+1907	 Reading Master filter/segment
+1908	 Reading sample number
+1910	 RSQ cutoff for selecting samples
+1911	 RSQ Limit
+1912	 You cannot create loading or score files using the R-Squared option.  Do you wish to continue?
+2000	 Sample
+2001	 Sample number to be added must be a valid sample number
+2002	 Sample number not found
+2003	 Sample number to be subtracted must be a valid sample number
+2004	 Use sample weights
+2005	 Files contain a different number of samples
+2006	 Write standardization file name to SCAN.DEF?
+2010	 Scale standardizations
+2011	 Error seeking in file
+2012	 Selected
+2020	 Similar to library
+2021	 Similar to selected
+2022	 No base group - - form a base group by eliminating an indicator variable.
+2030	 Correct host sample cups black(8) to red(7)
+2031	 Host file
+2032	 Host Instrument Filename
+2040	 Smooth
+2041	 &Smooth the loadings
+2042	 SNV only
+2043	 SNV and Detrend
+2044	 Sorting...
+2045	 Spectra not matched
+2046	 Split (% of samples in calibration group)
+2047	 Spectra outlier factor
+2050	 Stage 1 of calculating principal components
+2051	 Stage 2 of calculating principal components
+2052	 Stage 3 of calculating principal components
+2060	 Standardization file
+2061	 Standard MSC
+2062	 Start option for network calculations
+2063	 Store ASCII output of sample numbers
+2064	 Storing the characterization file
+2065	 Stardardization complete
+2100	 T value to move outliers to calibration set
+2101	 Terms
+2102	 Testing interval for screen output
+2103	 Tilting filter Hosts can only be standardized to similar masters
+2110	 Not enough samples to perform calculations
+2111	 Not enough computed wavelength positions to continue
+2112	 Too many filters/segments
+2113	 You cannot omit every sample in the file
+2114	 Too many PLS terms
+2115	 File can only contain one sample.
+2116	 File contains too many variables
+2120	 Totals
+2121	 Computing Triangular Distance Matrix
+2122	 Trim complete.\nDo you wish to do another?
+2150	 Improper authorization for this equation
+2151	 Uncertain
+2152	 Unknown filetype
+2153	 Do you wish to use the library file specified or make a new one?
+2154	 You must use the Filter to Filter option for the selected input files.
+2155	 You must use the Monochrometer to Filter option for the selected input files.
+2156	 You must use the Monochrometer to Monochrometer option for the selected input files.
+2180	 Reference outlier factor
+2181	 Writing PCA file
+2182	 Variable
+2183	 Standardization file
+2184	 Characterization Filename
+2200	 Wavelengths
+2201	 Wavelength mismatch
+2202	 Use wavelength weights
+2203	 Weighted MSC
+2204	 Error writing to file.\nCheck to see that you have enough disk space.
+2205	 Write PLS file?
+2206	 Writing file...
+2207	 Writing LIB file
+2209	 Writing file for graphics program
+2210	 Wrong file type
+2220	 Yes
+2240	 Samples per factor cannot be zero
+2241	 <zeros>
+2300	 Math treatments
+2301	 Wavelengths
+2302	 Preferences
+2303	 Unable to locate product
+2304	 Unable to use Equations with subsample averaging, wet/dry weight or sequential analysis. Please use an ANL
+2305   "Unable to Database predictions in Reporter"
+4014	 Report generated successfully
+4015	 There were errors while generating the report
+4016	 There are no clients in the client file
+4020	 Wet/dry weight equations not allowed; use ANL file created in SCAN SAMPLES
+4021	 Sequential equations not allowed; use ANL file created in SCAN SAMPLES
+4026	 You must output to a file or a printer
+4027	 Unable to display view
+4028	 System error
+

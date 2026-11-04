@@ -1,0 +1,41 @@
+###################################################
+LocalMenu                     	                                                                                
+#POP                          	&File                                                                           
+220                           	&Display file entry menu...                                                     
+692                           	Preferences...                                                                  
+700                           	&Print...\tCtrl+P                                                               
+790                           	Ouput to &File...                                                               
+176                           	Output to &Clipboard\tCtrl+C                                                    
+3501                          	&Summary to Clipboard                                                           
+290                           	E&xit to project manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+820                           	&Select outlier types...                                                        
+815                           	&Highlight samples of selected types\tCtrl+S                                    
+453                           	&Outlier cutoff values...\tCtrl+O                                               
+816                           	S&elect all\tCtrl+A                                                             
+961                           	Clear &all\tCtrl+N                                                              
+406                           	&Invert selections                                                              
+752                           	&Remove selected samples\tCtrl+R                                                
+960                           	&Undo\tCtrl+U                                                                   
+#POP                          	Pause...                                                                        
+900                           	Until &continue is pressed                                                      
+644                           	For a period of seconds                                                         
+#POP                          	&Graphics                                                                       
+#POP                          	Histograms                                                                      
+363                           	&Actual values                                                                  
+374                           	&Predicted values                                                               
+364                           	&Differences                                                                    
+365                           	&Global H values                                                                
+371                           	&Neighborhood H values                                                          
+665                           	&XY scatter plot\tF4                                                            
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+#POP                          	&Help                                                                           
+346                           	&Calculations for prediction\tF1                                                
+173                           	C&ontents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

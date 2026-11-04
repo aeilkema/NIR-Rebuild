@@ -1,0 +1,72 @@
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	&Save options on changes                                                        
+731                           	&Prompt before overwriting files                                                
+982                           	&Automatically set waves to default values                                      
+###################################################
+WaveMath                      	Wavelengths and math treatment                                                  
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+735                           	Wavelengths                                                                     
+863                           	Edit/Add Segment                                                                
+862                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+866                           	Derivative                                                                      
+867                           	Gap                                                                             
+868                           	Smooth                                                                          
+869                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+Options                       	Options                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+205                           	&Defaults                                                                       
+771                           	&Revert                                                                         
+735                           	Method                                                                          
+523                           	&Derivative                                                                     
+524                           	&Fourier                                                                        
+736                           	Derivative                                                                      
+980                           	Wavelengths and math treatment...                                               
+737                           	Fourier                                                                         
+860                           	Number of points to use for Fourier transformations                             
+860                           	Scatter correction                                                              
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+OverwriteExtend               	                                                                                
+860                           	Static                                                                          
+630                           	Overwrite                                                                       
+288                           	Extend                                                                          
+2                             	Cancel                                                                          
+###################################################
+MatchConstits                 	Match Constituents                                                              
+860                           	Current reduced file                                                            
+860                           	Input file                                                                      
+504                           	> > Match > >                                                                   
+860                           	Extended reduced file                                                           
+758                           	Rename                                                                          
+962                           	Move up                                                                         
+242                           	Move down                                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+763                           	Restore                                                                         
+###################################################
+String                        	Discrim                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         

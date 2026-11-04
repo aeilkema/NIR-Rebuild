@@ -1,0 +1,337 @@
+-1	 
+
+-1	 
+
+4	 Unable to display view
+5	 System Error
+6	 Control Limits
+9	 Water Region Values
+10	 Eliminate
+11	 Upper Wavelength
+12	 Lower Wavelength
+16	 Yes
+17	 No
+21	 Trends
+22	 X - double bar
+23	 R - bar
+24	 Insufficient Memory
+26	 WinISI Monitor\012Version 1.50a
+27	 Predict
+28	 Analyze
+29	 Reference
+30	 Contrast
+31	 Evaluate
+32	 Show Trend
+33	 Discriminate Groups
+34	 Contrast All
+35	 Evaluate All
+36	 Contrast Math Treatment
+37	 Contrast All Math Treatment
+38	 Derivative
+39	 Gap
+40	 Smooth
+41	 Smooth2
+46	 Unable to Create Window
+47	 Reference Summary
+48	 Analysis Summary
+49	 Error occurred while calculating statistics
+50	 No constituent matches exist. Please choose pairs
+51	 Prediction Summary
+52	 Reference Constituents
+53	 Equation Constituents
+54	 ANL File 1 Constituents
+55	 ANL File 2 Constituents
+56	 LAB File 1 Constituents
+57	 LAB File 2 Constituents
+58	 Equation 1 Constituents
+59	 Equation 2 Constituents
+60	 vs.
+61	 Dry Matter
+62	 As Received
+63	 Fixed Percent
+64	 Trend Plot Options
+65	 Plot Type
+66	 Plot Limit
+67	 Equation Header Allocation
+68	 Floating Point Allocation
+69	 File Error
+70	 Cannot read from file.
+71	 Cannot write to file.
+72	 PLS Equation Allocation
+73	 Invalid Equation Type
+74	 Character Array Allocation
+75	 Prediction Error
+76	 Instruments are incompatible
+77	 EQA Equation Allocation
+82	 Predict and compare constituents
+83	 Compare predicted values
+84	 Compare reference values
+85	 Contrast Error!
+86	 Unable to Find Valid Water Region Boundaries!
+87	 Number of samples in data files must match!
+88	 Number of data points in files must match!
+89	 Couldn't extract data from file!
+90	 There are unmatched pairs in data files.
+91	 Contrast Warning!
+92	 POS.
+93	 SAMPLE
+94	 SEG#
+95	 R-SQUARE
+96	 RMS
+97	 BIAS
+98	 RMSC
+99	 RMSW
+100	 BIASW
+101	 RMSCW
+102	 Segment Averages:
+103	 Segment No.
+104	 Overall Aves:
+105	 Could Not Access Data in file!
+106	 There are no matching samples in data files!
+107	 There are no matching samples in data files:\012
+108	 Fixed Filter: Turning off\012Water Correction & Math Treatment
+109	 Evaluate Error!
+110	 Evaluate Warning
+111	 Unable to Access Equation File!
+112	 analytes.ini
+113	 Moisture corrector
+114	 Unable to perform prediction
+115	 Unable to evaluate pairs!
+116	 Analyze Error
+117	 OutOptions
+119	 Cannot Read Instrument Header
+120	 Cannot Write Instrument Header
+121	 Cannot Read NIR data
+122	 Cannot Write NIR data
+123	 Cannot Write Constituents
+124	 Could not lock deleted sample memory!
+125	 The size of the sample is invalid!
+126	 Cannot bias with slope zero.
+127	 This equation is not biased.
+129	 Entry is out of bounds!
+130	 Requested data is out of the bounds of available data.
+131	 File has 0 samples.  Cannot remove sample.
+132	 The file header information is incorrect.  Set the file header with corrected information?
+133	 File has no samples.  Cannot read data.
+134	 Invalid ANL File!
+135	 Cannot add constituent.  A sample in this file will have more then 32 samples!
+136	 The number of constituents is too large or too small.
+137	 The previous group insert is not complete yet!
+138	 Initialize group insert before use.
+139	 Improper file type for this function.
+140	 Searching for deleted samples...
+143	 Reference and Auxiluary Files are not compatible.
+144	 Compare Predicted and Reference Values
+145	 Compare Predicted Values
+146	 Compare Reference Values
+147	 Contrast Spectra
+148	 Compare Spectra and Equations
+150	 Discriminate Groups
+151	 Network Comparisons
+152	 Evaluate Sample Differences using 
+153	 Evaluate Sample Agreement using 
+154	 Pos.  \011   Sample # 
+155	 Network Evaluate Error!
+156	 Out of memory! Try using fewer files.
+157	 Equation Files do not have any common constituents.
+158	 PrWiseLSD\011\011
+159	 Std. Dev.\011\011
+160	 SD Limit \011\011
+161	 AOV Error\011\011
+162	 MnDiffLim\011\011
+163	 Evaluate Instrument Differences using 
+164	 Evaluate Instrument Agreement using 
+165	 File #\011   File     
+166	 Summary of Instrument Standard Deviation
+167	 Summary of Instrument AOV Error
+170	 Enter Equation SEC Multiplier...
+171	 Inst.Mean\011\011
+172	 Max.Value\011\011
+173	 Min.Value\011\011
+174	 Ave. SD: \011\011
+175	 Grand SD:\011\011
+211	 Monitor
+212	 Product Options
+213	 Water Region
+214	 Network Options
+215	 You cannot mix ANL files with NIR or EQA files!
+216	 Selected Files will be cleared!
+217	 Enter Missing Value
+218	 Missing &Value
+219	 Enter Percentage
+220	 &Fixed Percentage Value
+221	 Reference
+222	 Equation
+223	 Auxiliary
+224	 Network
+226	 Performing Prediction...
+227	 Calculating constituent pair statistics...
+228	 Contrasting matched samples...
+229	 Wrinting ANL data to a file...
+230	 Matching samples between files...
+231	 Check math treatment settings.
+232	 Instruments are not compatable!
+233	 Invalid file type for predicting constituents!
+234	 Prediction failed!
+235	 Could Not Allocate enough Memory!
+236	 None
+237	 This is a read only file!\012To make changes you must either\0121. Choose No and change the file attributes yourself.\0122. Choose Yes to make a working copy of the file.\012\012Would you like to make a copy of this file?
+238	 Choose a name for the file's copy.
+239	 Cannot use the same file for the source and destination!
+260	 File Not Found:  
+261	 Output Complete!
+262	 Monitor v. 1.50a
+263	 Syntax error
+264	 Constituent name not found
+265	 Unbalanced parentheses
+266	 No expression present
+267	 Variable already defined
+268	 Files
+269	 SED:\011\011%8.3f\011\011\011Num. Samps:\011%8d\012
+270	 Means:\011\011%8.3f\011%8.3f%c\011Std. Devs:\011%8.3f\011%8.3f%c\012
+271	 Bias:\011\011%8.3f%c\011\011\011Bias Limit:\011%8.3f\012
+272	 SED(C):\011\011%8.3f%c\011\011\011SED(C) Limit:\011%8.3f\012
+273	 Slope:\011\011%8.3f%c\011\011\011RSQ:\011\011%8.3f%c\012
+274	 Ave. Global H:\011%8.3f%c\011\011\011Ave. Neigh. H:\011%8.3f%c\012
+275	 Ave. Global H:\011%8.3f%c\011%8.3f%c\011Ave. Neigh. H:\011%8.3f%c\011%8.3f%c\012
+276	 Pos.\011Sample No.\011Lab\011ANL\011Residual\011Bias
+277	 \011 GH1\011  NH1
+278	 \011   GH2\011    NH2
+279	 %s vs. %s:
+280	 SEP:\011\011%8.3f\011\011\011Num. Samps:\011%8d\012
+281	 SEP(C):\011\011%8.3f%c\011\011\011SED(C) Limit:\011%8.3f\012
+283	 ASCII file has too many lines!  View of file will be truncated.
+284	 The Password Entered was Incorrect!
+285	 Index Too Large
+287	 Evaluate sample differences
+288	 Evaluate sample agreement
+289	 Evaluate instrument differences
+290	 Evaluate instrument agreement
+291	 Calculate - predicted vs predicted values
+292	 Calculate - compare spectra and equations
+293	 Calculate - contrast spectra
+294	 Calculate - compare reference values and predicted value
+295	 Calculate - compare reference values
+296	 Control Limits for reference values versus predicted values
+297	 Compare Predicted And Reference Values
+298	 Compare Predicted Values
+299	 Compare Reference Values
+300	 Contrast Spectra
+301	 Compare Spectra and Equations
+302	 Network Comparisons
+303	 Discriminate Groups
+304	 Output options
+305	 Redo 2 file comparisions
+306	 Redo multiple file comparisons
+307	 Redo
+308	 Water region
+309	 Math treatment
+312	 Calculate - predictions
+313	 Selecting samples...
+314	 Reading constituent values...
+315	 Instrument types do not match.  Incompatable files for this operation.
+316	 A NIR Systems 6500 equation can only be used on a 6500 reference file.
+317	 A NIR Systems 5000 equation cannot be used with a 4500 or Infratec reference file.
+318	 A NIR Systems 4500 equation cannot be used with an Infratec reference file.
+319	 A Infratec equation may only be used with other Infratec files.
+325	 There must be at least two samples to analyze!
+326	 DM
+327	 MOISTURE
+328	 Find DM or MOISTURE Constituents...
+329	 Warning - Lab basis of these files are different.
+330	 Constituent name is not consistant with the lab basis for the file %s.
+331	 Performing Lab Basis Correction...
+332	 Warn: Redo affects all constituent pairs.
+333	 Lab Basis correction failed!
+334	 A DM or Moisture variable is needed to do a lab basis correction!
+335	 Master numbers of %s and %s don't match!
+336	 Could not read file %s
+337	 An output file must be chosen to perform this operation.
+338	 Zeroing/Replacing constituents...
+339	 Cannot use the original file as the output.
+340	 Correcting...
+341	 The bias was adjusted and a new file was created for the variable.
+342	 The bias was adjusted and the variable was appended to the file.
+343	 The slope and bias were adjusted and a new file was created.
+344	 The slope and bias were adjusted and the variable was appended.
+345	 A variable from each list must be chosen to continue!
+346	 An error occured while correcting!
+347	 Enter New File ID
+348	 Corrected
+349	 %s already has the maximum number of constituents.\012Cannot append the corrected variable.
+350	 Correcting variable...
+351	 Analyzing file...
+355	 Cannot create directory: 
+356	 Output Options
+357	 Create ANL File
+358	 Network Options
+359	 Deleting samples...
+360	 Enter input value...
+361	 Computing calculated variables...
+362	 Division by zero!
+363	 \042Prediction Basis\042 setting doesn't match the first file's setup.\012Set \042Prediction Basis\042 to match the first file's lab basis?
+364	 Cannot create file %s!
+365	 File Exists.  Zero/Replace constituents values in %s?
+366	 Position
+367	 Sample Number
+368	 Location
+369	 Totals
+370	 Misses
+371	 Uncertain
+372	 Goodness
+373	 Creating LIB file...
+374	 Summary - 
+375	 Discrim output     
+376	 Summary statistics for 
+377	 Continue with the zeroing/replacing of samples in the output file?
+378	 No additional samples are flagged for elimination.
+379	 Copying file information...
+380	 Actual
+382	 Cannot overwrite original file.  Choose \042Append Constituent to Output File\042
+383	 The files used contained more than one sample with the same sample number.  Samples were matched in order but there were not enough matching samples to completely pair off all samples with matching sample numbers.
+384	 Cannot open clipboard.
+397	 Sorting By Sample...
+398	 Cannot create file!
+399	 Could not open file!
+400	 Cannot create destination file!
+401	 Cannot read sample!
+402	 Cannot write sample!
+403	 Cannot set file position!
+404	 Cannot read instrument header!
+405	 Cannot write instrument header!
+406	 Unsupported File Type!
+407	 Could not lock file positioning memory!
+408	 Searching for Invoice information...
+409	 Cannot read file header!
+410	 Cannot write file header!
+411	 Unable to read constituents!
+412	 Setting sample constituent names...
+413	 Could not open file %s
+414	 There are either no samples in the file or none remaining to do calculations on.  Use Undo to go back.
+8500	 \040Use a dialog box to control Monitor...
+8501	 \040Change default printers settings
+8502	 \040Exit to Project Manager
+8503	 \040Choose a referecne file to add to the list of files being used...
+8504	 \040Choose an equation file to add to the list of files being used...
+8505	 \040Choose an auxiliary file to add to the list of files being used...
+8506	 \040Clear all files currently listed for use
+8507	 \040Unselect all files from use in the current analysis
+8508	 \040Select all files for use in the current analysis
+8509	 \040Level 1 access
+8510	 \040Level 2 access
+8511	 \040Level 3 access
+8512	 \040Set passwords for levels 2 and 3
+8513	 \040Help contents
+8514	 \040Instructions on viewing help files
+8515	 \040About Monitor
+8516	 \040Calculate using the checked files
+8517	 \040Adjust output options...
+8518	 \040Select pairs of constituents...
+8519	 \040Set control limits...
+8520	 \040Perform math treatment...
+8521	 \040Set product options...
+8522	 \040Make results on a dry matter basis
+8523	 \040Make results on an as received basis
+8524	 \040Make results on a fixed percentage basis
+8525	 \040Constituents with this value are not analyzed
+8526	 \040Constituents with negative values are not analyzed

@@ -1,0 +1,30 @@
+#POP                          	Dummy                                                                           
+1100                          	&Instrument                                                                     
+1101                          	&File                                                                           
+#POP                          	Dummy                                                                           
+1103                          	&No                                                                             
+1102                          	&Yes                                                                            
+#POP                          	Dummy                                                                           
+1105                          	&No                                                                             
+1104                          	&Yes                                                                            
+#POP                          	Dummy                                                                           
+1119                          	&No                                                                             
+1118                          	&Yes                                                                            
+#POP                          	Dummy                                                                           
+1107                          	&No                                                                             
+1106                          	&Yes                                                                            
+#POP                          	Dummy                                                                           
+1110                          	&No                                                                             
+1111                          	&Yes                                                                            
+1112                          	Set &Control Limits                                                             
+#POP                          	Dummy                                                                           
+1108                          	&No                                                                             
+1109                          	&Yes                                                                            
+1113                          	Set &Control Limits                                                             
+1114                          	&Set Database Options                                                           
+1115                          	&Add Calculated equations                                                       
+1120                          	&Bias adjustments                                                               
+1116                          	&Use Red file with same name to extend DLL                                      
+1117                          	&Don't use Red file to extend                                                   
+###################################################
+                              	                                                                                

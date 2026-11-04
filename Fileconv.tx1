@@ -1,0 +1,92 @@
+1000	 This Unscrambler file has %d instead of 100 datapoints
+1001	 NSAS only allows one constituent per equation file
+1002	 Detrend not supported in NSAS
+1003	 This math treatment not supported in NSAS
+1004	 Math / Instrument combination not supported in NSAS
+1005	 This NSAS math treatment unsupported
+1006	 Wavelength denomenators unsupported
+1007	 PLS and Stepwise not allowed in same file in ISI
+1008	 Invalid wavelength (%d) specified for current math treatment
+1009	 Number of datapoints (%d) must be between 1 and %d
+1010	 Number of constituents (%d) must be between 1 and 32
+1011	 Number of scanning segments (%d) must be between 1 and 20
+1012	 Starting wavelength (%g) must be greater than 0.0
+1013	 First wavelength (%g) must be less than or equal to last wavelength (%g)
+1014	 Wavelength increment (%g) must be greater than 0.0
+1015	 Number of wavelengths (%d) does not agree with NX_VARIABLES (%d)
+1016	 Enter the number of X datapoints
+1017	 Enter the number of scanning segments
+1018	 Enter the first wavelength
+1019	 Enter the Last wavelength
+1020	 Enter the wavelength increment
+1021	 Enter number of constituents
+1022	 Enter the consituent name
+1023	 Are sample numbers present in the file?
+1024	 Are lab values on an as received moisture basis?
+1025	 Were the spectra collected with the reflectance amp?
+1026	 Choose number of UNKNOWN (19) if no match or number of proper match
+1027	 Use ISI default segment information?
+1028	 Enter origin of JCAMP file
+1029	 Enter owner of JCAMP file
+1030	 Output file format cannot be the same as the input file format
+1031	 INFRATEC format may only be converted to NEWISI format
+1032	 TECHNICON format may only be converted to NEWISI format
+1033	 Jcamp files can only be converted to ISI
+1034	 PLS equations may not be converted to oldisi
+1035	 PLS equations can only be converted to NSAS
+1036	 Only INFRATEC files may be converted to INFRATEC format
+1037	 NEWISI equations may only be converted to OLDISI, NSAS or IRIS format
+1038	 Unable to display view
+1039	 System Error
+1040	 Choose One
+1041	 <none>
+1042	 Enter the product name
+1043	 Enter the two letter product code
+1044	 Correct predicted values to a constant moisture basis?
+1045	 Warning: only the first 5 of %d equations will be converted
+1046	 Only Inverse MSC is supported in IRIS
+1047	 Only a 0,0,1,1, math treatment is supported in IRIS
+1048	 All wavelengths must be used in IRIS
+1049	 Beginning conversion of
+1050	 Converting
+1051	 conversion aborted.
+1052	 conversion unsucessful
+1053	 conversion
+1054	 to
+1055	 and
+1056	 sucessful
+1057	 file(s) converted sucessfully.
+1058	 file(s) converted unsucessfully.
+1059	 See fileconv.log for details.
+1060	 File already exists
+1061	 Input filename(s)
+1062	 wildcards may be used
+1063	 Output filename(s)
+1064	 Input directory
+1065	 Directory files
+1066	 Output format    Directory
+1067	 Output directory
+1068	 You must choose a directory for the selected output format.
+1069	 IRIS to ISI import program
+1070	 Cannot create
+1071	 Cannot allocate memory
+1072	 Cannot open
+1073	 You cannot choose that item.  Try again.
+1074	 Unknown filetype
+1075	 Cannot convert file
+1076	 You must choose an input file
+1077	 You must choose an output file
+1078	 Error reading from file
+1079	 Invalid file type
+1080	 Invalid instrument type
+1081	 Enter the calibration number
+1082	 Enter the constant moisture basis
+1083	 Enter the name of the moisture variable
+1084	 Enter the transmission path length
+1085	 Illegal value entered
+1100	 &Begin Conversion
+1101	 &Set Output Directory
+1102	 &Preferences
+1103	 &Exit to Project Manager
+1104	 &Help
+1105	 Could not change drives

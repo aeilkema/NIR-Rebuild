@@ -1,0 +1,138 @@
+-1	 Error writing to file.\nCheck to see that you have enough disk space.
+940	 Exit to the Project Manager
+941	 Continue
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+3000	 Iteration   Term    Filter      PLS        Autocorrelation        Explained Variation
+3001	 no       no       no        R~         Host       Master       Host       Master
+3002	 Filter      Explained Variation
+3003	 no        Host         Master
+3004	 number
+3005	 RMSC      Bias       E.V.
+3010	 RMSC      Bias
+3011	 Data Pt    Intercept         Coefficient        Explained Variation
+3012	 Data Pt    Intercept         Coefficient1       Coefficient2      Explained Variation
+3013	 %3d: b(0) = %7.3lf  b(1) = %8.4lf  RSQ = %10.6lf
+3014	 %3d: b(0) = %7.3lf  b(1) = %8.4lf  b(2) = %8.4lf  RSQ = %10.6lf
+3015	 Monochromator to monochromator standardization coefficients
+3050	 You must choose a master file first
+3090	 NIRSystems monochromator instruments
+3091	 NIRSystems files
+3092	 NIRSystems display
+3100	 Monochromator to monochromator instruments
+3101	 Monochromator instrument files and options
+3102	 Monochromator instrument file display
+3103	 Monochromator file conversion and options
+3104	 Monochromator file conversion statistics
+3105	 Monochromator file conversion display
+3110	 Monochromator to filter instruments
+3111	 Monochromator to filter instrument files
+3112	 Monochromator to filter instrument statistics
+3113	 Monochromator to filter summary
+3114	 Monochromator to filter file conversion
+3115	 Monochromator to filter statistics
+3120	 Filter to filter instrument
+3121	 Filter to filter instrument files
+3122	 Filter to filter instrument statistics
+3123	 Filter to filter summary
+3124	 Filter to filter file conversion
+3125	 Filter to filter statistics
+3130	 Quadratic wave shift formula
+3131	 Individual wavelength equations
+3132	 Offset files
+3133	 Trim files
+3140	 Infratec Instruments
+3141	 Infratec Slope and Bias adjustment
+3150	 Calculate Infratec standardization
+3151	 Calculate slope and bias
+3170	 Monochromator to Monochromator Instruments
+3172	 Monochromator to Filter Instruments
+3174	 Filter to Filter Instruments
+3176	 Monochromator to Monochromator Files
+3178	 Monochromator to Filter Files
+3180	 Filter to Filter Files
+3300	 Accept the different samples?
+3302	 after
+3304	 All samples have now been omitted.  Processing will terminate.
+3306	 Input file does not match the evaluation file
+3308	 Input file does not match the offset file
+3310	 Virtual host instrument does not match the master instrument
+3312	 Error reading the virtual master standardization file
+3314	 Virtual master instrument does not match the host instrument
+3316	 before
+3318	 Calculations aborted
+3320	 Calculations Complete
+3322	 Only %d peaks found - - cannot linearize wavelengths
+3324	 Individual Adjustment Equations for Each Data Point or Wavelength
+3326	 Derivative
+3328	 Host position
+3330	 Standard error
+3331	 Downweighting passes
+3332	 Filter
+3334	 Fixed filter Hosts can only be standardized to similar masters
+3336	 Instrument and equation are incompatible
+3338	 The input and output files cannot have the same name
+3340	 Scanning range of Host must equal or exceed scanning range of Master
+3342	 Master file
+3344	 Mean
+3346	 Monochromator
+3348	 This filename must be unique - other files must have a different name.
+3350	 You must choose an offset file
+3351	 You must choose a master file
+3352	 You must choose a host file
+3353	 You must choose a sample number to be added or subtracted.
+3354	 No variability in the spectral data
+3356	 \nNote: By not accepting these samples, all samples will be omitted and processing will terminate.
+3358	 Number of o&mitted samples
+3360	 Warning - - samples differ: 
+3362	 Quadratic Wavelength Shift Between Host and Master
+3364	 Reading data file
+3366	 Reading Master filter/segment
+3368	 Sample number to be added must be a valid sample number
+3370	 Sample number to be subtracted must be a valid sample number
+3372	 Write standardization file name to SCAN.DEF?
+3373	 Scale standardizations
+3374	 The slave file cannot be a filter instrument.
+3375	 The slave file cannot be a monochromator instrument.
+3376	 Host file
+3377	 Smooth
+3378	 Standardization file
+3380	 Tilting filter Hosts can only be standardized to similar masters
+3382	 Too many filters/segments
+3384	 Too many PLS terms
+3386	 File can only contain one sample.
+3388	 You must use the Filter to Filter option for the selected input files.
+3389	 You must use the Monochrometer to Filter option for the selected input files.
+3390	 You must use the Monochrometer to Monochrometer option for the selected input files.
+3392	 Standardization file

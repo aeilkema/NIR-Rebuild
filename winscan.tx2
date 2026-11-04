@@ -1,0 +1,188 @@
+###################################################
+SelectCon                     	Constituents                                                                    
+1                             	Plot                                                                            
+2                             	Cancel                                                                          
+215                           	Select Constituent to plot                                                      
+217                           	Constituent                                                                     
+###################################################
+SelectProd                      Products                                                                        
+1                               &Scan                                                                           
+318                             &Files                                                                       
+2                               &Cancel                                                                         
+227                             &Exit to Program Manager                                                        
+215                             Select Product to scan                                                          
+288                             &Help                                                                           
+217                             Description                                                                     
+216                             Product Code                                                                    
+###################################################
+Password                      	Level 2                                                                         
+215                           	Enter Password:                                                                 
+1                             	OK                                                                              
+###################################################
+Setpswrd                      	Password Setup
+215                           	Level 2 Password:                                                               
+216                           	Level 3 Password:                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+CALCVAL                       	Enter value for this calculated variable                                        
+1                             	&Ok                                                                             
+2                             	&Cancel                                                                         
+###################################################
+SAMPLEIO                      	Sample Confirmation                                                             
+1                             	&Analyze                                                                        
+2                             	&Cancel
+215                           	Sample Number:                                                                  
+253                           	Id line 1                                                                       
+217                           	Operator                                                                        
+256                           	Id line 2                                                                       
+257                           	Id line 3                                                                       
+288                           	&Help                                                                           
+301                           	Spectra Name                                                                    
+302                           	Analysis Name                                                                   
+303                           	Ascii Name                                                                      
+308                           	Samples (Total Spectra)                                                         
+309                           	Samples (Total Analysis)                                                        
+310                           	Samples (Current Reports)                                                       
+311                           	MB Free                                                                         
+304                           	%d                                                                              
+305                           	%d                                                                              
+306                           	%d                                                                              
+307                           	%6.3f                                                                           
+322                           	&Scan Reference                                                                 
+###################################################
+TopToolbar                    	                                                                                
+236                           	Percent Complete:
+###################################################
+StatusLine                    	                                                                                
+###################################################
+Startup                       	Setup for scanning samples                                                      
+245                           	Spectra  filename                                                               
+244                           	Analysis filename                                                               
+246                           	Ascii report                                                                    
+1                             	&Done                                                                           
+233                           	&Advanced
+238                           	&Return to program manager                                                      
+207                           	C&ancel                                                                         
+326                           	&Help                                                                           
+215                           	Storage option                                                                  
+218                           	Storage option                                                                  
+273                           	Output filenames                                                                
+281                           	Storage option                                                                  
+299                           	&Preferences                                                                    
+###################################################
+CLIENT                        	Edit Client Information                                                         
+1                             	OK                                                                              
+2                             	Cancel
+288                           	Help                                                                            
+286                           	Order by number                                                                 
+215                           	Client Number:                                                                  
+216                           	Client Name:                                                                    
+217                           	Address:                                                                        
+282                           	Current Client:                                                                 
+325                           	Find                                                                            
+###################################################
+WETDRY                        	Wet weight Dry weight entries                                                   
+1                             	&Ok                                                                             
+2                             	&Cancel                                                                         
+253                           	Sample Weight before drying                                                     
+256                           	Sample weight after drying                                                      
+###################################################
+PRICE                         	Analysis price                                                                  
+291                           	COST 1                                                                          
+292                           	COST 2                                                                          
+293                           	COST 3                                                                          
+2                             	&Cancel                                                                         
+###################################################
+FILEID                        	Enter the file id
+1                             	&Ok                                                                             
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+297                           	&Restore Defaults                                                               
+288                           	&Help                                                                           
+298                           	&Save output options                                                            
+296                           	&Save output filenames                                                          
+295                           	&Backup files to be overwritten                                                 
+300                           	&Overwrite stored files
+331										&Use Single Screen Interface                                                         
+215                           	Heading for left results column                                                 
+216                           	Heading for right results column                                                
+320                           	As received                                                                     
+321                           	Dm basis
+###################################################
+SimSelectOper                 	Operators                                                                       
+107                           	Select Operator:                                                                
+###################################################
+SimSelectPrice                	Prices
+107                           	Select Price:                                                                   
+###################################################
+SimEditOper                   	Modify List of Operators                                                        
+107                           	Registered operators:                                                           
+108                           	Add                                                                             
+109                           	Delete                                                                          
+1                             	Ok                                                                              
+2                             	Cancel                                                                          
+111                           	New Operator:                                                                   
+###################################################
+OUTPUTSTOPRINT                	Print Outputs for:                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+807                           	Outputs to print                                                                
+450                           	Print Tab1                                                                      
+451                           	Print Tab2                                                                      
+452                           	Print Tab3                                                                      
+453                           	Print Tab4                                                                      
+454                           	Print Tab5                                                                      
+455                           	Print Tab6                                                                      
+456                           	Print Tab7
+457                           	Print Tab8                                                                      
+###################################################
+UserInput                     	                                                                                
+312                           	Sample Id Lines                                                                 
+302                           	Product                                                                         
+304                           	Operator                                                                        
+306                           	Client                                                                          
+308                           	Price                                                                           
+310                           	Sample Number                                                                   
+313                           	Sample Registration                                                             
+105                           	Sample Registration                                                             
+###################################################
+Buttons                       	                                                                                
+402                           	Analyze                                                                         
+403                           	Store                                                                           
+2030                          	Store                                                                           
+407                           	Diagnostics                                                                     
+2070                          	Diagnostics                                                                     
+405                           	Print                                                                           
+2050                          	Print                                                                           
+406                           	Check Cell
+2060                          	Check Cell                                                                      
+408                           	Customer Care
+2080                          	Customer Care                                                                   
+409                           	User Setup                                                                      
+2090                          	User Setup                                                                      
+410                           	Exit                                                                            
+412                           	Options                                                                         
+413                           	Exit Setup                                                                      
+###################################################
+SimSelectProd                 	Products
+352                           	Select Product to scan
+353                           	Product Code                                                                    
+###################################################
+EditWindowLabel               	New text for Window Label                                                       
+1                             	OK                                                                              
+2                             	Cancel
+###################################################
+EditText                      	New text for control label
+1                             	OK
+2                             	Cancel
+###################################################
+AutoScan									Number of samples to scan
+1											Ok
+2											Cancel
+215										Number of Samples to scan:
+216										Starting Sample Number:
+
+

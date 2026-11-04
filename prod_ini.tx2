@@ -1,0 +1,281 @@
+###################################################
+PROD_INI_DLG                  	Edit Product File Information                                                   
+874                           	Product File Entries:                                                           
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+4320                          	Add                                                                             
+4321                          	Delete                                                                          
+104                           	Help                                                                            
+205                           	Product Code  Description                                                       
+206                           	Options:                                                                        
+106                           	Help                                                                            
+110                           	Next Page...                                                                    
+530                           	Description:                                                                    
+531                           	Product Code:                                                                   
+532                           	<Equation File Name>                                                            
+533                           	<Database File Name>                                                            
+544                           	Daily CLC Val:                                                                  
+534                           	Report Form:                                                                    
+535                           	Number of Copies:                                                               
+536                           	No. of Subsample Scans:                                                         
+539                           	Equation File                                                                   
+540                           	Database File
+546                           	Check Cell:                                                                     
+107                           	As rec Moisture:                                                                
+111                           	Std DM Level:                                                                   
+112                           	DM or Moisture:                                                                 
+113                           	Text (DM/Moist):                                                                
+114                           	Cost A:                                                                         
+115                           	Cost B:                                                                         
+116                           	Cost C:                                                                         
+117                           	Global H :                                                                      
+118                           	Global H :                                                                      
+121                           	Neighborhood H :                                                                
+558                           	Neighborhood H :                                                                
+559                           	T :                                                                             
+560                           	T :                                                                             
+471                           	Instrument Type:                                                                
+473                           	Instrument Port:                                                                
+474                           	Baud Rate:                                                                      
+475                           	Attachment:                                                                     
+476                           	Cup Type:                                                                       
+477                           	Cup Fullness:                                                                   
+478                           	Edit Scanning Range
+486                           	Drawer Switches                                                                 
+484                           	Reflectance                                                                     
+485                           	Transmission                                                                    
+503                           	Derivatize for RMS
+507                           	Ref. Tol.:                                                                      
+497                           	No. of Ref. Scans to Ave. Before Sample:                                        
+498                           	No. of Sample Scans to Average:                                                 
+499                           	No. of Ref. Scans to Ave. After Sample:                                         
+500                           	No. of Complete Scans to Average:                                               
+502                           	RMS Limit of subsample                                                          
+510                           	Reference Offset:                                                               
+493                           	Fourier Smooth:                                                                 
+504                           	Manually scan Ref:                                                              
+505                           	Min. between Ref Scan:                                                          
+441                           	Spectra Source                                                                  
+442                           	Product/Sample Num. File Name:                                                  
+443                           	Standardization Filename                                                        
+447                           	Plot Spectra:                                                                   
+449                           	View Subsample Results:                                                         
+448                           	Auto Scan Samples                                                               
+453                           	Scan continuously
+452                           	Seconds Between Scans:                                                          
+455                           	Number of Auto Scans:                                                           
+457                           	Spectra Storage Prompt:                                                         
+456                           	Use Time for Sample Number:
+461                           	Current Sample Number:
+463                           	Auto Increment Value:
+462                           	Use Infratec Sample Number:
+403                           	Analysis Storage Prompt:
+405                           	Display H Values:
+406                           	Display 'T' Values:
+407                           	Product Autodetect:
+408                           	Display negative values:
+412										T critical value:
+107                           	Discrim confidence value:
+511                           	ASCII Report Storage Prompt:
+513                           	Printer Report Storage Prompt:
+521                           	Client Filename
+519                           	Print a Report:
+520                           	Force page out:                                                                 
+515                           	Prompt for Client:                                                              
+516                           	Update Client Invoice:                                                          
+517                           	Prompt for Price:
+583                           	Attachments:                                                                    
+584                           	Multiplexer Channel:                                                            
+588                           	Gain Setting:                                                                   
+585                           	Auto linearization                                                              
+586                           	Muxlist Filename                                                                
+421                           	Units:                                                                          
+423                           	Display Charts:                                                                 
+429                           	Chart Type:                                                                     
+430                           	Group Size:                                                                     
+431                           	Number to Average:                                                              
+432                           	Maximum Number to Chart:                                                        
+433                           	First Date to Chart (mm-dd-yyyy):                                               
+435                           	Trend Chart Points:                                                             
+600                           	Skip Accept Analysis:                                                           
+601                           	Negative Prediction:                                                            
+602                           	Remote Display:                                                                 
+603                           	Com Port:                                                                       
+605                           	No Toggle Sample/Reference:                                                     
+606                           	Brill Feed:                                                                     
+607                           	Scan Reference Separate Option:                                                 
+608                           	Remote Control:
+609                           	Sample/Reference View:                                                          
+610                           	Same K and Phi:                                                                 
+616                           	Toggle Size:                                                                    
+617                           	Instrument Turn On Time:                                                        
+618                           	Instrument Turn Off Time:                                                       
+619                           	Instrument Inactivity Time:                                                     
+620                           	Ignore Spectra Value of:                                                        
+621                           	Instrument Time Format:                      Hours:Minutes                      
+###################################################
+ENTER                         	Enter Constituent Name                                                          
+1951                          	Edit                                                                            
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+SELECT_PROD_DLG               	Select Product File Entry                                                       
+874                           	Product File Name:                                                              
+205                           	Product Code     Description                                                    
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+4340                          	Exit to program manager                                                         
+4320                          	Use Different Prod.INI File
+4321                          	Select File Not in this List                                                    
+110                           	Use Equation File                                                               
+113                           	Use Database File                                                               
+104                           	Help                                                                            
+206                           	File Name:                                                                      
+111                           	<File>                                                                          
+4325                          	Edit Prod.INI Default Values                                                    
+###################################################
+CAL_INPUT_DLG                 	Enter Database File Values                                                      
+874                           	Database File Name:                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+4320                          	Other Processing Options                                                        
+104                           	Help                                                                            
+4321                          	Rep File Input                                                                  
+205                           	<REPFILE>                                                                       
+206                           	Selected Samples:                                                               
+111                           	Minimum Number of Samples:                                                      
+112                           	Max. Factors used in PLS Regression:                                            
+105                           	Min. Factors Removed from Prediction:                                           
+103                           	Critical 'T' Outlier Value:
+106                           	Maximum Elimination Passes:                                                     
+110                           	File to Discrim within Database                                                 
+148                           	<PSDFILE>                                                                       
+117                           	Options apply to:                                                               
+118                           	&Use custom Options                                                             
+###################################################
+CALC_EQA_DLG                  	Calculated values                                                               
+205                           	Product %d Constituents:                                                        
+206                           	<Product File Name>                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+104                           	Help                                                                            
+4320                          	Add  From CLC File                                                              
+4321                          	Create Equation                                                                 
+110                           	Delete Equation                                                                 
+###################################################
+CNTRLLIM_DLG                  	Set Control Limits                                                              
+205                           	Product %d Constituents:                                                        
+206                           	<Product File Name>                                                             
+1                             	OK                                                                              
+2                             	Cancel
+104                           	Help                                                                            
+105                           	Control Limits For:                                                             
+314                           	Constituent Values                                                              
+315                           	GH Values                                                                       
+111                           	Low                                                High                         
+112                           	Action         Warning       Target         Warning       Action                
+316                           	NH Values                                                                       
+###################################################
+CUSTOM_EQA_DLG                	Edit custom equation information                                                
+108                           	Add                                                                             
+109                           	Delete                                                                          
+112                           	Equation filename                                                               
+140                           	Standardization filename                                                        
+139                           	Rep filename                                                                    
+141                           	Loadings filename                                                               
+628                           	Scores filename                                                                 
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+104                           	Help                                                                            
+117                           	Global H :                                                                      
+118                           	Global H :
+121                           	Neighborhood H :                                                                
+558                           	Neighborhood H :                                                                
+559                           	T :                                                                             
+560                           	T :                                                                             
+###################################################
+FILTER_SELECT_DLG             	Edit filter information                                                         
+4320                          	Filter 1                                                                        
+4321                          	Filter 2                                                                        
+110                           	Filter 3                                                                        
+113                           	Filter 4                                                                        
+4324                          	Filter 5                                                                        
+4325                          	Filter 6                                                                        
+4326                          	Filter 7                                                                        
+4327                          	Filter 8                                                                        
+4328                          	Filter 9                                                                        
+4329                          	Filter 10                                                                       
+4330                          	Filter 11                                                                       
+4331                          	Filter 12                                                                       
+4332                          	Filter 13                                                                       
+4333                          	Filter 14                                                                       
+4334                          	Filter 15
+4335                          	Filter 16                                                                       
+145                           	Filter 17                                                                       
+112                           	Filter 18                                                                       
+4338                          	Filter 19                                                                       
+4339                          	Filter 20                                                                       
+1                             	Ok                                                                              
+2                             	Cancel                                                                          
+104                           	Help                                                                            
+###################################################
+ADD_PRODUCT_DLG               	Add Product                                                                     
+874                           	New Product Info                                                                
+205                           	Product Number:                                                                 
+206                           	Description:                                                                    
+4320                          	Associated File                                                                 
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+WAVE_INFO_DLG                 	Edit Wavelength Information                                                     
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+104                           	Help
+205                           	NIR K:                                                                          
+206                           	NIR Phi:                                                                        
+111                           	Visible K:                                                                      
+112                           	Visible Phi:                                                                    
+###################################################
+SCAN_RANGE_DLG                	Edit Scanning Range                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+104                           	Help                                                                            
+205                           	Starting:                                                                       
+206                           	Ending:                                                                         
+111                           	Increment:                                                                      
+112                           	Starting:                                                                       
+105                           	Ending:                                                                         
+103                           	Increment:                                                                      
+106                           	Instrument Range:                                                               
+148                           	Wavelength:                                                                     
+###################################################
+CHOOSE_LIST                   	Select Equations                                                                
+1                             	OK                                                                              
+2                             	Cancel
+###################################################
+CHOOSE_MUTL                   	Choose Selections                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+PROCESSING_OPTIONS_DLG        	Processing Options                                                              
+874                           	Database File Name:                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+104                           	Help                                                                            
+4320                          	Correlation by Peaks                                                            
+4321                          	Use Sample Weights                                                              
+205                           	RSQ Cutoff for Selecting Samples:                                               
+206                           	Wavelength Weight Cutoff:                                                       
+111                           	Spectra Outlier Factor:                                                         
+112                           	Cutoff Ratio:                                                                   
+###################################################
+BIAS_ADJUST                   	Bias Adjustments                                                                
+1                             	&Ok                                                                             
+637                           	C&hange                                                                         
+2                             	&Cancel
+103                           	C&lear All                                                                      
+205                           	Bias adjustments                                                                
+147                           	&Help                                                                           
+206                           	Bias adjustment for highlighted constituent:                                    
+639                           	Edit
+                                                                            

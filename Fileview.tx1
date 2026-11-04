@@ -1,0 +1,592 @@
+-1	 
+
+-1	 
+
+0	 Position
+1	 Sample Number
+2	 Product Code
+3	 DF
+4	 Date
+5	 Time
+6	 Client Code
+7	 Operator
+8	 Standardization
+9	 Sample Identification String One
+10	 Sample Identification String Two
+11	 Sample Identification String Three
+13	 File Name:
+14	 File Type:
+15	 \040\040Prod.SYS File
+16	 \040\040Spectra File
+17	 \040\040Spectra and Constituent Data File
+18	 \040\040Spectra and Predicted Values
+19	 \040\040Predicted Value File
+20	 \040\040Constituent Data File
+21	 \040\040Monochromator Standardization File
+22	 \040\040Filter Instrument Standardization File
+23	 \040\040Multiple Regression Equation File
+24	 \040\040Equation File
+25	 \040\040ASCII File
+26	 \040\040Client Data File
+27	 \040\040Principal Components File
+28	 \040\040Virtual Master Template File
+30	 \040\040Password Protected Equation File
+31	 \040\040Pasword Protected Equation File
+32	 \040\040Library File
+33	 \040\040Calibration Loadings File
+34	 \040\040Converted Decomp File
+35	 \040\040Library File
+38	 \040\040Library II File
+44	 \040\040Neural Network File
+45	 \040\040Protected Neural Network File
+46	 \040\040Output File 1
+47	 \040\040Output File 2
+48	 \040\040Output File 3
+49	 \040\040Calculated Equations File
+50	 \040\040History File
+51	 \040\040Reduced File
+52	 \040\040Initialization File
+53	 \040\040Diagnostics File
+54	 \040\040Unknown File Type
+55	 Samples:
+56	 Deleted:
+57	 No. Data Points:
+58	 Constituents:
+59	 Date Created:
+60	 File ID:
+61	 Current Product Code:
+62	 Number of Variables:
+63	 Last Update:
+64	 File Date:
+65	 Instrument Model:
+66	 Master No:
+67	 Serial No:
+68	 Current Client Code:
+69	 File ID:
+70	 Serial No:
+71	 Rep File:
+72	 Position
+73	 Sample Number
+74	 Product Code
+75	 Del
+76	 Date
+77	 Time
+78	 Client Code
+79	 Operator
+81	 Sample ID #1
+82	 Sample ID #2
+83	 Sample ID #3
+104	 Constituent
+105	 Type
+106	 N
+107	 Mean
+108	 SD
+109	 Est. Min
+110	 Est. Max
+111	 SEC
+112	 RSQ
+113	 SECV
+114	 1-VR
+115	 #
+116	 Seq
+117	 Coefficients
+118	 F
+119	 Data Point
+120	 Wavelength
+121	 Math Treatment
+122	 File View v. 1.50
+123	 View
+124	 Edit
+125	 <zeros>
+126	 Zeros
+130	 Constituent Name:
+131	 Equation:
+132	 Control Limits:
+133	 SEP(C)
+134	 Scatter:
+135	 Regression:
+136	 Downweighted:
+137	 Number of Groups:
+138	 Number of Terms:
+139	 Number of Passes:
+140	 Critical T:
+141	 Critical H:
+142	 Segment %d
+143	 Critical F:
+144	 BIAS
+145	 Calculated Equations:
+146	 Client Number:
+147	 Client Name:
+148	 Client Name / Address:
+149	 Date:
+150	 Quantity:
+151	 Unit Price:
+152	 Total Price:
+153	 Total:
+154	 Number
+155	 Product Code:
+156	 This file contains no invoice information.
+157	 This file has been purged of all invoice information.
+158	 Original SD:
+159	 Math Treatment:\040
+160	 Number of BPN Terms:
+161	 WARNING
+162	 Could Not Allocate enough Memory!
+163	 Editing Data is only allowed in level 2 or above.
+164	 Error getting file size!
+165	 File size is invalid. Continuing.
+166	 Could not write data to file!
+168	 Could not lock file positioning memory!
+169	 Add this information as a new client?
+171	 This client number already exists!
+172	 Cannot edit Position!
+173	 Only Editing Constituent Names\012 and Sequence Numbers is allowed.
+174	 This is a protected equation file,\012Editing of this file is not permitted.
+176	 Unable to read Constituents.\012 Cannot compute statistics.
+177	 Could not lock statistics memory!
+178	 Unique Code
+179	 %u of %u
+180	 Samples of Total
+181	 Could not lock product code memory!
+183	 File is possibly corrupted.
+184	 Scanning All Samples...
+185	 Unexpected End Of File!
+186	 Setting up Display List...
+197	 YES
+198	 NO
+199	 Cannot access file!
+200	 Original B(0) =\040
+201	 Could not open file!
+202	 Cannot read file header!
+203	 Cannot write file header!
+204	 Minimum:
+205	 Maximum:
+206	 Mean:
+207	 Std. Deviation:
+208	 Total Values:
+211	 Unsupported File Type!
+212	 Could not lock list memory!
+213	 Unable to read constituents!
+214	 Could not write Preferences!
+215	 This file type cannot be viewed.
+216	 This file type cannot be viewed.\012Would you like to edit the file header information?
+218	 Cannot create file!
+219	 Scanning product codes...
+220	 Scanning client codes...
+221	 Computing Statistics...
+222	 Recompute All Statistics?
+223	 There are no samples selected.  Use Select Samples to choose samples before using this option.
+224	 Cannot create destination file!
+225	 Cannot read sample!
+226	 Cannot write sample!
+227	 Cannot set file position!
+228	 Cannot read instrument header!
+229	 Cannot write instrument header!
+230	 File View / Modify
+231	 File View\012Version 1.50
+232	 <none>
+233	 Only files with the same type may be merged.
+234	 Select an existing file whose samples are to be added to this file.  Use Cancel when finished.
+235	 The Number of Spectra Data Points are Different.\012Files Cannot be Merged.
+236	 Cannot use the same file for the source and destination!
+237	 Select the Destination File.
+238	 Could not open file %s
+239	 Merge Files...
+240	 There are no constituents in the destination file.  Merge without data?
+241	 No Names to Edit.
+242	 Sorting By Constituent...
+243	 Sorting By Position...
+244	 Sorting By Sample...
+245	 Sorting samples by product code...
+246	 Wave - Info.
+247	 Wave - Info. Columns
+248	 Standard Equations
+249	 Display Equation
+250	 Calculated Equations
+251	 Select Wave - Information Columns
+252	 Scores
+253	 Score Columns
+254	 ASCII File:
+255	 Could not lock deleted sample memory!
+256	 There are no deleted samples.
+257	 All selected samples are already deleted.
+258	 Undeleted %u of %u selected samples?
+259	 Delete %u of %u selected samples?
+260	 Purge %u deleted samples?
+261	 Choose No and change the file attributes yourself.\0122. Choose Yes to make a working copy of the file.\012\012Would you like to make a copy of this file?"
+262	 Write %u deleted samples to a file?
+263	 Select the file to write deleted samples to.
+264	 File exists!  Merge samples to this file?
+265	 Renumber deleted samples also?
+266	 This file has no constituents!
+267	 Averaging samples...
+268	 Save value before ending edit?
+291	 Cannot remove temporary file!
+292	 Unable to write constituents!
+293	 Unable to read NIR spectra data!
+294	 Unable to write NIR spectra data!
+295	 Unable to read instrument header!
+296	 Unable to write instrument header!
+297	 Reordering samples...
+298	 Importing constituents...
+299	 No constituents selected!
+300	 Cannot write to temporary file!
+301	 Cannot read from temporary file!
+302	 Setting sample constituent names...
+303	 Import Equations
+304	 Select Equations
+305	 Choose Constituents to Delete
+306	 This equation is not biased.
+307	 Cannot bias with slope zero.
+308	 Biasing the equation was successful.
+309	 Biasing was unsuccessful.
+310	 The size of the sample is invalid!
+311	 UnBiasing the equation was successful.
+312	 Bias adjustment successful.
+313	 Entry is out of bounds!
+314	 Cannot lock window data!
+315	 Not enough resources!  Close some windows and try again.
+316	 Requested data is out of the bounds of available data.
+317	 The file header information is incorrect.  Set the file header with corrected information?
+318	 Analyzing file...
+319	 File has 0 samples.  Cannot remove sample.
+320	 Writing samples to the file...
+321	 Deleting samples...
+322	 Copying samples...
+323	 All samples are selected.  There are no remaining samples.
+324	 File has no samples.  Cannot read data.
+325	 Number of Lines:
+326	 Longest Line Width:
+327	 File the remaining samples?
+328	 Select an existing file to receive the currently selected samples.  Use Cancel when finished.
+329	 Save the original file?
+330	 Choose a new name for the file.  This file will be used in the merge operation.
+331	 Choose a name for the file's copy.
+332	 The previous group insert is not complete yet!
+333	 Initialize group insert before use.
+334	 Improper file type for this function.
+335	 Searching for deleted samples...
+336	 Renumbering samples...
+337	 The number of constituents is too large or too small.
+338	 Cannot add a constituent.  A sample in this file will have more then 32 constituents.
+339	 Cannot have more than 64 equations in a file.  Cannot create or add a new constituent.
+340	 Type the name of the file to be created.  Use Cancel to quit creating files.
+341	 At least one destination file constituent has not been matched up with data.  Use zeros for missing 
+342	 Select by Position
+343	 Enter Constituent Name
+344	 No reorderable constituents.
+345	 Select by Sample Number
+346	 Components:
+347	 Coeffiecient to Delete
+348	 Wrtie equation before quitting?
+367	 Wavelength outside allowable limits.
+369	 Invalid Math Treatment.
+370	 Could not lock added equation memory!
+371	 Term by that number not found!
+372	 A valid variable name must be entered before saving!
+373	 An equation file cannot contain more than 64 samples!
+374	 File ID
+375	 File exists!  Extend it?
+376	 File exists!  Replace it?
+377	 Cannot have more than 20 terms!
+378	 ------ Equation was Entered Manually ------
+379	 Calculated Equations:
+380	 Exit to Project Manager
+381	 Open
+382	 Print
+383	 Display Options
+384	 Reorder
+385	 Select Samples
+386	 Edit Values
+387	 Product / Instrument Setup
+390	 This file has no constituents.
+391	 This file has no equations.
+392	 This file has no calculated equations.
+393	 Delete %u selected samples?
+394	 Enter Calculated Equation:
+395	 %s has been changed by another application.  Reload it?
+396	 ASCII file has too many lines!  View of file will be truncated.
+397	 Select by Client Number
+398	 Clients:
+399	 Invoice Listing:
+400	 Client File:
+401	 Enter an Expression
+402	 Could not read file %s
+403	 Could not print document!
+404	 Product not in\040
+405	 Calculating Invoice Totals...
+406	 Lines Scrolled Down:
+407	 Marking group outliers
+408	 SAMPLE #        MEAN     STD     RMS 1 ------------------------------- RMS X
+409	 Only one sample in group, no RMS possible
+410	 Overall mean:
+411	 No groups found within file.
+412	 Prod.INI
+413	 Costs
+414	 Description
+447	 Syntax error
+448	 Constituent name not found
+449	 Unbalanced parentheses
+450	 No expression present
+451	 Variable already defined
+452	 Enter input value...
+463	 Select
+464	 Enter equations from keyboard
+465	 Slope and bias adjustment
+466	 Add text
+467	 Remove text
+468	 Renumber all samples
+469	 Sort
+470	 Preferences
+471	 Average all
+472	 Reorder, add, & delete constituents
+473	 Reorder equations
+474	 Import constituents
+475	 Export
+476	 Print
+477	 Print preview
+478	 Import values from Text file
+479	 Calculate RMS of subsamples
+480	 Form?.out file
+481	 Form?.out file
+482	 Create
+483	 Match Constituent Data
+484	 Choose display spectra files
+485	 Choose display score files
+486	 Choose display for equation files
+499	 Infrasoft International, LLC.
+500	 Unable to display view
+501	 System Error
+502	 The Password Entered was Incorrect!
+503	 Index Too Large
+506	 Number of Samples to Add:
+507	 Comma
+508	 Tab
+509	 Space
+510	 Semicolon
+511	 Other...
+512	 Double Quote
+513	 Single Quote
+514	 Warning, some programs may not be able to import this many columns of data.  Continue anyway?
+516	 Default costs used:
+517	 Printing samples...
+518	 Exporting samples...
+519	 Choose a name for the output file.
+520	 Selecting all samples...
+521	 Selecting remaining samples...
+522	 Lab Basis
+523	 Dry Matter
+524	 As Received
+525	 Fixed Percent
+526	 All lab values will be Dry matter based?
+527	 Warning: Lab basis of files do not match.
+528	 Master numbers of %s and %s don't match!
+529	 Cannot use the original file as the file being written to!
+530	 Updating selected sample list with changes...
+531	 Constituent Exists, Enter a new Name
+532	 Constituent Name Already Exists!
+533	 Equation Name Already Exists!
+534	 Name must begin with a letter or have a '?' at each end!
+535	 A name may only use letters, numbers, the following characters: ~ @ # $ _, or have '?' at each end!
+536	 Name must begin with a letter!
+537	 Names may only use letters, numbers, or the following characters: ~ @ # $ _
+538	 By adding text to the sample number some or all of it will be destroyed!  Continue with this operation?
+539	 Not all of the text can be added due to the length of some sample numbers.
+540	 By adding text to the sample ID some or all of it will be destroyed!  Continue with this operation?
+541	 Not all of the text can be added due to the length of some sample IDs.
+542	 Adding text to sample numbers...
+543	 Removing text from sample numbers...
+544	 Adding text to sample IDs...
+545	 Removing text from sample IDs...
+546	 Loading constituent values...
+547	 Sorting client file...
+548	 Loadings
+552	 Cannot create directory:\040
+553	 Password Level 3 is required to edit this data.
+554	 %s already exists!\012A new name must be entered for this file.
+555	 Instrument types of %s and %s don't match!
+556	 File in use...
+557	 Calculating Constituent Values...
+558	 There were no matching samples between files!
+559	 Missing ending quote on line\040
+560	 Due to the structure of this file and the way fileview displays constituents, the reordering process may not produce a change in the order in which the constituents are displayed."
+561	 Searching for Invoice information...
+562	 Copying file information...
+563	 Reading product codes...
+564	 Selecting samples...
+565	 No samples were selected.
+567	 to printer...
+568	 on screen print preview...
+569	 to clipboard...
+570	 from clipboard...
+571	 Cannot open clipboard.
+572	 There is no text currently in the clipboard.
+573	 Generating print preview pages...
+574	 This option cannot be performed while print preview pages are being generated.
+575	 Page Number\040
+576	 Next Page
+577	 Previous Page
+578	 Close
+579	 Enter a Value from 1 to %d:
+580	 No error.
+581	 <reserved>
+582	 Form Item is not associated with a Name.
+583	 Maximum number of characters for this item has been exceeded.
+584	 Item Type does not match characters given.
+585	 Item Type given is unknown.
+586	 Insert String Value
+587	 Insert Numeric Value
+588	 Save File
+589	 Help
+590	 Form Item:
+591	 Max. Length:
+592	 Current Length:
+593	 Messages:
+594	 Correct Error
+595	 \040
+596	 Variable %2d
+597	 Sample Number
+598	 Operator
+599	 Sample ID %2d
+600	 Date
+601	 Time
+602	 Product Type
+603	 Equation Name
+604	 Equation File ID
+605	 Client Number
+606	 Client Name
+607	 Client Address Line %2d
+608	 NIR Predicted Value %2d (Dry Matter)
+609	 NIR Predicted Value %2d (As Received)
+610	 Global H Value %2d
+611	 Price of Analysis
+612	 Weight 1
+613	 Weight 2
+614	 Closest NH Value %2d
+615  \040
+616  Variable %2d:\040
+617  Sample Number:\040
+618  Operator:\040
+619  Sample ID %2d:\040
+620  Date:\040
+621  Time:\040
+622  Product Type:\040
+623  Equation Name:\040
+624  Equation File ID:\040
+625  Client Number:\040
+626  Client Name:\040
+627  Client Address Line %2d:\040
+628  Dry Matter Value %2d:\040
+629  As Received Value %2d:\040
+630  Global H Value %2d:\040
+631  Price of Analysis:\040
+632  Weight 1:\040
+633  Weight 2:\040
+634  Closest NH Value %2d:\040
+635	 This file is too large to be a form file.  To view this file try renaming with a 'txt' extension.
+636	 The characters || are special and cannot appear anywhere in a form.
+637	 File Saved Successfully
+638	 Use the \042Insert String Value\042 button to add a new string.
+639	 Use the \042Insert Numeric Value\042 button to add a new number.
+640	 A number may only have one decimal point.
+641	 Could not get Form text!
+642	 Cannot add a '?' to a Numeric Item.
+643	 Cannot add a '#' to a String Item.
+644	 Can only add a '?' to a String Item.
+645	 Can only add a '#' to a Numeric Item.
+646	 Cannot merge two String Values together.
+647	 Cannot merge two Numeric Values together.
+648	 Could not delete item
+649	 Cannot add String Item directly next to another String Item.
+650	 Cannot add Numeric Item directly next to another Numeric Item.
+651	 Cannot add a new item in the middle of another item.
+652	 Could not insert new item.
+653	 A form file must be called 'form?.out', where the ? is a letter 0-9, a-z, or A-Z.
+654  File has been changed.  Save before exiting?
+655  Error setting file size!
+656  Please use the \042Insert String Value\042 or \042Insert Numeric Value\042 button to add an item.
+657  Not allowed while text is selected.
+658  You must save your changes to this file before Print or Print Preview are used.
+800	 \040Open a window
+801	 \040Close the active window
+802	 \040Change File View preferences
+803	 \040Print the active window's contents
+804	 \040Change default printers settings
+805	 \040Preview the printer output on screen
+806	 \040Exit to Project Manager 
+807	 \040Cascade open windows
+808	 \040Tile open windows
+809	 \040Arrange icons
+810	 \040Close all open windows
+811	 \040Level 1 access
+812	 \040Level 2 access
+813	 \040Level 3 access
+814	 \040Set passwords for levels 2 and 3
+815	 \040Help contents
+816	 \040Search help on a topic
+817	 \040About File View
+818	 \040Choose display options
+819	 \040Add / Delete / Reorder data
+820	 \040Edit values in the current window's display
+821	 \040Display the on screen file header
+822	 \040Create new file(s) from selected samples
+823	 \040Deleted or undelete samples using the mouse or keyboard.
+824	 \040Undelete all selected samples
+825	 \040Purge all deleted samples from file
+826	 \040Write all deleted samples to a file
+827	 \040Delete all selected samples
+828	 \040Use the keyboard to highlight samples
+829	 \040Select all samples
+830	 \040Make no samples selected
+831	 \040Select samples by position
+832	 \040Select samples by sample number
+833	 \040Select samples by increments
+834	 \040Select random samples
+835	 \040Select samples by product code
+836	 \040Select all remaining samles
+837	 \040Unselect all samples / Select all samples
+838	 \040Average samples with the same sample number
+839	 \040Average increments of samples
+840	 \040Sort samples by reference value
+841	 \040Sort samples by sample number
+842	 \040Sort samples by product code
+843	 \040Create a histogram graph of the current file
+844	 \040Create an X vs Y plot of the current file
+845	 \040Graph the wavelength or coefficient data
+846	 \040Change, or remove, the slope and bias on an equation
+847	 \040Enter an equation from the keyboard
+848	 \040Add client information
+849	 \040Delete selected clients
+850	 \040Short format view
+851	 \040Long format view
+852	 \040View the invoices of each client
+853	 \040Sort file information by client number
+854	 \040Renumber sample numbers
+855	 \040Add text to the beginning or end of the sample number
+856	 \040Add text to the beginning or end of the sample IDs
+857	 \040Choose display options
+858	 \040Recompute statistics for the active window
+859	 \0402 dimensional display of the score data
+860	 \0403 dimensional display of the score data
+861	 \040Export selected equations to an equations file
+862	 \040Create a new calculated equation
+863	 \040Delete selected equations
+864	 \040Append empty constituent data to this file
+865	 \040Wrap out-of-bounds words onto a new line
+866	 \040Create an empty client file - *.ACC
+867	 \040Create an empty calculated equation file - *.CLC
+868	 \040Create a keyboard entered equation file - *.EQA
+869	 \040Create an LAB file - *.LAB
+870	 \040Remove text from the beginning or end of the sample number
+871	 \040Remove text from the beginning or end of the sample IDs
+872	 \040Calculate RMS of subsamples with the option to delete outliers
+873	 \040Import values from another file
+874	 \040Import values from a text file
+875	 \040Import values from current clipboard text
+876	 \040Add selected values to the calculated equations file - *.CLC
+877	 \040Add selected values from the calculated equations file to this file
+878	 \040Create a new variable with values based on a constituent equation
+879	 \040Edit product and instrument initialization files
+880	 \040Purge all invoice information from the current file
+881	 \040Export this file as a text file
+882	 \040Export the data on screen to the clipboard

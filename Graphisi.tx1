@@ -1,0 +1,142 @@
+-1	 
+
+0	 OFF
+1	 ON
+940	 Open
+941	 Abort
+942	 PrintData
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3500	 Error initializing omnipotent file
+3600	 Would you like 3D Graphics?
+3601	 Graph
+3602	 3D Graphics
+3603	 Model:
+3604	 File Date:
+3605	 Last Edit:
+3610	 Serial No:
+3611	 Master No:
+3612	 Samples (Total):
+3613	 Deleted:
+3614	 Selecting All Samples
+3615	 Zoom on
+3620	 Zoomed
+3621	 Spectrum
+3622	 Wavelength
+3623	 1st Derivative
+3624	 2nd Derivative
+3625	 3rd Derivative
+3630	 4th Derivative
+3631	 Log (1/R)
+3632	 LAB Values
+3633	 Print
+3634	 Cursor
+3635	 Plot All
+3640	 Clear
+3641	 Next
+3642	 Plotting All Spectrum
+3643	 Position
+3644	 Sample Number
+3645	 Retreiving Min and Max Values
+3650	 Mean and Standard Deviation
+3652	 Standard Deviation
+3653	 Calculating Spread
+3654	 Spread
+3655	 Summation
+3660	 Difference
+3663	 Zoom
+3664	 Sorting By Sample Number
+3665	 Sorting By Constituent
+3670	 Control
+3671	 Samples
+3672	 Reading Control Data
+3673	 Change Var
+3674	 Select Control Variable
+3675	 Wavelength out of range!
+3680	 Correlation
+3681	 Reading Correlation Data
+3683	 Zoom off
+3684	 Zoom out
+3685	 Select Var
+3690	 Pos
+3691	 Sample No
+3692	 XY Scatter
+3693	 Slope
+3694	 Reading Scatter Data
+3695	 Statistics
+3700	 Select X
+3701	 Select Y
+3703	 Rewind
+3704	 Exit
+3705	 Options
+3716	 Find Peaks
+3717	 Composite
+3720	 Computing Means
+3721	 Calculating Standard Deviation
+3722	 Close
+3723	 Cursor on
+3724	 Cursor off
+3730	 Equal axis
+3731	 Auto axis
+3732	 User axis
+3733	 Edit table
+3740	 Fit graph
+3741	 Fit limits
+3742	 Show one
+3743	 Show selected
+3750	 Are you sure you want to close this graph?
+3751	 Legend...
+3760	 The maximum number of windows has been reached
+3900	 Group size must be at least 2 for r-bar.
+3902	 Warning: Axis are too different to show equal axis.
+3904	 Error getting current project path
+3906	 Warning: Duplicate samples were found that could not be matched, which could cause data to be incorrect.
+3908	 Cannot reallocate memory
+3910	 Number of datapoints don't match
+3912	 The end of the file has been reached.  Do you wish to start at the beginning?
+3914	 It is not recommended that you do equal axis becuase the axis are too different.\nDo you wish to show e
+3916	 Cannot get device context
+3918	 You cannot zoom in that far
+3920	 There are no constituents in the input file
+3922	 No data to display
+3924	 No samples have been matched.
+3926	 There are no samples to display
+3928	 You have not calculated any peaks yet.
+3930	 Not enough constituent data in %s to compute correlation
+3932	 Not enough samples to do standard deviation
+3934	 Number of samples differ.  Continue anyway?
+3936	 Time has expired!   Do you wish to exit the program?
+3940	 Number of samples in secondary file cannot be greater than the number of samples in the primary f
+3942	 Variable

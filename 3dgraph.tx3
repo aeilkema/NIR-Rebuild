@@ -1,0 +1,50 @@
+###################################################
+InitMenu                      	                                                                                
+#POP                          	&File                                                                           
+592                           	&Open...\tCtrl+O                                                                
+287                           	E&xit to the Project Manager\tAlt+X                                             
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+MainMenu                      	                                                                                
+#POP                          	&File                                                                           
+592                           	&Open...\tCtrl+O                                                                
+163                           	&Close\tAlt+C                                                                   
+700                           	&Print...\tCtrl+P                                                               
+287                           	E&xit\tAlt+X                                                                    
+#POP                          	&3D Options                                                                     
+193                           	&Cursor                                                                         
+158                           	Cl&ear                                                                          
+812                           	&Add Secondary Files...                                                         
+192                           	Display &Cube                                                                   
+803                           	Display &Scores...                                                              
+818                           	&Display Sample Numbers and IDs...                                              
+642                           	Display Particle Si&ze Trend...                                                 
+171                           	Display Constituent &Trends...                                                  
+141                           	Calculate s&ymmetry                                                             
+340                           	Calculate &H's Based on:                                                        
+551                           	Recalculate &NH based on Cursor\tCtrl+N                                         
+520                           	Center to &Measure From:                                                        
+453                           	&Limits...                                                                      
+830                           	Show &GH outliers\tF7                                                           
+831                           	Show NH o&utliers\tF8                                                           
+420                           	Set L&abels...                                                                  
+790                           	Sa&ve Particle Size as a Constituent\tCtrl+S                                    
+#POP                          	Cli&pboard                                                                      
+176                           	Copy\tCtrl+C                                                                    
+406                           	Invert and Copy\tCtrl+I                                                         
+3905                          	Set &background color                                                           
+#POP                          	&Window                                                                         
+143                           	&Cascade                                                                        
+931                           	&Tile                                                                           
+164                           	Close &All                                                                      
+#POP                          	&Help                                                                           
+173                           	&Contents\tF1                                                                   
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About                                                                          
+###################################################
+                              	                                                                                

@@ -1,0 +1,58 @@
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	Save Options on c&hanges                                                        
+###################################################
+Secondary                     	Add Secondary Files                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+123                           	Add                                                                             
+124                           	Remove                                                                          
+862                           	Name                                                                            
+863                           	Samples                                                                         
+###################################################
+DisplayScores                 	Select Scores to be Displayed                                                   
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	# Scores                                                                        
+###################################################
+DisplayLAB                    	Select LAB Values to be Displayed                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+MarkedSamples                 	Display Sample Numbers and IDs                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+735                           	Sample Header                                                                   
+861                           	Number of Samples                                                               
+###################################################
+ConstSelect                   	Select Constituent                                                              
+861                           	Constituent                                                                     
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+SelectLimits                  	Select Limits                                                                   
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Global Limit                                                                    
+862                           	Neighborhood H                                                                  
+863                           	Chi-Square 1                                                                    
+864                           	Chi-Square 2                                                                    
+###################################################
+Label                         	Labels for selected graph                                                       
+861                           	Label number\tLabel text                                                        
+862                           	Label text                                                                      
+241                           	OK                                                                              
+2                             	Cancel                                                                          
+1                             	Set label                                                                       
+###################################################
+BackColor                     	Choose a background color                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Background color                                                                
+862                           	Note: Changes will not take effect until next time you start the program        

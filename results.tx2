@@ -1,0 +1,22 @@
+###################################################
+EDITRESOUT                    	Data to show in results                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+201                           	Results(Dm based)                                                               
+203                           	Pass/Fail                                                                       
+202                           	Results(As Is)                                                                  
+204                           	Global H                                                                        
+205                           	T Statistic                                                                     
+206                           	Neigborhood H                                                                   
+208                           	Product                                                                         
+210                           	Sample Number                                                                   
+209                           	Operator                                                                        
+211                           	Client                                                                          
+212                           	Sample Ids                                                                      
+217                           	Header output                                                                   
+206                           	Columns for constituent                                                         
+213                           	Constituent                                                                     
+###################################################
+EditText                      	New text for control label                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          

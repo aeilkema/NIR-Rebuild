@@ -1,0 +1,105 @@
+0	 Communication error
+1	 Unable to open serial port 
+2	 Received bad char %d with error code %d
+3	 Timeout sending a character to the instrument
+4	 Timeout receiving a character from the instrument
+5	 Timeout waiting for character number %d
+6	 Receiving queue overflowed
+7	 New character arrived before old character was read
+8	 Hardware detected a parity error
+9	 Hardware detected a framing error
+10	 Hardware detected a break condition
+11	 Clear_to_send timeout
+12	 Data_set_ready timeout
+13	 Receive_line_signal_detect timeout
+14	 Transmission queue overflowed
+15	 Parallel device timeout
+16	 Parallel device I/O error
+17	 Parallel device was not selected
+18	 Parallel device signaled that it is out of paper
+19	 Requested mode is not supported
+20	 Unknown communication error
+21	 Received ASCII code %d instead of the first ACK
+22	 Received ASCII code %d instead of the second ACK
+23	 Received ASCII code %d instead of the RTS
+24	 Error %d reported in header byte 5
+25	 Abort button pressed.	
+30	 Instrument error
+31	 Instrument message
+32	 Instrument code %d is not recognized
+33	 Instrument %s  Firmware version %d \nSerial number %s
+34	 Press <MODE> <STEP P> if <PRODUCT RECOGNITION> is lit.
+35	 Press <MODE> <LOG> if <LOG> is not lit.
+36	 Please scan the reference
+37	 Please insert a sample cup
+38	 Open the door
+39	 Insert sample
+40	 Open the drawer
+41	 Place probe on reference
+42	 Lowering sample into scanning position
+43	 Place probe on sample
+44	 Close the door
+45	 Close the drawer
+46	 Remove sample
+47	 and press any key
+48	 Leave drawer open
+49	 Place probe on polystyrene
+50	 Insert polystryene
+51	 Remove Polystryene
+52	 to continue
+53	 to scan
+54	 sample
+55	 reference
+56	 Moving the wavelength reference paddle
+57	 PROM checksum error
+58	 RAM read/write errror
+59	 Order sorter failure
+60	 A/D converter failure
+61	 EEPROM checksum error
+62	 Positioning motor failure
+63	 Multiple Component failure
+64	 EEPROM read/write failure
+65	 Limit switch error
+66	 UART stop bit error
+67	 Command range error
+68	 Number of cycles error
+69	 Undefined sample cell
+70	 Serial data timeout
+71	 Transport timeout
+72	 Last scan was bad
+73	 Illegal cell volume
+74	 Sample cup is jammed
+75	 Scan data appears truncated at 0
+76	 Scan data appears truncated at 65535
+77	 Scan data appears low, please check instrument response
+78	 Lamp is off
+79	 No linearization constants in instrument
+80	 Please specify a reference scan
+90	 Scan error
+91	 Drawer moved during scan - - please restart scan
+92	 Please insert sample and close the drawer
+93	 Scanning the reference standard
+94	 Please close the drawer with sample
+95	 Scanning the sample
+96	 Please open the drawer and remove the sample
+97	 Computing Log(1/R)
+98	 Could not find RTS in sicrcv
+99	 SICRCV Error
+100	 Could not find SOH in sicrcv
+101	 Could not read header_rcv in sicrcv
+102	 Could not find STX in sicrcv
+103	 Could not read data_rcv in sicrcv
+104	 Turn off the lamp
+105	 Quitting Time
+106	 Position Reference. Press OK to scan
+107	 Position sample. Press OK to scan
+108	 Checking Drawer and Paddle Positions
+109	 Getting Temperature Senor Readings
+110	 Receiving reference standard data: Segment %d
+111	 Receiving sample data: Segment %d
+113	 Reference outside of tolerances. Please clean probe(s)
+114	 Fatal a/d error
+115	 Non fatal error during last rev.
+116	 Bad spectrum
+117	 Place probe on sample and press button
+118	 Instrument Message

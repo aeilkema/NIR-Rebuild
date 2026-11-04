@@ -1,0 +1,20 @@
+###################################################
+EDITCHKOUT                    	Data to show for CheckCell                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+803                           	Results                                                                         
+805                           	Standard Deviation                                                              
+804                           	Mean                                                                            
+806                           	'T' Statistic                                                                   
+203                           	Pass/Fail                                                                       
+210                           	Sample Number                                                                   
+209                           	Operator                                                                        
+212                           	Sample Ids                                                                      
+217                           	Header output                                                                   
+206                           	Columns for constituent                                                         
+213                           	Constituent                                                                     
+802                           	?? Change in CheckCell                                                          
+###################################################
+EditText                      	New text for control label                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          

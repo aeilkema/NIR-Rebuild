@@ -1,0 +1,60 @@
+1000	 Repeatability Results Summary
+2001	 Repeatability Test has not been performed!!
+2003	 RMS
+2004	 Bias
+2005	 RMS(c)
+2006	 Nir
+2007	 Visible
+2008	 Averaged Statistical Data
+2009	 Minimum Statistical Data
+2010	 Maximum Statistical Data
+2011	 NIR Accuracy Results Summary
+2012	 NIR Accuracy Test has not been performed!!
+2013	 Scan
+2014	 Wavelength
+2015	 Reference
+2016	 Peak
+2017	 Average
+2018	 Diff
+2019	 S.D.
+2020	 Actual Value
+2021	 Suggested Value
+2022	 K
+2023	 Phi
+2024	 Error
+2025	 VISIBLE Accuracy Results Summary
+2026	 VISIBLE Accuracy Test has not been performed!!
+2027	 Response Results Summary
+2028	 Response Test has not been performed!!
+2029	 Segment
+2030	 Min Value
+2031	 Max Value
+2032	 Autogain
+2033	 (Data Pt)
+2034	 Factor
+2035	 Dark Period Values
+2036	 Diagnostics
+2037	 Instrument Model:
+2038	 Instrument Serial Number:
+2039	 Date:
+2040	 Time:
+2041	 Unable to load SimDiag.Bin
+2042	 Unable to Load Diagnostics settings
+2043	 Unable to Load 6500.dll
+2044	 Wavelength Accuracy.........
+2045	 Testing Visible Accuracy.......
+2046	 Testing NIR Accuracy.......
+2047	 Testing Repeatability.......
+2048	 Testing Response.......
+2049	 Initializing Instrument.......
+2050	 Communications Failure!
+2051	 Pass
+2052	 Fail
+2053	 Instrument Repeatability.........
+2054	 Instrument Response.........
+2055	 Unable to display view
+2056	 System Error
+2057	 SimDiag.dll Error!
+2058     Analyzing the Data.  Please Wait..
+
+

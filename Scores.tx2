@@ -1,0 +1,195 @@
+###################################################
+Calculate                     	Calculating                                                                     
+###################################################
+ClearSingle                   	Clear Specific Matches                                                          
+1                             	Done                                                                            
+158                           	Clear                                                                           
+173                           	Help                                                                            
+###################################################
+Components                    	Fraction of explainable variance in spectra                                     
+1                             	OK                                                                              
+991                           	2D of Scores                                                                    
+900                           	Abort                                                                           
+###################################################
+ChangeCutoff                  	ChangeCutoff                                                                    
+740                           	Cutoff by value                                                                 
+741                           	Cutoff by sample number                                                         
+###################################################
+EditFinalNames                	Edit Final Names                                                                
+966                           	Use Replacement                                                                 
+173                           	Help                                                                            
+1                             	Done                                                                            
+253                           	Done                                                                            
+860                           	Replacement Name                                                                
+860                           	Final Name:                                                                     
+735                           	Change Final Name                                                               
+###################################################
+EmptyDialog                   	XYPlot                                                                          
+###################################################
+Group                         	Distance and number of groups                                                   
+###################################################
+Loading                       	Scores                                                                          
+###################################################
+MainDialog                    	Score Menu                                                                      
+###################################################
+MakeLib                       	Make library file                                                               
+355                           	Do not show this message again (see Preferences)                                
+###################################################
+MatchConstituents             	Match Constituent Data                                                          
+106                           	Add Pair As Match                                                               
+159                           	Clear All                                                                       
+162                           	Clear Matches                                                                   
+251                           	Final Names                                                                     
+1                             	Done                                                                            
+2                             	Cancel                                                                          
+861                           	1.                                                                              
+862                           	2.                                                                              
+863                           	3.                                                                              
+864                           	XX.                                                                             
+865                           	XX.                                                                             
+866                           	XX.                                                                             
+867                           	XX.                                                                             
+868                           	XX.                                                                             
+869                           	XX.                                                                             
+870                           	XX.                                                                             
+871                           	XX.                                                                             
+872                           	XX.                                                                             
+873                           	XX.                                                                             
+874                           	XX.                                                                             
+875                           	XX.                                                                             
+876                           	XX.                                                                             
+877                           	XX.                                                                             
+878                           	XX.                                                                             
+879                           	XX.                                                                             
+880                           	XX.                                                                             
+881                           	XX.                                                                             
+882                           	XX.                                                                             
+883                           	XX.                                                                             
+884                           	XX.                                                                             
+470                           	XX.                                                                             
+471                           	XX.                                                                             
+885                           	.: Source File Data is Merged Under the Destination Name :.                     
+886                           	All Dest. Names Must Be Used                                                    
+887                           	Source Constituent Data Choices                                                 
+735                           	(Source, Destination) ==> Final Constituent Name                                
+###################################################
+MathTreatment                 	Math Treatment                                                                  
+865                           	&Scatter                                                                        
+861                           	Derivative                                                                      
+862                           	Gap                                                                             
+863                           	Smooth                                                                          
+864                           	Smooth 2                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+NUMBER                        	Choose a number                                                                 
+###################################################
+Options1                      	Options                                                                         
+519                           	Mean                                                                            
+781                           	Sample                                                                          
+390                           	H or R value                                                                    
+575                           	Sample number                                                                   
+391                           	H-statistic                                                                     
+775                           	R-Squared                                                                       
+###################################################
+Options2                      	Options                                                                         
+390                           	H or R value                                                                    
+575                           	Sample number                                                                   
+391                           	H-statistic                                                                     
+775                           	R-Squared                                                                       
+###################################################
+Options3                      	Options                                                                         
+391                           	H-statistic                                                                     
+775                           	R-Squared                                                                       
+505                           	Match library sample to more than one sample                                    
+###################################################
+Overwrite                     	Library                                                                         
+###################################################
+PickCon                       	Pick Constituent                                                                
+###################################################
+PickCons                      	Pick Constituents                                                               
+###################################################
+PickPca                       	Pick Loading File                                                               
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Defaults                                                                       
+792                           	&Save options on changes                                                        
+731                           	Pro&mpt user before overwritting output files.                                  
+730                           	&Prompt user when default options differ in PCA file.                           
+228                           	Display &fraction of expected variance in spectra chart.                        
+501                           	Make &backups when overwritting input files.                                    
+982                           	&Automatically set wavelengths to default values.                               
+287                           	Copy data to clipboard in Excel format                                          
+181                           	Always create temporary files                                                   
+964                           	Create temp files unless the file needed exists                                 
+924                           	Prompt user                                                                     
+###################################################
+PrintDlgBox                   	                                                                                
+###################################################
+Prog1                         	Create a score file from a  spectra file                                        
+680                           	PCA                                                                             
+681                           	PL1                                                                             
+682                           	PL2                                                                             
+600                           	Do calculations only                                                            
+###################################################
+Prog2                         	Compare a spectra file to a score file                                          
+600                           	Do calculations only                                                            
+###################################################
+Prog3                         	Select samples from a spectra file                                              
+600                           	Do calculations only                                                            
+601                           	Mark non-selected samples for deletion.                                         
+602                           	Purge non-selected samples and update loading-score files                       
+###################################################
+Prog4                         	Expand a product file with a new spectra                                        
+600                           	Do calculations only                                                            
+601                           	Delete samples not selected                                                     
+602                           	Delete and purge samples not selected                                           
+###################################################
+Prog5                         	Select local samples from a product file                                        
+600                           	Do calucations only                                                             
+601                           	Output selected samples from the product file                                   
+602                           	Combine input - output files to form a new calibration file                     
+###################################################
+SAMPLES                       	Select a sample                                                                 
+###################################################
+SelectSample                  	Select Samples                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+StatusLine                    	                                                                                
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+WaveMath                      	Wavelengths and math treatment                                                  
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+735                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+866                           	Derivative                                                                      
+867                           	Gap                                                                             
+868                           	Smooth                                                                          
+869                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+String                        	Discrim                                                                         

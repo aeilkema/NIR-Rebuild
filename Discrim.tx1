@@ -1,0 +1,66 @@
+940	 Exit to the Project Manager
+941	 Abort Calculations
+942	 Write PSD File
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3000	 Factors\t  Misses\t   Secv
+3001	 Position\t Sample\tLoc
+3002	 Position\t Sample\tLoc
+3003	 Position
+3004	 Sample number
+3005	 Location
+3100	 Develop discrim equations
+3101	 Predict groups
+3200	 Lab basis mismatch
+3202	 Calculations aborted
+3204	 Calculations Complete
+3206	 Cannot create temporary file
+3208	 %d Cross validations picks %d factors
+3210	 Number of datapoints don't match
+3212	 Elapsed time
+3214	 Finalizing
+3216	 Instrument types do not match
+3218	 Mark missed samples for deletion?
+3220	 Maximum number of terms
+3222	 Merging...
+3224	 Misses
+3226	 You must choose at least two input files
+3228	 You must choose an equation file
+3230	 Number of cross validation groups
+3232	 Performing PLS calculations %d of %d
+3234	 Predicting group %d of %d
+3236	 Totals
+3238	 Uncertain
+3440	 Hits

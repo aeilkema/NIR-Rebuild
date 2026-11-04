@@ -1,0 +1,21 @@
+###################################################
+DIAGNSTC                      	                                                                                
+#POP                          	&File                                                                           
+901                           	Use &Dialog to Select Tests                                                     
+905                           	Instrument &Response                                                            
+903                           	&Wavelength Accuracy                                                            
+902                           	&NIR Repeatability                                                              
+906                           	Display &Schedule                                                               
+907                           	&Auto-Run Scheduled Tests                                                       
+911                           	&Print Setup...                                                                 
+912                           	E&xit to Project Manager                                                        
+#POP                          	Entry &Level                                                                    
+921                           	Level &1                                                                        
+922                           	Level &2                                                                        
+923                           	Level &3                                                                        
+924                           	Set &Passwords                                                                  
+#POP                          	&Help                                                                           
+930                           	&Contents                                                                       
+931                           	&How to Use Help                                                                
+###################################################
+                              	                                                                                

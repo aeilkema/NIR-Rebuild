@@ -1,0 +1,8 @@
+Input File: c:\winisi\tentego\tcmr03.cal    REP File:  None  Date: 06-15-2007
+Math Treatment: 1, 4, 4, 1    Number of variables: 173
+Scatter Corrected: SNV and Detrend
+Downweighting passes: Yes
+
+Constituent: Eiwit    Number of samples: 106
+Sample Numbr Posn Pass   Actual     Pred   resid    'T'    'H'    'E'
+      126988    7    1    26.83    22.09    4.74   5.06   0.74   1751

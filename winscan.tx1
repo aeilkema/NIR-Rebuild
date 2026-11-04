@@ -1,0 +1,253 @@
+0	 Communication error
+1	 Port %s is not available on your computer
+2	 Received bad char %d with error code %d
+3	 Timeout sending a character to the instrument
+4	 Timeout receiving a character from the instrument
+5	 Timeout waiting for charter number %d
+6	 Receiving queue overflowed
+7	 New character arrived before old character was read
+8	 Hardware detected a parity error
+9	 Hardware detected a framing error
+10	 Hardware detected a break condition
+11	 Clear_to_send timeout
+12	 Data_set_ready timeout
+13	 Receive_line_signal_detect timeout
+14	 Transmission qeueue overflowed
+15	 Parallel device timeout
+16	 Parallel device I/O error
+17	 Parallel device was not selected
+18	 Parallel device signaled that it is out of paper
+19	 Requested mode is not supported
+20	 Unknown communication error
+21	 Received ASCII code %d instead of the first ACK
+22	 Received ASCII code %d instead of the second ACK
+23	 Received ASCII code %d instead of the RTS
+24	 Error %d reported in header byte 5
+30	 Instrument error
+31	 Instrument message
+32	 Instrument code %d is not recognized
+33	 Instrument code %d  Firmware version %d
+34	 Press <MODE> <STEP P> if <PRODUCT RECOGNITION> is lit.
+35	 Press <MODE> <LOG> if <LOG> is not lit.
+36	 Please scan the reference
+37	 Please insert a sample cup
+38	 Open the door
+39	 Insert sample
+40	 Open the drawer
+41	 Place probe on reference
+42	 Lowering sample into scanning position
+43	 Place probe on sample
+44	 Close the door
+45	 Close the drawer
+46	 Remove sample
+47	 and press any key
+48	 Leave drawer open
+49	 Place probe on polystyrene
+50	 Insert polystryene
+51	 Remove Polystryene
+52	 to continue
+53	 to scan
+54	 sample
+55	 reference
+56	 Moving the wavelength reference paddle
+57	 PROM checksum error
+58	 RAM read/write errror
+59	 Order sorter failure
+60	 A/D converter failure
+61	 EEPROM checksum error
+62	 Positioning motor failure
+63	 Multiple Component failure
+64	 EEPROM read/write failure
+65	 Limit switch error
+66	 UART stop bit error
+67	 Command range error
+68	 Number of cycles error
+69	 Undefined sample cell
+70	 Serial data timeout
+71	 Transport timeout
+72	 Last scan was bad
+73	 Illegal cell volume
+74	 Sample cup is jammed
+75	 Scan data appears truncated at 0
+76	 Scan data appears truncated at 65535
+77	 Scan data appears low, please check instrument response
+78	 Lamp is off
+79	 No linearization constants in instrument
+80	 Please specify a reference scan
+90	 Scan error
+91	 Drawer moved during scan - - please restart scan
+92	 Please insert sample and close the drawer
+93	 Scanning the reference standard
+94	 Please close the drawer with sample
+95	 Scanning the sample
+96	 Please open the drawer and remove the sample
+97	 Computing Log(1/R)
+98	 Could not find RTS in sicrcv
+99	 SICRCV Error
+100	 Could not find SOH in sicrcv
+101	 Could not read header_rcv in sicrcv
+102	 Could not find STX in sicrcv
+103	 Could not read data_rcv in sicrcv
+104	 Turn off the lamp
+105	 Quitting Time
+244	 Specify the analysis output file
+245	 Specify the spectra output file
+246	 Specify the Ascii output file for predicted results
+600	No Product Loaded!
+601	No Clients Loaded!
+602	No Checkcell entry located
+603	Checkcell Error!!
+604	Customer Care not available in this version!
+605	Please Enter a value for %s
+606	LAYOUT--ADMINISTRATOR ONLY!!
+607	Communications Status
+608	Instrument Offline!!
+609	User Aborted Data Collection!
+610	Fatal Error While Analyzing
+611	Please wait. Analyzing sample...
+612	Current Product selected is --->
+613	No more than 25 Operators allowed 
+1005	 Print analysis reports
+1006	 Display printer output on the screen
+1007	 Change the printer and printing options
+1008	 Quit the application
+1009	 Begin the sample scan
+1019	 Display help for clicked on buttons
+1023	 Scanning
+1024	 Standardizing the spectrum
+1025	 Performing a real-time custom calibration
+1026	 Storing results
+1027	 Analysis complete
+1028	 Analysis resulted in error
+1029	 Sample number:
+1030	 Notes:
+1031	 Instrument and equation do not match
+1032	 Serial number of equation does not match serial number of instrument
+1033	 Unauthorized access
+1034	 Number of variables cannot exceed 64
+1037	 Predicting constituent values
+1040	 Cannot create file %s
+1043   Cannot open file %s
+1046	 file not found.  Cannot create local calibration
+1047	 file not found.  Cannot calculate H's
+1048	 file not found.  Cannot predict sample
+1049	 file not found.  Cannot standardize sample
+1050	 file not found.  Cannot find neighbors
+1051	 RED file wavelength range and data range do not match
+1052	 No change in checkcell
+1053	 1 Analysis has changed
+1054	 %d Analysis have changed
+1055	 Reading Library file
+1056	 Reading repeatiblity file
+1057	 Reading file
+1058	 Making Predictions
+1059	 Initializing
+1060	 No Wavelengths
+1061	 Store spectra in NIR file?
+1062	 Store results in ANL file?
+1063	 Store report in ASCII file?
+1064	 Print report on printer?
+1065	 Predicted results
+1066	 Sub-sample
+1067	 Sequential scan
+1068	 Checkcell results
+1069	 Previous checkcell results
+1070	 Ok
+1071	 Cancel
+1072	 Sequential scan %d of %d
+1073	 Next subsample
+1074	 Sub-sample scan %d of %d
+1075	 Mean
+1076	 Std
+1077	 Value
+1078	 T
+1079	 Constituent
+1080	 As received
+1081	 Dm basis
+1082	 Global H
+1083	 Neighbor H
+1084	 No
+1085	 By Product
+1086	 One file
+1087	 Unable to display view
+1088	 System error
+1089	 Printing
+1090	 Save any Client changes?
+1091	 Insufficient local memory to continue.
+1093	 Insufficient global memory to continue.
+1094	 Custom
+1095	 MSC cannot be used on reduced files.
+1096	 Memory overload. Try reducing the max number of samples or the number of wavelengths
+1097	 Local Memory
+1098	 Serial number of instrument does not match serial number of standardization
+1099	 Overwrite file
+1100	 Sample number file is empty
+1101	 Sample number error
+1102	 Blanks are not allowed for sample number
+1103	 Sample confirmation
+1104	 Client Help
+1105	 Wet Dry Help
+1106	 Cost Help
+1107	 Preferences
+1108	 Entering Calculated Values
+1109	 File Id Help
+1110	 Unable to load Text.dll
+1111	 file not found.  Unable to load client info
+1112	 file not found.  Unable to load checkcell info
+1113	 Cannot extend file %s, serial # %s, with serial # %s
+1114	 Cannot extend file %s with %d datapoints, with %d datapoints
+1115	 Cannot open file %s
+1116	 Unable to load %s
+1117	 Subsample %d of %d,  Rms = %8.0f, Limit = %d
+1118	 Subsample %d of %d
+1119	 Product:
+1120	 Id line 1:
+1121	 Id line 2:
+1122	 Id line 3:
+1123	 Total RMS of %d scans = %8.0f, Limit = %d, Requested scans = %d
+1124	 End of file encounter for %s.  Restart at beginning?
+1125	 Insuffcient Memory to continue
+1126	 Error Writing to file
+1127	 Error Reading file
+1128	 Cannot Create file
+1129	 Cannot Open file
+1130	 Cannot find file
+1131	 Unable to locate product
+1132	 Program operation and files
+1133	 Store Checkcell values?
+1134	 Analysis display
+1135	 Unable to load any Products
+1136	 Auto Scanning was aborted.
+1137	 Invalid MuxList File.  Scanning aborted.
+1138	 Invalid Mux Channel.  Scanning aborted.
+1139	 Expansion RED file datapoints don't match the DLL
+1140	 Expansion RED file constituents don't match the DLL
+1141	 xvar is 0 -- check for floating point error... output may be wrong
+1142	 Datapoints in PSD file don't match those in the input file
+1143	 Unable to open discriminate file
+1144	 Unable to load %s
+1145	 The Password Entered was Incorrect!
+1146	 Error reading in data
+1147	 Can't find winscan ini file.  Defaults will be used
+1148	 Please place the BH-B Rainbow Sentinel on LPT1:
+1149	 Best Product <%s> (%s = %6.4lf) 
+1150	 Discriminate Results
+1151	 Unable to locate %s! Try another product
+1152	 Syntax error
+1153	 Constituent name not found
+1154	 Unbalanced parentheses
+1155	 No expression present
+1156	 Variable already defined
+1157	 Client not found
+1158	 Client error
+1159	 No Prod.ini file present. Create it?
+1160	 Prod.ini error
+1161	 Uncertain of group
+1162	 Certain of group
+1163   Best Product <%s>, (Distance=%6.4lf)
+1164   Product member of group!
+1165   Product NOT member of group!
+1166	 Number of Seeds to scan must be between 1 and 23
+1401	 File operations
+1402	 Scan samples
+1403	 Help commands

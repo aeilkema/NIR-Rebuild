@@ -1,0 +1,84 @@
+940	 Exit to the Project Manager
+941	 Abort Calculations
+942	 Continue
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3000	 Index\t  Pos\tSample\t\t  Residual\t   T-value
+3001	 SEC             SEV             SEP
+3002	 ITER\t      SEC\t\t      1-VR\t\t      SEV\t\t      1-VR
+3003	 ITER\t   SEC\t\t  1-VR\t       SEV\t      1-VR
+3004	 Throw out Calibration outliers?
+3005	 Display OLN file?
+3006	 Sample Number
+3010	 Predicted
+3011	 Actual
+3012	 Diff
+3013	 'T'
+3014	 Number of samples in Calibration set %d out of %d
+3015	 Number of samples in Validation set %d out of %d
+3020	 Number of samples in Test set %d out of %d
+3021	 ITER
+3022	 SEC
+3023	 SEV
+3024	 1-VR
+3025	 There are no predicted values in the validation set.
+3026	 There are no actual samples to display
+3027	 There are no difference values to display
+3100	 Calculating initial weights
+3102	 Calibration aborted
+3104	 Calibration complete
+3106	 Change learn factor
+3108	 Change momentum factor
+3110	 Constituents
+3112	 Press continue to resume
+3114	 Elapsed time
+3116	 Creating network struct
+3118	 Group size of constituent values for testing
+3120	 Hidden learn
+3122	 Hidden momentum
+3124	 Hidden transfer
+3126	 You must choose an input file
+3128	 There are no predicted values to display
+3130	 No range in data
+3132	 Output learn
+3134	 Output momentum
+3136	 Output transfer
+3138	 PCA regression
+3140	 No terms in pls2 -- cannot continue
+3142	 PLS regression
+3144	 Range in sigmoid curve transformation
+3146	 Reading data file
+3148	 Start option for network calculations
+3150	 Testing interval for screen output

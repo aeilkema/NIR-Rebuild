@@ -1,0 +1,36 @@
+Error 00001. 0x300010:
+Resource leak: The memory block (0x35470DA6) was never freed
+
+The memory block (0x3547:0DA6) [size: 81 bytes] was allocated with malloc
+Call Tree:
+   0x37AF:6893(=DIAGNSTC.EXE:0x01:6893)
+
+------------------------------------------
+Error 00002. 0x300010:
+Resource leak: The Windows module (0x254F) was never freed
+
+The Windows module (0x0000:254F) was loaded with LoadLibrary
+Call Tree:
+   0x37AF:5C6D(=DIAGNSTC.EXE:0x01:5C6D)
+
+------------------------------------------
+Error 00003. 0x300010:
+Resource leak: The memory block (0x35470DFE) was never freed
+
+The memory block (0x3547:0DFE) [size: 512 bytes] was allocated with malloc
+Call Tree:
+   0x37AF:4BA4(=DIAGNSTC.EXE:0x01:4BA4)
+   0x360F:2BAE(=CG16.DLL:0x07:2BAE)
+   0x37AF:076F(=DIAGNSTC.EXE:0x01:076F)
+   0x37AF:33AA(=DIAGNSTC.EXE:0x01:33AA)
+
+------------------------------------------
+Functions called:
+ malloc (2 times)
+ setvbuf (2 times)
+ isatty (2 times)
+ LoadLibrary (1 times)
+Resource types used:
+ memory block (2 allocs, 2 max)
+ Windows module (1 allocs, 1 max)
+==========================================

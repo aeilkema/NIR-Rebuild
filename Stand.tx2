@@ -1,0 +1,253 @@
+###################################################
+MainDialog                    	Standardization Menu                                                            
+860                           	Standardization Options                                                         
+710                           	NIRSystems Instrument                                                           
+711                           	Monochrometer to Monochrometer                                                  
+712                           	Monochrometer to Filter                                                         
+713                           	Filter to Filter                                                                
+287                           	E&xit to Project Manager                                                        
+###################################################
+StandInst                     	Standardization                                                                 
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+863                           	Input Files                                                                     
+833                           	Host instrument characterization filename                                       
+502                           	Master instrument characterization filename                                     
+864                           	Output File                                                                     
+620                           	Instrument standardization filename                                             
+###################################################
+StandFile                     	Standardization                                                                 
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+863                           	Input Files                                                                     
+833                           	Host instrument characterization filename                                       
+502                           	Master instrument evaluation filename                                           
+852                           	Instrument standardization filename                                             
+864                           	Output File                                                                     
+620                           	Standardized host output filename                                               
+###################################################
+Offset                        	Offset files                                                                    
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+861                           	Input Files                                                                     
+405                           	Input filename                                                                  
+502                           	Comparison filename                                                             
+590                           	Offset filename                                                                 
+862                           	Output File                                                                     
+620                           	Output filename                                                                 
+103                           	Sample number in offset file to be added                                        
+902                           	Sample number in offset file to be subtracted                                   
+###################################################
+Trim                          	Trim files                                                                      
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+861                           	Input Files                                                                     
+405                           	Input filename                                                                  
+502                           	File containing reduced wavelength range                                        
+862                           	Output File                                                                     
+620                           	Output filename                                                                 
+###################################################
+Clone1a                       	NIRSystems monochromator instruments - Create a Standardization file            
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+861                           	Input files                                                                     
+833                           	&Host file                                                                      
+502                           	&Master file                                                                    
+862                           	Output file                                                                     
+620                           	&Standardization file                                                           
+170                           	&Compute scale factor                                                           
+###################################################
+Clone1b                       	NIRSystems monochromator instruments - Convert a Host Spectra file              
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+861                           	Input files                                                                     
+833                           	&Host file                                                                      
+891                           	&STD file                                                                       
+860                           	Output file                                                                     
+620                           	Host &output file                                                               
+###################################################
+Clone2a                       	Infratec Instruments - Create a Standardization file                            
+141                           	&Calculate                                                                      
+783                           	Samples to use for Standardization                                              
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+103                           	&Host files                                                                     
+206                           	&Remove column                                                                  
+1                             	&Change filename -->                                                            
+502                           	Master characterization sample file                                             
+3040                          	Master test file                                                                
+860                           	Host characterization sample files                                              
+861                           	Host test files                                                                 
+891                           	Create standardization output files                                             
+552                           	Create modified host test output files                                          
+###################################################
+Clone2b                       	Infratec Instruments - Convert a Host Spectra file                              
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+861                           	Input files                                                                     
+833                           	&Host characterization sample file                                              
+891                           	&Standardization input file                                                     
+862                           	Output file                                                                     
+620                           	Modified host output file                                                       
+###################################################
+SlopeBias                     	Infratec Instruments - Slope & Bias Adjustment                                  
+141                           	&Calculate                                                                      
+783                           	Samples to use for slope/bias correction                                        
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+103                           	&Host files                                                                     
+206                           	&Remove column                                                                  
+1                             	&Change filename -->                                                            
+502                           	Master characterization sample file                                             
+3040                          	Master test file                                                                
+285                           	Equation file                                                                   
+860                           	Host evaluation sample files                                                    
+861                           	Host test files                                                                 
+109                           	Create ANL host test output files                                               
+###################################################
+II                            	Infratec Instruments - Convert Host Spectra files                               
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+287                           	E&xit to the Project Manager                                                    
+103                           	&Host files                                                                     
+891                           	Change all &STD files                                                           
+206                           	&Remove column                                                                  
+1                             	&Change filename -->                                                            
+860                           	Host characterization sample files                                              
+861                           	&Standardization input files                                                    
+620                           	Create Modified host output files                                               
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+StatusLine                    	                                                                                
+###################################################
+NUMBER                        	Choose a number                                                                 
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+860                           	&Number                                                                         
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	&Save options on changes                                                        
+731                           	&Prompt before overwriting files                                                
+###################################################
+List                          	                                                                                
+1                             	Yes                                                                             
+2                             	No                                                                              
+###################################################
+YesNoAll                      	                                                                                
+995                           	&Yes                                                                            
+554                           	&No                                                                             
+996                           	Yes to &All                                                                     
+555                           	N&o to All                                                                      
+862                           	Static                                                                          
+###################################################
+YesAll                        	                                                                                
+995                           	&Yes                                                                            
+554                           	&No                                                                             
+996                           	Yes to &All                                                                     
+862                           	Static                                                                          
+###################################################
+SelectSamples                 	Select Samples                                                                  
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	&Select All                                                                     
+961                           	Cl&ear                                                                          
+406                           	&Invert                                                                         
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+SelectSample                  	Select Samples                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+Var                           	Standardization                                                                 
+1                             	&OK                                                                             
+###################################################
+Var2                          	Standardization                                                                 
+1                             	&OK                                                                             
+###################################################
+CalcComplete                  	Calculations complete                                                           
+163                           	&Change Options                                                                 
+220                           	&Go to the filelist dialog box                                                  
+774                           	&Show Spectrum graph                                                            
+287                           	&Exit to the Project Manager                                                    
+###################################################
+Text                          	Output                                                                          
+1                             	&OK                                                                             
+790                           	&Save as...                                                                     
+700                           	&Print...                                                                       
+2                             	&Don't show again                                                               
+###################################################
+Change                        	Change STD files                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+3200                          	Position 1                                                                      
+3201                          	Position 2                                                                      
+3202                          	Position 3                                                                      
+3203                          	Position 4                                                                      
+3204                          	Position 5                                                                      
+3205                          	Position 6                                                                      
+3206                          	Position 7                                                                      
+3207                          	Position 8                                                                      
+###################################################
+Options1                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+861                           	Number of outlier downweighting passes                                          
+862                           	Critical value for starring small explainable variation                         
+561                           	Number of omitted samples                                                       
+981                           	Turn off wavelength adjustment                                                  
+656                           	Turn off photometric adjustment                                                 
+###################################################
+Options2                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+861                           	Critical 'T' for starring large RMS values                                      
+862                           	Critical 'T' for starring extreme BIAS values                                   
+561                           	Number of omitted samples                                                       
+###################################################
+Options3                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+861                           	Number of outlier downweighting passes                                          
+862                           	Number of scale standardizations                                                
+863                           	Number of terms                                                                 
+864                           	Critical value for starring small explainable variation                         
+207                           	Derivatize the spectra                                                          
+835                           	Smooth the loadings                                                             
+561                           	Number of omitted samples                                                       
+###################################################
+Options4                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+861                           	Critical 'T' for starring large RMS values                                      
+862                           	Critical 'T' for starring extreme BIAS values                                   
+863                           	Critical 'T' for starring small explained variation values                      
+561                           	Number of omitted samples                                                       
+###################################################
+String                        	Discrim                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         

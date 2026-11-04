@@ -1,0 +1,302 @@
+###################################################
+DisplayMenu                   	                                                                                
+#POP                          	&File                                                                           
+174                           	&Continue\tCtrl+C                                                               
+790                           	Save as...\tCtrl+S                                                              
+700                           	Print...\tCtrl+P                                                                
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Graph                                                                          
+331                           	&Show spectrum graph                                                            
+#POP                          	&Help                                                                           
+346                           	Display\tF1                                                                     
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+InitMenu                      	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Help                                                                           
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+Clone1Menu                    	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+3030                          	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&NIRSystems monochromator instruments\tF1                                       
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandInstrumentMenu1          	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+562                           	Number of &outlier downweighting passes                                         
+-1                            	&Critical value for starring small explainable variation                        
+561                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Monochromator to monochromator instruments\tF1                                 
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandFileMenu1                	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+186                           	Critical 'T' for starring large &RMS values                                     
+182                           	Critical 'T' for starring extreme &BIAS values                                  
+308                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Monochromator to monochromator instruments\tF1                                 
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandInstrumentMenu2          	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+207                           	Deri&vatize the spectra                                                         
+835                           	&Smooth the loadings                                                            
+562                           	Number of &outlier downweighting passes                                         
+563                           	Number of s&cale standardizations                                               
+564                           	Number of &terms                                                                
+-1                            	&Critical value for starring small explainable variation                        
+561                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Monochromator to filter instruments\tF1                                        
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandFileMenu2                	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+186                           	Critical 'T' for starring large &RMS values                                     
+182                           	Critical 'T' for starring extreme &BIAS values                                  
+-1                            	Critical 'T' for starring small explained &variation values                     
+308                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Monochromator to filter instruments\tF1                                        
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandInstrumentMenu3          	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+207                           	Deri&vatize the spectra                                                         
+835                           	&Smooth the loadings                                                            
+562                           	Number of &outlier downweighting passes                                         
+563                           	Number of s&cale standardizations                                               
+564                           	Number of &terms                                                                
+-1                            	&Critical value for starring small explainable variation                        
+561                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Filter to filter instruments\tF1                                               
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+StandFileMenu3                	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Options                                                                        
+186                           	Critical 'T' for starring large &RMS values                                     
+182                           	Critical 'T' for starring extreme &BIAS values                                  
+-1                            	Critical 'T' for starring small explained &variation values                     
+308                           	Number of o&mitted samples                                                      
+202                           	Restore default options                                                         
+141                           	&Begin Processing                                                               
+#POP                          	&Help                                                                           
+346                           	&Filter to filter instruments\tF1                                               
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+PopupMenu                     	                                                                                
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+###################################################
+OffsetTrimMenu                	                                                                                
+#POP                          	&File                                                                           
+710                           	&NIRSystems Instrument                                                          
+719                           	&Infratec Instruments                                                           
+#POP                          	&Monochromator to Monochromator                                                 
+711                           	&Instrument                                                                     
+712                           	&File                                                                           
+713                           	&Offset                                                                         
+714                           	&Trim                                                                           
+#POP                          	Monochromator &to Filter                                                        
+715                           	&Instrument                                                                     
+716                           	&File                                                                           
+#POP                          	&Filter to Filter                                                               
+717                           	&Instrument                                                                     
+718                           	&File                                                                           
+220                           	&Display filelist dialog box\tCtrl+D                                            
+706                           	&Print setup...                                                                 
+287                           	&Exit to Project Manager\tAlt+X                                                 
+#POP                          	&Help                                                                           
+346                           	&Monochromator to monochromator instruments\tF1                                 
+173                           	&Contents\tCtrl+F1                                                              
+810                           	&Search for Help On\tShift+F1                                                   
+392                           	&How to Use Help                                                                
+102                           	&About...                                                                       
+###################################################
+                              	                                                                                

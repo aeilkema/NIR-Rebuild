@@ -1,0 +1,572 @@
+-1	 
+
+1	 Position
+2	 Sample Number
+3	 Product Code
+4	 DF
+5	 Date
+6	 Time
+7	 Client Code
+8	 Operator
+9	 Standardization
+10	 Sample Identification String One
+11	 Sample Identification String Two
+12	 Sample Identification String Three
+13	 
+14	 File Name:
+15	 File Type:
+16	 *.SYS File
+17	 *.NIR Spectra file
+18	 *.CAL Spectra and Constiuent Data File
+19	 *.CHK Spectra and Predicted Values
+20	 *.ANL Predicted value File
+21	 *.LAB Constituent Data File
+22	 *.STD Monochromator Standardization File
+23	 *.VRT Filter Instrument Standardization File
+24	 *.EQA Multiple Regression Equation File
+25	 *.EQA Reserved Equation File
+26	 *.DAT Text file
+27	 *.ACC Client Data File
+28	 *.PCA Principal Components File
+29	 *.VMR Virtual Master Template File
+30	 reserved
+31	 *.EQA Password Protected File
+32	 *.EQA Pasword Protected Type 2 File
+33	 *.LIB Library File
+34	 *.LOD Equation File
+35	 *.DEC File
+36	 *.PLS, *.LB1, PLS or Library I File
+37	 *.PL1 File
+38	 reserved 
+39	 *.LB2 Library II File
+40	 *.PL2 File 
+41	 reserved
+42	 *.PSD File
+43	 reserved
+44	 reserved
+45	 *.NET File
+46	 reserved
+47	 reserved
+48	 Samples:
+49	 Deleted:
+50	 No. Data Points:
+51	 Constituents:
+52	 Date Created:
+53	 File ID:
+54	 Current Product Code:
+55	 Number of Variables:
+56	 Last Update:
+57	 File Date:
+58	 Instrument Model:
+59	 Master No:
+60	 Serial No:
+61	 Current Client Code:
+62	 File ID:
+63	 
+64	 Position
+65	 Sample Number
+66	 Product Code
+67	 Delete Flag
+68	 Date
+69	 Time
+70	 Client Code
+71	 Operator
+73	 Sample ID #&1
+74	 Sample ID #&2
+75	 Sample ID #&3
+77	 Select Constituents...
+78	 Switch to Modify
+79	 Switch to View
+81	 Equation Filename
+82	 Equation File Date
+83	 Equation File Time
+84	 Equation File Size
+85	 Standardization Filename 
+86	 Standardization File Date
+87	 Standardization File Time
+88	 Standardization File Size
+89	 Primary Serial Number
+90	 Secondary Serial Number
+91	 NIR/NIT Spectral Data
+92	 Next Product/Client
+93	 Previous Product/Client
+94	 First Product/Client
+95	 Last Product/Client
+96	 View H-Values
+97	 Pick Background Bitmap...
+98	 Default Background Bitmap...
+99	 Constituent
+100	 Type
+101	 N
+102	 Mean
+103	 SEC
+104	 RSQ
+105	 SECV
+106	 1-VR
+107	 #
+108	 Seq
+109	 Coefficients
+110	 F
+111	 Data Point
+112	 Wavelength
+113	 Math Treatment
+114	 Long Format
+115	 Short Format
+116	 Invoice List
+117	 Sort by Client Number
+118	 Next Equation
+119	 Previous Equation
+120	 First Equation
+121	 Last Equation
+122	 View Calculated Equations
+123	 Constitiuent Stats
+124	 Adjust Slope and Bias
+125	 Enter Equation From Keyboard
+126	 View Calculated Equations
+127	 View Calculations File
+128	 Import Equations From File
+129	 Add New Calculation
+130	 Delete Highlighted Calculaion
+131	 Add Equation
+132	 Delete Highlighted Equations
+133	 Add Highlighed Calculations to Equation File
+134	 Create New Calculation
+135	 Delete Highlighted Calculations
+136	 List all Samples
+137	 List by Product
+138	 List by Single Product
+139	 List by Client
+140	 List by Single Client
+141	 Create Sample Numbers
+142	 Import Lab Values
+143	 
+144	 Renumber samles
+145	 Add text strings to numbers
+146	 Add text strings to sample IDs
+147	 
+148	 
+149	 Graphic View - 
+150	 File View / Modification
+151	 View - 
+152	 Edit - 
+153	 <zeros>
+154	 Zeros
+155	 \\
+156	 
+157	 
+158	 
+159	 %12.6f
+160	 Constituent Name:
+161	 Eqation:
+162	 Control Limit:
+163	 SEP(C):
+164	 Scatter:
+165	 Regression:
+166	 Downweighted:
+167	 Number of Groups:
+168	 Number of Terms:
+169	 Number of Passes:
+170	 Critical T:
+171	 Critical H:
+172	 Segment %d
+173	 Critical F:
+174	 
+175	 Calculated Equations:
+176	 Client Number:
+177	 Client Name:
+178	 Client Address:
+179	 Date:
+180	 Description
+181	 Quantity
+182	 Unit Price
+183	 Total Price
+184	 Total
+185	 Number
+186	 
+187	 
+188	 
+189	 
+190	 
+191	 
+192	 WARNING
+193	 Could Not Allocate enough Memory!
+194	 Editing Data is only allowed in level 2 or above.
+195	 Error getting file size!
+196	 File size is invalid. Continuing.
+197	 Could not write data to file!
+198	 Could not lock sorting memory!
+199	 Could not lock file positioning memory!
+200	 Add this information as a new client?
+201	 ADD CLIENT:
+202	 This client number already exists, add client anyway?
+203	 Cannot edit Position!
+204	 Only Editing Constituent Names\012 and Sequence Numbers is allowed.
+205	 This is a protected equation file,\012Editing of this file is not permitted.
+206	 \\options.isi
+207	 Unable to read Constituents.\012 Cannot compute statistics.
+208	 Could not lock statistics memory!
+209	 Unique Code
+210	 %d of %d
+211	 Samples of Total
+212	 Could not lock product code memory!
+213	 Cannot complete reordering of constituents!\012No changes made.
+214	 File is possibly corrupted.
+215	 Scanning All Samples...
+216	 Unexpected End Of File!
+217	 Computing Locations...
+218	 Could not write to ouput file!
+219	 Could not lock equation file memory!
+220	 Cannot create a new file to put reordered equations in. No Changes Made!
+221	 Cannot replace old file with the reordered version. No Changes Made!
+222	 Cannot rename temporary file.
+223	 Record this file name. It is the Reordered file:\012
+224	 PLS
+225	 Stepwise
+226	 None
+227	 NSVD
+228	 NSV
+229	 DET
+230	 MSC
+231	 MMSC
+232	 IMSC
+233	 YES
+234	 NO
+235	 Cannot access file!
+236	 B(%3d) = %9.4f
+237	 Original B(0) = 
+238	 Add Equations to 
+239	 Copy %d highlighted equations to the eqaution file?
+240	 Delete Equations from 
+241	 Delete %d highlighted equations from the eqaution file?
+242	 Calculated Equations File:
+243	 Could not open file!
+244	 Cannot delete original file!
+245	 New file name is 
+246	 Equation Files (*.eqa)|*.eqa|
+247	 Cannot read file header!
+248	 Cannot write file header!
+249	 Could not read calculated equation.
+250	 %d of %d Calcualted equations have been added.
+251	 Cannot write calculated equation to file.
+252	 Cannot write file header!
+253	 Constituent Value 
+254	 MINIMUM:
+255	 MAXIMUM:
+256	 MEAN   :
+257	 STD. DEVIATION:
+258	 TOTAL VALUES  :
+259	 unused statistic
+260	 unused statistic
+261	 There are no Equations in this file!
+262	 This file is the wrong type!
+263	 Could not lock names memory!
+264	 Could not lock list memory!
+265	 This file type cannot be viewed.
+266	 Unable to read constituents!
+267	 Cannot read Preferences!
+268	 Could not write Preferences!
+269	 Cannot edit the header of this file type.
+270	 This file has no calculated equations!
+271	 This file type cannot be viewed.
+272	 Would you like to edit the file header information?
+273	 New.lab
+274	 New.dat
+275	 New.dat
+276	 New Con 
+277	 Cannot create file!
+278	 Error Creating File!
+279	 Scanning product codes...
+280	 Scanning client codes...
+281	 Assembling samples...
+282	 No statistics availalbe.
+283	 Level 1 Password Required!
+284	 Level 2 Password Required!
+285	 Level 3 Password Required!
+286	 Computing Statistics...
+287	 Cannot edit Product Code!
+288	 Recompute All Statistics?
+289	 Select a window with statistics and try again.
+290	 '%s' already exists and cannot be overwritten.
+291	 There are no Samples Selected.
+292	 Cannot create destination file!
+293	 Cannot open source file!
+294	 Cannot read sample!
+295	 Cannot write sample!
+296	 Cannot set file position!
+297	 Cannot read instrument header!
+298	 Cannot write instrument header!
+299	 Cannot open destination file!
+300	 A file needs to be opened to perform this operation.
+301	 Unable to display dialog box!
+302	 Invalid sample to access!
+303	 Samples cannot be marked for delete with this filetype.
+304	 File View / Modify
+305	 <empty>
+306	 <none>
+307	 Bitmap Files (*.bmp)|*.bmp|
+308	 Scan Date
+309	 Selecting All Samples...
+310	 Select Samples to Graph
+311	 Select Samples to Split
+312	 Select Samples to Merge
+313	 Select Samples to Reorder
+314	 Select Samples to Delete
+315	 Select Samples to Average
+316	 Select Samples
+317	 This File Was Opened as a Copy! It Cannot be Modified.
+318	 Delete These Samples?
+319	 Only files with the same type may be merged.
+320	 Select the File to Merge the Samples With.
+321	 The Number of Spectra Data Points are Different.\012Files Cannot be Merged.
+322	 Constituents are Different.\012Files Cannot be Merged.
+323	 Select the Destination File.
+324	 Could not open file %s
+325	 Cannot write constituent names!
+326	 Merge Files...
+327	 There are no constituents in the destination file.  Merge without data?
+328	 The source file has no constituent data.  Use zeros as merge data?
+329	 Cannot access constituents.
+330	 No Matches to Clear.
+331	 No more than 32 consituents allowed.
+332	 No Names to Edit.
+333	 Sorting By Constituent...
+334	 
+335	 Sorting By Sample...
+337	 No samples marked for delete.
+338	 Delete %s samples?
+339	 Write %s samples to a file?
+340	 .ACC
+341	 .OLL
+342	 .OLN
+343	 .TXT
+344	 .CLC
+345	 .HST
+346	 Wave - Info.
+347	 Wave - Info. Columns
+348	 Short Format
+349	 Long Format
+350	 Calculated Equations
+351	 Calcualtions File
+352	 Select Wave - Information Columns
+353	 Scores
+354	 ASCII File:
+355	 Cannot update file header information.
+356	 .LIB
+357	 .LB1
+358	 .LB2
+359	 .NIR
+360	 .EQA
+361	 Could not lock highlighting memory!
+362	 This file is already being viewed.
+363	 LE
+364	 Locating deleted samples...
+365	 *.OLL, Output file
+366	 *.OLN, Output file
+367	 *.CLC, Calcualtions file
+368	 *.HST, History File
+369	 Unknown file type
+370	 Unknown
+371	 
+372	 Unknown
+373	 Unknown
+374	 Unknown
+375	 There are no deleted samples.
+376	 All selected samples are already deleted.
+377	 Undeleted %ld of %ld selected samples?
+378	 Delete %ld of %ld selected samples?
+379	 Purge %ld deleted samples?
+380	 Write %ld deleted samples to a file?
+381	 Select the file to write deleted samples to.
+382	 File exists!  Merge samples to this file?
+383	 This action would leave an empty file!
+384	 Renumber deleted samples also?
+385	 This file has no constituents!
+386	 Averaging samples...
+387	 *.CHK
+388	 *.DEC
+389	 *.LAB
+390	 *.ANL
+391	 *.PSD
+392	 *.NET
+393	 *.STD
+394	 *.VRT
+395	 *.VMR
+396	 *.PCA
+397	 *.PL1
+398	 *.PL2
+399	 *.LOD
+400	 *.xxx
+401	 *.xxx
+402	 *.xxx
+403	 *.xxx
+404	 *.xxx
+405	 *.xxx
+406	 *.xxx
+407	 Save value before ending edit?
+408	 Error accessing equation file.
+409	 Error reading equation file.
+410	 Could not ANL file position memory!
+411	 fpVD == NULL, in MyEditProc()
+412	 DEBUG: No matches for this client/product.
+413	 DEBUG: Not editing header!
+414	 DEBUG: Improper file type to average!
+415	 Cannot read sample number
+416	 Cannot read initialization file!
+417	 isi.ini
+418	 Fileview
+419	 Directories
+420	 CLC_File
+421	 Options
+422	 Project
+423	 UserInfo
+424	 Name
+425	 Passwords
+426	 Level2
+427	 Level3
+428	 Filetypes
+429	 Types
+430	 Type%d
+431	 WinISI
+432	 FILEVIEW.HLP
+433	 GraphISI
+434	 histogram
+435	 spectrum
+436	 scatter
+437	 symetry
+438	 
+439	 
+440	 Cannot remove temporary file!
+441	 Mark selected samples as deleted?
+442	 \0
+443	 Sorting samples by product code...
+444	 Exit reordering without saving?
+445	 Use the samples which are already selected? (Otherwise all samples will be used.)
+446	 Cannot create window.  Close some windows and try again!
+447	 Unable to write constituents!
+448	 Unable to read NIR spectra data!
+449	 Unable to write NIR spectra data!
+450	 Unable to read instrument header!
+451	 Unable to write instrument header!
+452	 Reordering samples...
+453	 Importing constituents...
+454	 No constituents selected!
+455	 Cannot write to temporary file!
+456	 Cannot read from temporary file!
+457	 Cannot set temporary file position!
+458	 Cannot read source file!
+459	 Cannot write to destination file!
+460	 Import Equations
+461	 Equations:
+462	 Choose Eqauations to Delete
+463	 Choose Constituents to Delete
+464	 This equation is not biased.
+465	 Cannot bias with slope zero.
+466	 Biasing the equation was successful.
+467	 Biasing was unsuccessful.
+468	 DEBUG: Cannot allocate negative bytes!
+469	 The size of the sample is invalid!
+470	 UnBiasing the equation was successful.
+471	 Slope adjustment successful.
+472	 Entry is out of bounds!
+473	 Cannot lock window data!
+474	 Not enough resources!  Close some windows and try again.
+475	 Requested data is out of the bounds of available data.
+476	 The file header information is incorrect.  Set the file header with corrected information?
+477	 Analyzing file...
+478	 File has 0 samples.  Cannot remove sample.
+479	 Writing samples to the file...
+480	 Deleting samples...
+481	 Copying samples...
+482	 All samples are selected.  There are no remaining samples.
+483	 File has no samples.  Cannot read data.
+484	 Number of Lines:
+485	 Longest Line Width:
+754	 isi.ini
+755	 UserInfo
+756	 SortType
+757	 SortDirection
+758	 Forward
+759	 Reverse
+760	 Alpha
+761	 Date
+762	 Size
+763	 Exten
+764	 Unable to display view
+765	 System Error
+766	 Filetypes
+767	 Types
+768	 Type
+769	 CAL,Calibration
+770	 !
+771	 @
+772	 #
+773	 $
+774	 %
+775	 ^
+776	 &
+777	 *
+778	 (
+779	 )
+780	 _
+781	 -
+782	 =
+783	 +
+784	 [
+785	 ]
+786	 {
+787	 }
+788	 |
+789	 \
+790	 :
+791	 ;
+792	 '
+793	 
+794	 <
+795	 >
+796	 ,
+797	 .
+798	 ?
+799	 /
+802	 
+803	 
+804	 *.LIB
+805	 *.ACC
+806	 *.OLL
+807	 *.OLN
+808	 *.TXT
+809	 *.CLC
+810	 *.HST
+811	 The following file does not exist: 
+812	 Directories
+813	 WINISI
+814	 PRJMAN.HLP
+815	 Index
+816	 LastProject
+817	 File extensions, function, and use
+818	 WINFILE.EXE
+819	 Unable to execute application
+820	 File
+821	 Save WINISI File As
+822	 WINISI Open File
+823	 Projects
+824	 LastFile%d
+825	 Search...
+826	 Stop...
+827	 *.*
+828	 ..
+829	 Data
+830	 Project%d
+831	 Type%d
+832	 Cannot access initialization file: %s
+833	 An initialization file must exist to continue.  Create initialization file?
+834	 Cannot create initialization file: %s
+835	 Cannot lock project memory.
+836	 Cannot lock filetype memory.
+837	 Cannot lock highlighting memory.
+838	 Cannot lock listed types memory.
+839	 Cannot locate windows directory!
+840	 FileIO
+841	 Default type
+842	 Highlighting
+843	 LastFile
+844	 CurrentProject

@@ -1,0 +1,95 @@
+        HOW TO SET UP YOUR REPORT FORMAT IN FORM?.OUT FILES
+
+1.   The form is exactly the length of the desired format.  Be sure
+     to enter a return after the last line.  For example, a one
+     line format would have one line of text followed by a return.
+
+2.   There can be 36 forms at present, labeled FORM?.OUT (with ? =
+     0 thru 9 and A thru Z).  Whenever an equation is entered into
+     the PROD*.SYS file, the number or letter identifying the form
+     must be entered in as the "Report format".
+
+3.   Numbers are indicated by the # symbol with the number of digits
+     to be printed and the number of decimal places specified. 
+     Example, ###.##   indicates a number with 3 digits before
+     the decimal and two digits after.  These characters are placed
+     on the report page in the exact position the operator wants
+     the corresponding value to be printed.  
+
+4.   Text strings are indicated by the ? symbol.  The number of
+     question marks corresponds to the length allowed for the given
+     string.  A maximum length is dictated by the program but the
+     operator can specify a field length less than the maximum if
+     desired.
+
+5.   The characters || indicate the end of the printed line.  These
+     must be placed at the very end of the line since nothing after
+     the || will be printed.  Following the ||, the codes
+     corresponding to the variables (text strings and real numbers)
+     that are to be printed in that line, are entered in the order
+     that they are to be printed (left to right).
+
+6.   The codes for the NIR predicted values and the calculated
+     values are derived from their position in the equation file,
+     beginning with 00 as the first NIR variable and continuing on
+     thru the calculated variables.  These values are indicated on
+     the report form as real numbers (r).  The DM Basis values are
+     coded from 00 to 31.  Asis Basis ranges from 32 to 63, and
+     the corresponding H values run from 64 to 95.  For example,
+     if PROTEIN were the second variable in the equation file,
+     the codes for DMB, Asis, and the H statistic would be as
+     follows: r01, r33, and r65.  The price of analyses is another
+     real number variable, coded r96.
+
+     Any "IF" statements in the equation as calculated variables are 
+     not numbered with r values, since the variable name has
+     already have been defined and numbered.  Below is an example 
+     equation containing an "IF" statement for AVPROTEIN with the 
+     corresponding r numbering for all variables:
+
+	Line #     r value	Variable	
+	------     -------	--------
+	 1	     00,32	PROTEIN
+	 2	     01,33	ADF
+	 3	     02,34	ADP
+	 4	     03,35	DM
+	 5	     04,36	MOISTURE = 100 - DM
+	 6	     05,37	AVPROTEIN = (1.16 * PROTEIN) - (1.6 * ADP)
+	 7	     skip	IF(AVPROTEIN > PROTEIN)AVPROTEIN = PROTEIN
+	 8	     06,38	TDN = 93.53 - (1.03 * ADF)
+
+
+                               Page 2 of 2
+
+
+
+
+
+      Since AVPROTEIN has r values assigned on line 6, the IF statement 
+      for AVPROTEIN on line 7 is skipped and not numbered.
+
+7.   The codes for the text strings, and their corresponding maximum
+     length, are as follows:
+           s0 - s31  ---  VARIABLE NAMES  (length = 15 characters)
+                s32  ---  SAMPLE NUMBER   (length = 12 characters)
+                s33  ---  OPERATOR  (length = 31 characters)
+                s34,s35,s36  ---  SAMPLE ID (3 lines, length = 
+                                  50 characters each)
+                s37  ---  DATE (length = 10 characters)
+                s38  ---  PRODUCT TYPE  (length = 50 characters)
+                s39  ---  EQUATION NAME (length = 12 characters)
+                s40  ---  EQUATION FILE ID  (length = 50 characters)
+                s41  ---  CLIENT #  (length = 8 characters)
+          s42 - s47  ---  CLIENT NAME AND ADDRESS (length = 50 characters)
+                s49  ---  TIME SAMPLE WAS SCANNED
+          r00 - r31  ---  NIR PREDICTED VALUES (DRY MATTER)
+          r32 - r63  ---  NIR PREDICTED VALYES (AS RECEIVED)   
+          r64 - r95  ---  Global "H" VALUE FOR CONSTITUENT
+                r96  ---  Price
+                r97  ---  Weight 1
+                r98  ---  Weight 2
+         r99 - r106  ---  Eight closest neighborhood "H"
+
+
+
+          

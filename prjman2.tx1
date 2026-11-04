@@ -1,0 +1,97 @@
+940	 New Project
+941	 Edit Project
+942	 Append history file
+943	 Routine Analysis
+944	 Diagnostics
+945	 Standardization
+946	 View and Modify Files
+947	 Make and Use Scores
+948	 Plot Spectra and Scores
+949	 Regression Equations
+950	 Monitor Results
+951	 Generate Reports
+952	 Create
+953	 Explorer
+954	 Help
+955	 Web Page
+956	 Customer Care
+2000	 Detrend only
+2002	 Inverse MSC
+2004	 None
+2006	 SNV only
+2008	 SNV and Detrend
+2010	 Standard MSC
+2012	 Weighted MSC
+2014	 File contains maximum number of constituents
+2016	 Illegal value entered
+2018	 Building library file
+2020	 Cannot create file
+2022	 Cannot create directory
+2024	 Cannot open file
+2026	 Copying file...
+2028	 Do you wish to create the INI file now?
+2029	 File already exists.  Extend it?
+2030	 File not found
+2032	 INI file not found
+2033	 Segment declared crosses between filters
+2034	 Master numbers do not match
+2035	 You must choose at least one constituent.
+2038	 You must have a valid loading file before you can use this file.
+2040	 Insufficient memory to continue
+2042	 File contains no samples
+2043	 No samples have been selected
+2044	 Cannot make sense of input
+2045	 File already exists. Overwrite it?
+2046	 File already exists.  Do you wish to overwrite or extend it?
+2048	 Printer not ready
+2050	 Error reading from file
+2052	 Error seeking in file
+2054	 Sorting...
+2056	 You cannot omit every sample in the file
+2058	 Error writing to file.\nCheck to see that you have enough disk space.
+3002	 You cannot perform this command when the current project directory is the same as the working direct
+3004	 Directory Could Not Be Removed.\nThere may be non-ISI files.
+3006	 Cannot rename file
+3008	 Are you sure you want to copy all ISI files in the directory %s to %s?
+3010	 Are you sure you want to delete the %d selected file(s)?
+3011	 Are you sure you want to delete this project?
+3012	 The new filename has a different extension than the original.  Rename anyway?
+3014	 Project directory does not exist.  Do you wish to create it?
+3015	 Do you wish to delete the project directory?
+3016	 Incorrect password
+3018	 There are no selected items to delete.
+3020	 The project directory contains non-ISI files and cannot be deleted.
+3022	 Project directory cannot be the root directory
+3024	 Project must have a name
+3026	 Project must have a number
+3028	 New project name must be unique
+3030	 The project cannot have the same number as another with the same directory.
+3032	 The source project cannot have the same directory as the current project.
+4600	 Cannot create initialization file: %s
+4602	 CurrentProject
+4604	 Filetypes
+4606	 Default type
+4608	 \\
+4610	 Type%d
+4612	 Data
+4614	 Highlighting
+4616	 isi.ini
+4618	 Level2
+4620	 Level3
+4622	 Cannot locate windows directory!
+4624	 Could Not Allocate enough Memory!
+4626	 Passwords
+4628	 Projects
+4630	 Project%d
+4632	 SortType
+4634	 SortDirection
+4636	 Forward
+4638	 Reverse
+4640	 Alpha
+4642	 Date
+4644	 Size
+4646	 Exten
+4648	 Types
+4650	 UserInfo
+4652	 *.*
+4654	 WINISI

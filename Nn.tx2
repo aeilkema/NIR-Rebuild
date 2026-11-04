@@ -1,0 +1,117 @@
+###################################################
+NN                            	NN                                                                              
+141                           	&Calibrate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to Project Manager                                                        
+405                           	C&alibration file                                                               
+620                           	&Equation file                                                                  
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+StatusLine                    	                                                                                
+###################################################
+WaveMath                      	Wavelengths and math treatment                                                  
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+735                           	Wavelengths                                                                     
+863                           	Edit/Add Segment                                                                
+862                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+866                           	Derivative                                                                      
+867                           	Gap                                                                             
+868                           	Smooth                                                                          
+869                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+NUMBER                        	Choose a number                                                                 
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+860                           	&Number                                                                         
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	Save Options on c&hanges                                                        
+731                           	Prompt if output file exists (will default to extend file if unchecked)         
+982                           	&Automatically set wavelengths to default values.                               
+732                           	&Prompt summary at the end of calculations.                                     
+287                           	Copy data to clipboard in Excel format                                          
+###################################################
+PickCon                       	Pick Constituent                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Choose one of the following constituents                                        
+###################################################
+PickCons                      	Pick Constituents                                                               
+860                           	Choose any number of constituents                                               
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	Select &all                                                                     
+961                           	Cl&ear                                                                          
+###################################################
+View                          	Residuals                                                                       
+1                             	OK                                                                              
+###################################################
+DataOptions                   	Data transformation options                                                     
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Range in sigmoid curve transformation                                           
+862                           	Hidden learn                                                                    
+863                           	Output learn                                                                    
+864                           	Hidden momentum                                                                 
+865                           	Output momentum                                                                 
+866                           	Change learn factor                                                             
+867                           	Change momentum factor                                                          
+868                           	Group size of constituent values for testing                                    
+869                           	Testing interval for screen output                                              
+870                           	Hidden transfer                                                                 
+871                           	Output transfer                                                                 
+872                           	Start option for network calculations                                           
+###################################################
+Display                       	Results Menu                                                                    
+163                           	&Close menu                                                                     
+2                             	Change &options                                                                 
+290                           	E&xit to Project Manager                                                        
+463                           	&List constituent values                                                        
+384                           	&Histogram                                                                      
+665                           	X&Y display                                                                     
+227                           	&Display outliers in OLN file                                                   
+###################################################
+Options                       	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+172                           	Constituents                                                                    
+862                           	Split (% of samples in calibration group)                                       
+861                           	Number of factors                                                               
+863                           	T value to move outliers to calibration set                                     
+864                           	Itinerations before outlier test is made                                        
+117                           	Automatic outlier elimination                                                   
+286                           	Examine residuals chart automatically pops up                                   
+980                           	Wavelengths and math treatment...                                               
+201                           	Data transformation options...                                                  
+735                           	Pause data...                                                                   
+690                           	Until user presses continue                                                     
+691                           	For a period of seconds                                                         
+###################################################
+OverwriteExtend               	                                                                                
+860                           	Static                                                                          
+630                           	Overwrite                                                                       
+292                           	Extend                                                                          
+2                             	Cancel                                                                          

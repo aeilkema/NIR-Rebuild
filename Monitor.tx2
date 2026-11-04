@@ -1,0 +1,437 @@
+###################################################
+MAIN_MONITOR_DLG              	WINISI Monitor                                                                  
+1100                          	Selected Files:                                                                 
+1102                          	Prediction Basis:                                                               
+1101                          	Missing Value:                                                                  
+1103                          	Current Comparison Type:                                                        
+1104                          	Compare Reference and Predicted Values                                          
+8503                          	Reference File                                                                  
+8504                          	Equation File                                                                   
+8505                          	Auxiliary File                                                                  
+4402                          	Clear Selected                                                                  
+8506                          	Clear All                                                                       
+8516                          	Calculate                                                                       
+8517                          	Output Options                                                                  
+8518                          	Select Pairs                                                                    
+8519                          	Control Limits                                                                  
+3802                          	Exit to Project Manager                                                         
+2                             	Close                                                                           
+2008                          	Help                                                                            
+8526                          	\040Ignore Negative Values                                                      
+8520                          	Math Treatment                                                                  
+8521                          	Product Options                                                                 
+###################################################
+CONTROLLIMITSDISCRIM          	Control Limits                                                                  
+1                             	OK                                                                              
+2403                          	Save Options                                                                    
+2404                          	Restore Options                                                                 
+2                             	Cancel                                                                          
+1100                          	T Critical Value:                                                                          
+1101                          	Uncertainty Factor:                                                             
+1201                          	Critical Values                                                                 
+###################################################
+AnalResults                   	Analyze Constituents Statistics                                                 
+1100                          	SED:                                                                            
+1101                          	Means:                                                                          
+1102                          	Bias:                                                                           
+1103                          	Slope:                                                                          
+1104                          	Number of Samples:                                                              
+1105                          	Standard Deviations:                                                            
+1106                          	Bias Limit:                                                                     
+1107                          	RSQ:                                                                            
+3803                          	0                                                                               
+3804                          	0                                                                               
+3808                          	0                                                                               
+3809                          	0                                                                               
+3806                          	0                                                                               
+3901                          	0                                                                               
+3902                          	0                                                                               
+3903                          	0                                                                               
+3805                          	0                                                                               
+3807                          	0                                                                               
+1113                          	Ave. Global H:                                                                  
+1114                          	Ave. Neighbor. H:                                                               
+4008                          	0                                                                               
+4200                          	0                                                                               
+1122                          	Pos.                                                                            
+1108                          	Sample No.                                                                      
+1109                          	ANL                                                                             
+1110                          	ANL                                                                             
+1111                          	Residual                                                                        
+1112                          	Bias                                                                            
+1115                          	GH1                                                                             
+1117                          	NH1                                                                             
+1116                          	GH2                                                                             
+1118                          	NH2                                                                             
+1119                          	SED(C):                                                                         
+1120                          	SED(C) Limit:                                                                   
+4202                          	0                                                                               
+4203                          	0                                                                               
+4009                          	0                                                                               
+4201                          	0                                                                               
+1                             	&Close                                                                          
+3905                          	&Output Options                                                                 
+3908                          	&XY Plot                                                                        
+4608                          	Residual &Plot                                                                  
+4207                          	&Redo                                                                           
+4903                          	&Undo                                                                           
+5008                          	Undo &All                                                                       
+2008                          	&Help                                                                           
+###################################################
+NetResults                    	Network Evaluate Results                                                        
+4904                          	Sample Differences in mmmmmmmm.mmm:                                             
+1                             	&Close                                                                          
+8517                          	&Options                                                                        
+4906                          	&Next                                                                           
+4907                          	&Prev                                                                           
+4207                          	&Redo                                                                           
+4903                          	&Undo                                                                           
+5008                          	Undo &All                                                                       
+2008                          	&Help                                                                           
+###################################################
+PredResults                   	Predict Constituents Statistics                                                 
+1100                          	SEP:                                                                            
+1101                          	Means:                                                                          
+1102                          	Bias:                                                                           
+1103                          	Slope:                                                                          
+1104                          	Number of Samples:                                                              
+1105                          	Standard Deviations:                                                            
+1106                          	Bias Limit:                                                                     
+1107                          	RSQ:                                                                            
+3803                          	0                                                                               
+3804                          	0                                                                               
+3808                          	0                                                                               
+3809                          	0                                                                               
+3806                          	0                                                                               
+3901                          	0                                                                               
+3902                          	0                                                                               
+3903                          	0                                                                               
+1108                          	Sample #                                                                        
+1109                          	LAB                                                                             
+1110                          	ANL                                                                             
+1111                          	Residual                                                                        
+1112                          	Bias                                                                            
+3805                          	0                                                                               
+3807                          	0                                                                               
+1113                          	Ave. Global H:                                                                  
+1114                          	Ave. Neighbor. H:                                                               
+4008                          	0                                                                               
+4200                          	0                                                                               
+1115                          	Global H                                                                        
+1117                          	Neigh. H                                                                        
+1119                          	SEP(C):                                                                         
+1120                          	SEP(C) Limit:                                                                   
+4202                          	0                                                                               
+4203                          	0                                                                               
+1                             	&Close                                                                          
+3905                          	&Output Options                                                                 
+3908                          	&XY Plot                                                                        
+4608                          	Residual &Plot                                                                  
+1200                          	&Correct                                                                        
+4207                          	&Redo                                                                           
+4903                          	&Undo                                                                           
+5008                          	Undo &All                                                                       
+2008                          	&Help                                                                           
+1118                          	Pos.                                                                            
+###################################################
+RefResults                    	Reference Constituents Statistics                                               
+1100                          	SED:                                                                            
+1101                          	Means:                                                                          
+1102                          	Bias:                                                                           
+1103                          	Slope:                                                                          
+1104                          	Number of Samples:                                                              
+1105                          	Standard Deviations:                                                            
+1106                          	Bias Limit:                                                                     
+1107                          	RSQ:                                                                            
+3803                          	0                                                                               
+3804                          	0                                                                               
+3808                          	0                                                                               
+3809                          	0                                                                               
+3806                          	0                                                                               
+3901                          	0                                                                               
+3902                          	0                                                                               
+3903                          	0                                                                               
+1108                          	Sample Number                                                                   
+1109                          	LAB                                                                             
+1110                          	LAB                                                                             
+1111                          	Residual                                                                        
+1112                          	Bias                                                                            
+3805                          	0                                                                               
+3807                          	0                                                                               
+1119                          	SED(C):                                                                         
+1120                          	SED(C) Limit:                                                                   
+4202                          	0                                                                               
+4203                          	0                                                                               
+1                             	&Close                                                                          
+3905                          	&Output Options                                                                 
+3908                          	&XY Plot                                                                        
+4608                          	Residual &Plot                                                                  
+4207                          	&Redo                                                                           
+4903                          	&Undo                                                                           
+5008                          	Undo &All                                                                       
+2008                          	&Help                                                                           
+1114                          	Position                                                                        
+###################################################
+ContrOutput                   	Contrast Output                                                                 
+4000                          	mmmmmmmm.mm vs. mmmmmmmm.mmmm                                                   
+1101                          	Sample No.                                                                      
+4002                          	Seg. No.                                                                        
+1102                          	R                                                                               
+1103                          	2                                                                               
+1104                          	RMS                                                                             
+1105                          	Bias                                                                            
+1106                          	RMSC                                                                            
+4003                          	Water Corrected                                                                 
+4004                          	RMS                                                                             
+4005                          	Bias                                                                            
+4006                          	RMSC                                                                            
+1111                          	Standard                                                                        
+1                             	&Close                                                                          
+3905                          	&Output Options                                                                 
+4207                          	&Redo                                                                           
+4903                          	&Undo                                                                           
+2008                          	&Help                                                                           
+5008                          	Undo &All                                                                       
+1100                          	Pos.                                                                            
+###################################################
+CONTROLLIMITS                 	Control Limits                                                                  
+1                             	OK                                                                              
+2403                          	Save Options                                                                    
+2404                          	Restore Options                                                                 
+1100                          	Mean (% Difference):                                                            
+1101                          	Standard Deviation (% Difference):                                              
+1102                          	Minimum Slope:                                                                  
+1103                          	Minimum R Squared Value:                                                        
+2                             	Cancel                                                                          
+1200                          	Statistical Limits                                                              
+2801                          	20.000000                                                                       
+2802                          	20.000000                                                                       
+2803                          	0.900000                                                                        
+2804                          	0.600000                                                                        
+1104                          	Critical GH                                                                     
+1105                          	Critical T                                                                      
+1106                          	Critical NH                                                                     
+1107                          	Low Limit                                                                       
+1108                          	High Limit                                                                      
+4601                          	0                                                                               
+4602                          	0                                                                               
+4603                          	0                                                                               
+4604                          	0                                                                               
+4605                          	0                                                                               
+4606                          	0                                                                               
+1201                          	Critical Values                                                                 
+###################################################
+PickCon                       	Lab Basis Correction -                                                          
+7001                          	Choose Dry Matter or Moisture Constituent:                                      
+8020                          	Dry Matter                                                                      
+8021                          	Moisture                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+ENTER                         	Enter Constituent Name                                                          
+1220                          	Edit                                                                            
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+H2OOptions                    	Water Region Options                                                            
+2603                          	Eliminate Water Region                                                          
+2604                          	1850                                                                            
+1100                          	Lower Wavelength/Data Point:                                                    
+1101                          	Upper Wavelength/Data Point:                                                    
+2605                          	1970                                                                            
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+2606                          	Save Options                                                                    
+2404                          	Restore Options                                                                 
+2008                          	Help                                                                            
+1200                          	Options                                                                         
+###################################################
+HFileSelection                	Select H Source                                                                 
+1100                          	Possible Files                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+MathTreatment                 	Math Treatment                                                                  
+1100                          	Derivative                                                                      
+1101                          	Gap                                                                             
+1102                          	Smooth                                                                          
+1103                          	Smooth 2                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+2403                          	Save Options                                                                    
+7000                          	Options                                                                         
+2607                          	0                                                                               
+2608                          	0                                                                               
+2609                          	1                                                                               
+2800                          	1                                                                               
+2404                          	Restore Options                                                                 
+2008                          	Help                                                                            
+###################################################
+NetOpts                       	Network Evaluate Options                                                        
+5001                          	Mark Outliers                                                                   
+1101                          	Display:                                                                        
+5003                          	Means                                                                           
+5004                          	Bias                                                                            
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+NetRedo                       	Network Evaluate Redo Options                                                   
+4908                          	Eliminate Outliers                                                              
+4909                          	Eliminate Selected Samples                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+OutputOptions                 	Output Options                                                                  
+1200                          	Options                                                                         
+2402                          	ASCII Output                                                                    
+2400                          	Printed Output                                                                  
+2401                          	Copy to Clipboard                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+ANLOutputOptions              	Output Options                                                                  
+1200                          	Options                                                                         
+2402                          	ASCII Output                                                                    
+2209                          	ANL Output                                                                      
+2400                          	Printed Output                                                                  
+2401                          	Copy to Clipboard                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+OnlyANLOutputOptions          	Output Options                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1200                          	Options                                                                         
+2209                          	ANL Output                                                                      
+###################################################
+RecalcOptions                 	Recalculate Options                                                             
+1202                          	Select Elimination Criteria                                                     
+4509                          	\040Eliminate Selected Samples                                                  
+1                             	Recalculate                                                                     
+2                             	Cancel                                                                          
+4806                          	Global H Values                                                                 
+1105                          	T Values                                                                        
+1103                          	Neighborhood H Values                                                           
+4707                          	None                                                                            
+4708                          	High Limits Only                                                                
+4709                          	Low and High Limits                                                             
+4800                          	None                                                                            
+4801                          	High Limits Only                                                                
+4802                          	Low and High Limits                                                             
+4803                          	None                                                                            
+4804                          	High Limits Only                                                                
+4805                          	Low and High Limits                                                             
+###################################################
+RecalcOptions2                	Recalculate Options                                                             
+1202                          	Select Elimination Criteria                                                     
+4509                          	\040Eliminate Selected Samples                                                  
+1                             	Recalculate                                                                     
+2                             	Cancel                                                                          
+4806                          	Global H Values                                                                 
+1105                          	T Values                                                                        
+1103                          	Neighborhood H Values                                                           
+4707                          	None                                                                            
+4708                          	High Limits Only                                                                
+4709                          	Low and High Limits                                                             
+4800                          	None                                                                            
+4801                          	High Limits Only                                                                
+4802                          	Low and High Limits                                                             
+4803                          	None                                                                            
+4804                          	High Limits Only                                                                
+4805                          	Low and High Limits                                                             
+1200                          	Output File                                                                     
+1203                          	\040Zero Eliminated Lab Values                                                  
+1204                          	\040Replace with Predicted values                                               
+1100                          	<output file name>                                                              
+1101                          	Output Options                                                                  
+###################################################
+SelectPairs                   	Select Constituent Pairs                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+3009                          	Add Pair                                                                        
+3200                          	Remove Pair                                                                     
+1102                          	Constituent Pairs                                                               
+3201                          	Add Defaults                                                                    
+###################################################
+Password                      	Level 2                                                                         
+1100                          	Enter Password:                                                                 
+1                             	OK                                                                              
+###################################################
+Setpswrd                      	Password Setup                                                                  
+1100                          	Level 2 Password:                                                               
+1101                          	Level 3 Password:                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+Select_Products               	Select Samples by Product Code                                                  
+1101                          	Product Codes                                                                   
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+2008                          	Help                                                                            
+1100                          	Product Codes                                                                   
+###################################################
+CorrectionDlg                 	Correction of a Reference File with an Indicator Variable Equation              
+1113                          	Variable:                                                                       
+1114                          	Mean:                                                                           
+1115                          	Current Values:                                                                 
+1116                          	Output:                                                                         
+1117                          	Corrections:                                                                    
+1102                          	Reference:                                                                      
+1103                          	Equation:                                                                       
+1104                          	<variable1>                                                                     
+1105                          	<variable2>                                                                     
+1106                          	<Mean1>                                                                         
+1107                          	<Mean2>                                                                         
+1108                          	Slope:                                                                          
+1109                          	<slope value>                                                                   
+1112                          	Bias:                                                                           
+1113                          	<bias value>                                                                    
+2                             	Done                                                                            
+2008                          	Help                                                                            
+1200                          	\040Correct bias                                                                
+1201                          	\040Correct slope and bias                                                      
+1110                          	New Bias:                                                                       
+1111                          	New Slope:                                                                      
+1220                          	<new bias edit>                                                                 
+1221                          	<new slope edit>                                                                
+1204                          	Output File                                                                     
+1100                          	<output file name>                                                              
+1202                          	\040Append Constituent to Output File                                           
+1203                          	\040Create a New File for the Corrected Constituent                             
+1205                          	Create Output                                                                   
+###################################################
+DiscrimResults                	Discriminate Groups                                                             
+1107                          	Summary - File Name                                                             
+8100                          	0                                                                               
+8101                          	0                                                                               
+8103                          	0                                                                               
+1                             	Close                                                                           
+3905                          	Output Options                                                                  
+3908                          	XY Plot                                                                         
+4608                          	3D Graph                                                                        
+2008                          	Help                                                                            
+###################################################
+MultiTaskDialog               	Performing Prediction...                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+NetowrkOutOps                 	Options                                                                         
+1100                          	Display Options                                                                 
+1200                          	Output Options                                                                  
+5556                          	View Constituents                                                               
+2402                          	ASCII Output                                                                    
+2400                          	Printed Output                                                                  
+2401                          	Copy to Clipboard                                                               
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+PICKCONS                      	Select Constituents for Display                                                 
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1200                          	Select All                                                                      
+1201                          	Clear All                                                                       
+###################################################
+TopToolbar                    	                                                                                
+1100                          	Percent Complete:                                                               
+###################################################
+StatusLine                    	                                                                                

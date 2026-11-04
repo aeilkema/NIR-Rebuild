@@ -1,0 +1,105 @@
+17	 Never
+18	 Daily
+19	 Weekly
+20	 Monthly
+21	 Yearly
+29	 Visible
+30	 Near Infrared
+263	 Cannot read initialization file: isi.ini
+265	 Cannot write initialization file: isi.ini
+273	 NIR Repeatability
+274	 Repeatability test
+275	 Output options
+276	 Wavelength Accuracy
+277	 Edit reference wavelengths
+278	 Wavelength test
+279	 Output options
+280	 Instrument Response
+281	 Response test
+282	 Output options
+286	 Edit K and Phi values
+288	 Display Schedule
+290	 General diagnostics limits
+346	 Could Not Allocate enough Memory!
+355	 Cannot create destination file!
+399	 No K or Phi in instrument
+505	 Instrument configuration dose not support Wavelength Accuracy Test
+507	 Error occured while writing to a file
+508	 WARNING:
+509	 NIR Repeatability Test is Out of Date
+510	 Wavelength Accuracy Test is Out of Date
+511	 Instrument Response Test is Out of Date
+600	 NIR Repeatability 
+601	 Wavelength Accuracy 
+602	 Instrument Response 
+603	 Display Schedule 
+604	 Auto-Run Scheduled Tests 
+606	 Edit wavelength range for repeatability report
+607	 Ensure that ceramic is in place.
+608	 Error
+609	 The entered value is below the limit of					
+610	 The entered value is above the limit of					
+1024	 AutomaticDiagnostic
+1025	 No diagnostic tests are out of date.  Run all tests anyway?
+1026	 Cannot contact instrument.  Check connection and ON switch.  Try again?
+1027	 The instrument should be warmed up for 15 minutes before running diagnostic tests.  Would you like to
+1028	 Warming up instrument...
+1200	 Diagnostics
+1210	 Wavelength Accuracy - Visible Region
+1211	 Wavelength Accuracy - NIR Region
+1301	 Press
+1302	 Automatic testing complete
+1303	 Automatic testing canceled.
+1306	 Cannot load TEXT.DLL
+1307	 Cannot load 6500.DLL
+1309	 Data Points
+1310	 (Wavelengths)
+1311	 Amplitude
+1314	 Performing Pass #%i
+1316	 Segment Information
+1317	 Averaged Statistical Data
+1318	 Minimum Statistical Data
+1319	 Maximum Statistical Data
+1320	 K and Phi successfully uploaded to instrument.
+1321	 Performing Scan #1
+1322	 K
+1323	 PHI
+1632	 Arial
+1633	 Infrasoft International, LLC.
+2000	 Unable to display view
+2001	 System Error
+2509	 AM
+2511	 PM
+2520	 Sun Mon Tue Wed Thu Fri Sat
+2523	 NIR Repeatability
+2524	 Wavelength Accuracy
+2525	 Instrument Response
+2530	 windows
+2531	 device
+2532	 ,,,
+2540	 Looking for Instrument on COM %i
+2541	 Instrument is initialized on COM %i
+2542	 Instrument was not located on COM %i
+2545	 Instrument Model: %s
+2546	 Instrument Serial Number: %s
+2550	 Date: %s
+2551	 Time: %s
+2572	 The Password Entered was Incorrect!
+2576	 Incorrect number of data points in the file.
+2577	 Save changes before leaving?
+2578	 Save value(s) to instrument?
+2579	 Instrument type not supported!
+2580	 An error occured in communicating with the instrument.  Check the connection and try again.
+2690	 Automatic Diagnostics
+2692	 Instrument response failed!
+2693	 Wavelength accuracy failed!
+2694	 Photometric repeatability failed!
+2697	 Would you like to control chart the results?
+2698	 Could not create a temporary file!
+2700	 GraphISI
+2705	 Zoom In
+2706	 Zoom Out
+2707	 Zoom Off
+2722	 Pass
+2723	 Fail
+

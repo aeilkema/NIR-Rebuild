@@ -1,0 +1,251 @@
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Defaults                                                                       
+346                           	&Help                                                                           
+802                           	&Cursor moves from left to right in XY scatter                                  
+801                           	&Show advanced cursor display in XY scatter                                     
+829                           	&Message box notification when end of file reached                              
+###################################################
+DataSelect                    	Select Data                                                                     
+861                           	Constituent                                                                     
+862                           	Wavelength                                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+123                           	Constituent                                                                     
+124                           	Wavelength                                                                      
+###################################################
+SelectSample                  	Select Samples                                                                  
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+SelectSamples                 	Select Samples                                                                  
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	&Select All                                                                     
+961                           	Cl&ear                                                                          
+406                           	&Invert                                                                         
+735                           	Header Information                                                              
+736                           	Sample Information                                                              
+###################################################
+Second                        	Specify secondary file                                                          
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+811                           	Secondary File                                                                  
+157                           	Use the secondary file                                                          
+740                           	Overplot                                                                        
+741                           	Subtract                                                                        
+###################################################
+TwoPosition                   	                                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Enter the Positions of the Two Samples:                                         
+862                           	Weight 1                                                                        
+863                           	Weight 2                                                                        
+###################################################
+PickCon                       	Pick Constituent                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Choose one of the following constituents                                        
+###################################################
+PickCons                      	Pick Constituents                                                               
+860                           	Choose any number of constituents                                               
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+816                           	Select &all                                                                     
+961                           	Cl&ear                                                                          
+###################################################
+MathTreatment                 	Math Treatment                                                                  
+865                           	&Scatter                                                                        
+861                           	Derivative                                                                      
+862                           	Gap                                                                             
+863                           	Smooth                                                                          
+864                           	Smooth 2                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+ControlLimits                 	Control Chart Options                                                           
+861                           	Chart Type                                                                      
+862                           	# to Average                                                                    
+863                           	Group size                                                                      
+157                           	Group by sample #                                                               
+1                             	OK                                                                              
+816                           	Select all                                                                      
+961                           	Clear                                                                           
+2                             	Cancel                                                                          
+743                           	Predicted values                                                                
+744                           	GH values                                                                       
+745                           	NH values                                                                       
+864                           	Constituents Selected:                                                          
+735                           	Limits                                                                          
+865                           	Limits for Constituent:                                                         
+866                           	High Limit:                                                                     
+867                           	High Warning:                                                                   
+868                           	Target:                                                                         
+869                           	Low Warning:                                                                    
+870                           	Low Limit:                                                                      
+735                           	Limits                                                                          
+740                           	User setting                                                                    
+762                           	Set to Std Dev                                                                  
+823                           	Set all                                                                         
+741                           	Limits from prod.ini                                                            
+742                           	Calculate Standard Dev                                                          
+###################################################
+CurveFitOptions               	Curve Fit Options                                                               
+735                           	Math Treatment                                                                  
+862                           	Derivative:                                                                     
+863                           	Gap:                                                                            
+864                           	Smooth:                                                                         
+861                           	Smooth2:                                                                        
+865                           	Minimum peak width:                                                             
+866                           	Maximum peak width:                                                             
+867                           	High to low peak ratio:                                                         
+868                           	Scatter:                                                                        
+869                           	Use VIS or NIR:                                                                 
+870                           	Baseline:                                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+123                           	Default                                                                         
+###################################################
+PeakTable                     	Edit Peak Table                                                                 
+861                           	Location:                                                                       
+862                           	Height:                                                                         
+863                           	Width:                                                                          
+1                             	Add                                                                             
+124                           	Change                                                                          
+241                           	OK                                                                              
+2                             	Cancel                                                                          
+126                           	Delete                                                                          
+###################################################
+SpecSelect                    	Select Samples                                                                  
+861                           	Sample 1                                                                        
+862                           	Sample 2                                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+String                        	Discrim                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+###################################################
+Label                         	Labels for selected graph                                                       
+861                           	Label number\tLabel text                                                        
+862                           	Label text                                                                      
+241                           	OK                                                                              
+2                             	Cancel                                                                          
+1                             	Set label                                                                       
+###################################################
+Info                          	Enter information for the new file                                              
+1                             	OK                                                                              
+302                           	Get info from another file...                                                   
+861                           	File identifier                                                                 
+862                           	Master no                                                                       
+863                           	Serial no                                                                       
+###################################################
+PickInst                      	Choose a wavelength range                                                       
+123                           	&VIS                                                                            
+124                           	&NIR                                                                            
+125                           	&Both VIS and NIR                                                               
+###################################################
+PickAxis                      	Choose an axis type                                                             
+740                           	&Auto axis (default)                                                            
+741                           	&Equal axis                                                                     
+742                           	&User setting                                                                   
+862                           	MIN X                                                                           
+863                           	MAX X                                                                           
+864                           	MIN Y                                                                           
+865                           	MAX Y                                                                           
+790                           	&Save user settings                                                             
+206                           	&Delete user settings                                                           
+250                           	Edit &name                                                                      
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+###################################################
+Empty                         	                                                                                
+1                             	&Close                                                                          
+###################################################
+ListDlg                       	Pick Constituent                                                                
+1                             	Hide                                                                            
+###################################################
+ScatterOptions                	Scatter Display Options                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+3200                          	Show filenames in axis                                                          
+3202                          	Show 45 degree line in statistics mode                                          
+3203                          	Show limit lines in statistics mode                                             
+3204                          	List statistics in separate rows                                                
+3205                          	Cursor moves from left to right in XY scatter                                   
+3206                          	Show advanced cursor display in XY scatter                                      
+861                           	Number of decimal places in axis                                                
+862                           	Primary sample color                                                            
+863                           	2nd sample color                                                                
+864                           	3rd sample color                                                                
+###################################################
+SpectrumOptions               	Spectrum Display Options                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+333                           	Show &grid                                                                      
+190                           	Show cross&hairs on cursor                                                      
+160                           	Cl&ear graph when lines added or next hit                                       
+166                           	Show &color chart                                                               
+559                           	Notify user when end of file reached                                            
+3176                          	Show axis type in graph                                                         
+861                           	Radius of cursor                                                                
+862                           	Selected color                                                                  
+863                           	Non-Selected Samples                                                            
+864                           	Non-Selected Differences                                                        
+865                           	Non-Selected Correlations                                                       
+866                           	Non-Selected Std. Dev.                                                          
+###################################################
+CurvefitDisplayOptions        	Curvefit Display Options                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Selected color                                                                  
+862                           	Non-Selected color                                                              
+863                           	Work Curve color                                                                
+864                           	High Peak color                                                                 
+865                           	Medium Peak color                                                               
+866                           	Low Peak color                                                                  
+###################################################
+Custom                        	Customization                                                                   
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+3200                          	Use a customized x-axis label                                                   
+3201                          	Use a customized y-axis label                                                   
+3202                          	Use a customized title                                                          
+###################################################
+LabValues                     	Lab Values                                                                      
+###################################################
+ListDlg                       	Pick Constituent                                                                
+1                             	Hide                                                                            
+###################################################
+Curves                        	Spectrum Curves                                                                 
+###################################################
+BackColor                     	Choose a background color                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Background color                                                                
+862                           	Note: Changes will not take effect until next time you start the program        
+###################################################
+AxisType                      	Axis Type Selection                                                             
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+861                           	Curve Type                                                                      
+862                           	Axis Type                                                                       
+###################################################
+AxisLimits                    	Choose a new axis limits                                                        
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+862                           	Minimum                                                                         
+863                           	Maximum                                                                         

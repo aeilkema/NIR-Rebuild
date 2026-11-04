@@ -1,0 +1,146 @@
+###################################################
+FileIO                        	File I/O                                                                        
+1002                          	Header Information                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1004                          	&Quick Finder                                                                   
+1005                          	&Setup                                                                          
+1007                          	&Explorer                                                                       
+290                           	E&xit                                                                           
+9002                          	File:                                                                           
+1008                          	Project                                                                         
+1009                          	c:\\                                                                            
+1010                          	File Types                                                                      
+9003                          	Directory:                                                                      
+9001                          	Filename                 Date           Size                                    
+860                           	Free space:                                                                     
+860                           	Recent files (double click)                                                     
+###################################################
+FileIO_95                     	File I/O                                                                        
+1002                          	Header Information                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1004                          	&Quick Finder                                                                   
+1005                          	&Setup                                                                          
+1007                          	&Explorer                                                                       
+290                           	E&xit                                                                           
+9002                          	File:                                                                           
+1008                          	Project                                                                         
+1009                          	c:\\                                                                            
+1010                          	File Types                                                                      
+9003                          	Directory:                                                                      
+9001                          	Filename                 Date           Size                                    
+860                           	Free space:                                                                     
+860                           	Recent files (double click)                                                     
+###################################################
+FileIO2                       	File I/O                                                                        
+1002                          	Header Information                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+816                           	Select &All                                                                     
+158                           	&Clear                                                                          
+986                           	&Wildcard...                                                                    
+1004                          	&Quick Finder                                                                   
+1005                          	&Setup                                                                          
+1007                          	&Explorer                                                                       
+290                           	E&xit                                                                           
+9002                          	File:                                                                           
+1008                          	Project                                                                         
+1009                          	c:\\                                                                            
+1010                          	File Types                                                                      
+9003                          	Directory:                                                                      
+9001                          	Filename                 Date           Size                                    
+860                           	Free space:                                                                     
+###################################################
+FileIO2_95                    	File I/O                                                                        
+1002                          	Header Information                                                              
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+816                           	Select &All                                                                     
+158                           	&Clear                                                                          
+986                           	&Wildcard...                                                                    
+1004                          	&Quick Finder                                                                   
+1005                          	&Setup                                                                          
+1007                          	&Explorer                                                                       
+1011                          	&Help                                                                           
+290                           	E&xit                                                                           
+9002                          	File:                                                                           
+1008                          	Project                                                                         
+1009                          	c:\\                                                                            
+1010                          	File Types                                                                      
+9003                          	Directory:                                                                      
+9001                          	Filename                 Date           Size                                    
+860                           	Free space:                                                                     
+###################################################
+FileIOSetup                   	Setup                                                                           
+1201                          	Size                                                                            
+1202                          	Date                                                                            
+1203                          	Extension                                                                       
+1204                          	Alphabetical                                                                    
+9010                          	List By                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1205                          	Reverse Order                                                                   
+123                           	Show Win95 dialog (effective next instance)                                     
+###################################################
+Search                        	Search                                                                          
+1                             	&Search...                                                                      
+1600                          	&Use file                                                                       
+2                             	&Cancel                                                                         
+9000                          	Search string:                                                                  
+9000                          	Results of Search                                                               
+9000                          	Projects                                                         Files          
+1603                          	Header Information                                                              
+1605                          	Search types                                                                    
+1308                          	&Find file                                                                      
+1304                          	&General header                                                                 
+1305                          	&Instrument header                                                              
+1307                          	Constituent &names                                                              
+1306                          	Sa&mple headers                                                                 
+1606                          	Search options                                                                  
+1607                          	Search all &projects                                                            
+1608                          	Search &all filetypes                                                           
+###################################################
+Search2                       	Search                                                                          
+1                             	&Search...                                                                      
+1600                          	&Use file                                                                       
+2                             	&Cancel                                                                         
+9000                          	Search string:                                                                  
+9000                          	Results of Search                                                               
+9000                          	Projects                                                         Files          
+1603                          	Header Information                                                              
+1605                          	Search types                                                                    
+1308                          	&Find file                                                                      
+1304                          	&General header                                                                 
+1305                          	&Instrument header                                                              
+1307                          	Constituent &names                                                              
+1306                          	Sa&mple headers                                                                 
+1606                          	Search options                                                                  
+1607                          	Search all &projects                                                            
+1608                          	Search &all filetypes                                                           
+###################################################
+create                        	                                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+1404                          	New Filename                                                                    
+1405                          	File Type                                                                       
+###################################################
+CreateLab                     	Create LAB file                                                                 
+1                             	Create                                                                          
+2                             	Cancel                                                                          
+9010                          	Filename                                                                        
+9011                          	Number of samples                                                               
+9000                          	200                                                                             
+9000                          	0                                                                               
+9012                          	Number of constituents                                                          
+9000                          	1                                                                               
+9000                          	32                                                                              
+9013                          	Resulting file information                                                      
+9000                          	Constituents                                                                    
+9000                          	Samples                                                                         
+9000                          	New file size                                                                   
+###################################################
+PickProd                      	Choose a Project                                                                
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+860                           	Project directory                                                               

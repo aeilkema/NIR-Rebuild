@@ -1,0 +1,106 @@
+###################################################
+TopToolbar                    	                                                                                
+862                           	Percent Complete:                                                               
+###################################################
+StatusLine                    	                                                                                
+###################################################
+File                          	Develop equations                                                               
+141                           	&Calculate                                                                      
+608                           	&Options...                                                                     
+692                           	&Preferences...                                                                 
+290                           	E&xit to project manager                                                        
+103                           	&Add input files                                                                
+206                           	&Remove an input file                                                           
+861                           	Total number of samples:                                                        
+734                           	&PSD equation file                                                              
+###################################################
+Predict                       	Predict groups                                                                  
+141                           	&Calculate                                                                      
+692                           	&Preferences...                                                                 
+290                           	E&xit to project manager                                                        
+405                           	&Input file                                                                     
+680                           	&Equation file                                                                  
+###################################################
+WaveMath                      	Wavelengths and math treatment                                                  
+241                           	Done                                                                            
+2                             	Cancel                                                                          
+735                           	Wavelengths                                                                     
+863                           	Edit/Add Segment                                                                
+862                           	Wavelengths                                                                     
+1                             	Change                                                                          
+103                           	Add                                                                             
+206                           	Delete                                                                          
+205                           	Factory Defaults                                                                
+763                           	File Defaults                                                                   
+969                           	User defaults                                                                   
+968                           	Set user defaults                                                               
+736                           	Math treatment                                                                  
+865                           	&Scatter                                                                        
+866                           	Derivative                                                                      
+867                           	Gap                                                                             
+868                           	Smooth                                                                          
+869                           	Smooth 2                                                                        
+203                           	Defaults&1                                                                      
+204                           	Defaults&2                                                                      
+764                           	&Restore                                                                        
+824                           	Set Defaults1                                                                   
+825                           	Set Defaults2                                                                   
+###################################################
+NUMBER                        	Choose a number                                                                 
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+860                           	&Number                                                                         
+###################################################
+Chart1                        	Discrim                                                                         
+1                             	OK                                                                              
+###################################################
+Chart2                        	Discrim                                                                         
+1                             	&OK                                                                             
+751                           	&Ranking                                                                        
+783                           	&Samples                                                                        
+###################################################
+Chart3a                       	Discrim                                                                         
+1                             	&OK                                                                             
+###################################################
+Chart3b                       	Discrim                                                                         
+1                             	&OK                                                                             
+###################################################
+String                        	Discrim                                                                         
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+###################################################
+Preferences                   	Preferences                                                                     
+1                             	&OK                                                                             
+2                             	&Cancel                                                                         
+764                           	&Restore Defaults                                                               
+792                           	Save Options on c&hanges                                                        
+731                           	Prompt before overwriting files                                                 
+982                           	&Automatically set wavelengths to default values.                               
+287                           	Copy data to clipboard in Excel format                                          
+###################################################
+Options1                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+864                           	Maximum number of terms                                                         
+865                           	Number of cross validation groups                                               
+866                           	Uncertainty factor                                                              
+867                           	Math Treatment                                                                  
+868                           	Scatter                                                                         
+869                           	Wavelengths                                                                     
+980                           	Wavelengths and Math Treatment...                                               
+###################################################
+Options2                      	Options                                                                         
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+205                           	Defaults                                                                        
+771                           	Revert                                                                          
+860                           	Uncertainty factor                                                              
+###################################################
+PickFiles                     	PickFiles                                                                       
+1                             	OK                                                                              
+2                             	Cancel                                                                          
+861                           	Choose two files to display the XY plot                                         
+740                           	1st file on x-axis, 2nd on y-axis                                               
+741                           	1st file on y-axis, 2nd on x-axis                                               

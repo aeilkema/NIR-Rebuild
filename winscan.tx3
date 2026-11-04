@@ -1,0 +1,66 @@
+###################################################
+InitMenu                      	                                                                                
+#POP                          	&File                                                                           
+245                           	&Spectra output...                                                              
+246                           	&Ascii output...                                                                
+244                           	&Analysis output...
+299                           	&Preferences                                                                    
+1007                          	P&rint Setup...                                                                 
+1008                          	E&xit to project manager                                                        
+233                           	&Options                                                                        
+1009                          	&Scan                                                                           
+#POP                          	&Entry Level                                                                    
+312                           	Level &1\tCtrl+1                                                                
+313                           	Level &2\tCtrl+2                                                                
+314                           	Level &3\tCtrl+3                                                                
+315                           	Set Passwords                                                                   
+#POP                          	&Help                                                                           
+1019                          	&Contents                                                                       
+1020                          	&Search for Help On                                                             
+1021                          	&How to Use Help                                                                
+1022                          	&About                                                                          
+###################################################
+MenuResults                   	                                                                                
+#POP                          	&Scan
+261                           	&Reject sample                                                                  
+260                           	&Accept sample                                                                  
+#POP                          	&Graphs                                                                         
+229                           	&2D Display                                                                     
+247                           	&3D Display                                                                     
+248                           	&Print                                                                          
+288                           	&Help                                                                           
+###################################################
+MenuCheck                     	                                                                                
+#POP                          	&Scan                                                                           
+261                           	&Reject scan                                                                    
+260                           	&Accept scan                                                                    
+1162                          	&Graph                                                                          
+1166                          	&View                                                                           
+248                           	&Print                                                                          
+#POP                          	&Help
+1019                          	&Contents
+1020                          	&Search for Help On
+1021                          	&How to Use Help
+1022                          	&About
+###################################################
+OnOffMenu
+150                           	&Display
+151                           	&Hide
+152                           	&Change text
+###################################################
+OnOffOperatorMenu
+150                           	&Display
+151                           	&Hide
+152                           	&Change text
+154                           	&Edit Operator List
+###################################################
+TabsOnOffMenu
+150                           	&Display
+151                           	&Hide
+152                           	&Change text
+153                           	&Edit display Options
+###################################################
+EditMenu
+152                           	&Change text
+###################################################
+
