@@ -6,6 +6,27 @@
 De drie projecten zijn samengebracht in `Nir5000.sln`; `dotnet build Nir5000.sln -c Release`
 bouwt core, CLI en GUI samen.
 
+## Installatie op een Windows-laptop
+
+Maak een lege doelmap, zet `Install-NirRebuild.ps1` daarin en voer PowerShell
+uit vanuit die map:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\Install-NirRebuild.ps1 -Launch
+```
+
+Het script haalt branch `codex/nir5000-modern` uit de private repository,
+bouwt de solution, publiceert self-contained `win-x64`-binaries en voert de
+offline zelftest uit. Voor lokale wijzigingen terug naar GitHub:
+
+```powershell
+.\Install-NirRebuild.ps1 -SkipBuild -PushChanges -CommitMessage "Mijn wijziging"
+```
+
+Vereist op de laptop: Git en de .NET 8 SDK. De hoofdbranch wordt niet gewijzigd;
+de moderne bron staat op `codex/nir5000-modern`.
+
 ## Huidige release
 
 De self-contained Windows-builds staan lokaal in `.staging`:
