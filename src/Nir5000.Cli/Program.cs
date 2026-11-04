@@ -413,6 +413,20 @@ if (args.Length == 4 && args[0].Equals("--inspect-capture-pair", StringCompariso
     return 0;
 }
 
+if (args.Length == 2 && args[0].Equals("--inspect-diagnostics", StringComparison.OrdinalIgnoreCase))
+{
+    var diagnostic = LegacyDiagnosticSettings.Load(args[1]);
+    var baud = Nir5000BaudRates.TryResolve(diagnostic.BaudCode, out var resolvedBaud) ? resolvedBaud.ToString() : "unknown";
+    Console.WriteLine($"ModelType={diagnostic.ModelType}; serial={diagnostic.SerialNumber}; port={diagnostic.Port}; baudCode={diagnostic.BaudCode} ({baud})");
+    Console.WriteLine($"Visible={diagnostic.VisibleRange.StartNm:G}-{diagnostic.VisibleRange.EndNm:G} nm step={diagnostic.VisibleRange.IncrementNm:G}");
+    Console.WriteLine($"NIR={diagnostic.NirRange.StartNm:G}-{diagnostic.NirRange.EndNm:G} nm step={diagnostic.NirRange.IncrementNm:G}");
+    Console.WriteLine($"ReferenceBefore={diagnostic.ReferenceBefore}; average={diagnostic.ScanAverage}; referenceAfter={diagnostic.ReferenceAfter}");
+    Console.WriteLine($"Reference wavelengths={string.Join(", ", diagnostic.ReferenceWavelengths.Select(value => value.ToString("G", System.Globalization.CultureInfo.InvariantCulture)))}");
+    var invariant = System.Globalization.CultureInfo.InvariantCulture;
+    Console.WriteLine($"NIR K/Phi={diagnostic.NirK.ToString("G", invariant)}/{diagnostic.NirPhi.ToString("G", invariant)}; VIS K/Phi={diagnostic.VisibleK.ToString("G", invariant)}/{diagnostic.VisiblePhi.ToString("G", invariant)}");
+    return 0;
+}
+
 if (args.Length == 2 && args[0].Equals("--inspect-calibration", StringComparison.OrdinalIgnoreCase))
 {
     var table = Nir5000CalibrationTable.Parse(File.ReadAllBytes(args[1]));
@@ -427,7 +441,7 @@ if (args.Length == 2 && args[0].Equals("--inspect-calibration", StringComparison
 
 if (args.Length < 1)
 {
-Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --upload-starlims <file.txt> <endpoint> <accessKey> <secretKey> [apiMethod] | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
+Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-diagnostics <Diagnstc.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --upload-starlims <file.txt> <endpoint> <accessKey> <secretKey> [apiMethod] | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
     return 2;
 }
 
