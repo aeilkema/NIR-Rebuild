@@ -63,6 +63,10 @@ public sealed class Nir5000SerialSession : IDisposable
         public void Open() => port.Open();
         public int ReadByte() => port.ReadByte();
         public void Write(ReadOnlySpan<byte> data) => port.Write(data.ToArray(), 0, data.Length);
-        public void Dispose() { }
+        public void Dispose()
+        {
+            if (port.IsOpen) port.Close();
+            port.Dispose();
+        }
     }
 }
