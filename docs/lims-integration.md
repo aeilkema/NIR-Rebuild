@@ -56,3 +56,6 @@ NIR import route as a separate DCU concern (`__IMPORT_NIR.srvscr`). That route
 expects a different five-column semicolon format and has a placeholder
 `Save_Data` procedure. It must not be used for CommaSep2 result files without a
 StarLIMS-side contract and a test endpoint.
+
+The implemented signed uploader and its deployment contract are documented in
+`docs/starlims-api-uploader.md`.

@@ -21,6 +21,18 @@ if ((args.Length is 4 or 5 or 7) && args[0].Equals("--serial-tcp-bridge", String
     return 0;
 }
 
+if (args.Length is 5 or 6 && args[0].Equals("--upload-starlims", StringComparison.OrdinalIgnoreCase))
+{
+    if (!Uri.TryCreate(args[2], UriKind.Absolute, out var endpoint))
+        throw new ArgumentException("STARLIMS endpoint must be an absolute URL.");
+    var method = args.Length == 6 ? args[5] : "upload";
+    using var client = new HttpClient { Timeout = Timeout.InfiniteTimeSpan };
+    var uploader = new StarLimsUploadClient(client, new StarLimsUploadOptions(endpoint, args[3], args[4], method));
+    var result = await uploader.UploadFileAsync(args[1]);
+    Console.WriteLine($"STARLIMS upload {(result.IsSuccess ? "succeeded" : "failed")}: {(int)result.StatusCode} {result.StatusCode}; file={result.FileName}; response={result.ResponseBody}");
+    return result.IsSuccess ? 0 : 1;
+}
+
 if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIgnoreCase))
 {
     var header = new byte[] { 1, 2, 3, 4, 5, 6, 7, 8 };
@@ -34,6 +46,11 @@ if (args.Length == 1 && args[0].Equals("--self-test", StringComparison.OrdinalIg
         Nir5000Commands.ThreeByteExchangeLength != 3 || Nir5000Commands.TwoByteExchangeLength != 2 ||
         Nir5000Commands.EightByteExchangeLength != 8 || Nir5000Commands.MaximumSegmentLength != 0xF0)
         throw new InvalidOperationException("NIR 5000 command constants self-test failed.");
+    var starlimsSignature = StarLimsUploadClient.CreateSignature(
+        new Uri("https://lims/rest.web.api/upload"), "POST", "ACCESS", "upload",
+        "2026-01-01T00:00:00.000Z", "abc"u8, "SECRET");
+    if (starlimsSignature != "rDLdIDJty34nHHMrM8Ao+DBc6LGvVplPOI0psWdF6SU=")
+        throw new InvalidOperationException("STARLIMS HMAC signature self-test failed.");
     if (!Nir5000LampCommands.BuildObservedRequest(true).SequenceEqual(new byte[] { 0x02, 0xFF }) ||
         !Nir5000LampCommands.BuildObservedRequest(false).SequenceEqual(new byte[] { 0x02, 0x00 }))
         throw new InvalidOperationException("NIR 5000 lamp request self-test failed.");
@@ -393,7 +410,7 @@ if (args.Length == 2 && args[0].Equals("--inspect-calibration", StringComparison
 
 if (args.Length < 1)
 {
-Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
+Console.Error.WriteLine("Usage: Nir5000.Cli <Prod5000.ini> [output.csv] | --inspect-project <Prod5000.ini> | --inspect-nir ... | --inspect-eqa <model.json> <spectrum.csv> | --inspect-legacy-eqa <model.eqa> | --inspect-legacy-eqa-model <model.eqa> | --predict-legacy-eqa <model.eqa> <spectrum.nir> | --export-foss-nir-csv2 <model.eqa> <spectrum.nir> <ordno> <calibration[-version]> <output.txt> | --upload-starlims <file.txt> <endpoint> <accessKey> <secretKey> [apiMethod] | --export-nova-sample <spectrum.csv|spectrum.nir> <output.json> | --serial-tcp-bridge <COM> <baud> <port> [listenAddress] [txCapture.bin rxCapture.bin] | --inspect-capture <capture.bin> <payloadLength> | --inspect-capture-pair <tx.bin> <rx.bin> <payloadLength> | --inspect-calibration <buffer.bin>");
     return 2;
 }
 

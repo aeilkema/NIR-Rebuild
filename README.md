@@ -82,6 +82,7 @@ Nir5000.Cli.exe --inspect-legacy-eqa model.eqa
 Nir5000.Cli.exe --inspect-legacy-eqa-model model.eqa
 Nir5000.Cli.exe --predict-legacy-eqa model.eqa spectrum.nir
 Nir5000.Cli.exe --export-foss-nir-csv2 model.eqa spectrum.nir ordno cmr05-1 output.txt
+Nir5000.Cli.exe --upload-starlims output.txt https://lims/rest.web.api/upload ACCESS_KEY SECRET_KEY upload
 Nir5000.Cli.exe --export-nova-sample spectrum.csv|spectrum.nir nova-sample.json
 Nir5000.Cli.exe --serial-tcp-bridge COM3 38400 9000 [listenAddress] [txCapture.bin rxCapture.bin]
 Nir5000.Cli.exe Prod5000.ini spectrum.csv
