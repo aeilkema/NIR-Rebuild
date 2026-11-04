@@ -1,0 +1,59 @@
+name: Windows build and offline verification
+
+on:
+  push:
+    branches: [codex/nir5000-modern]
+  pull_request:
+    branches: [codex/nir5000-modern]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Install .NET 8 SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restore win-x64 dependencies
+        shell: pwsh
+        run: dotnet restore Nir5000.sln --configfile NuGet.Config --runtime win-x64 --force
+
+      - name: Build solution
+        shell: pwsh
+        run: dotnet build Nir5000.sln -c Release --no-restore
+
+      - name: Publish CLI
+        shell: pwsh
+        run: dotnet publish src/Nir5000.Cli/Nir5000.Cli.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish/cli-win-x64 --no-restore
+
+      - name: Publish GUI
+        shell: pwsh
+        run: dotnet publish src/Nir5000.App/Nir5000.App.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o publish/app-win-x64 --no-restore
+
+      - name: Run offline regression suite
+        shell: pwsh
+        run: .\publish\cli-win-x64\Nir5000.Cli.exe --self-test
+
+      - name: Verify PE32+ outputs
+        shell: pwsh
+        run: |
+          $app = Get-Item .\publish\app-win-x64\Nir5000.App.exe
+          $cli = Get-Item .\publish\cli-win-x64\Nir5000.Cli.exe
+          if ($app.Length -le 1MB -or $cli.Length -le 1MB) {
+            throw 'Published Windows binaries are unexpectedly small.'
+          }
+          Get-FileHash $app.FullName -Algorithm SHA256
+          Get-FileHash $cli.FullName -Algorithm SHA256
+
+      - name: Upload Windows artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: nir5000-win-x64
+          path: publish/
+          if-no-files-found: error
