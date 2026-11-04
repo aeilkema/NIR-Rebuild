@@ -73,6 +73,7 @@ zijn spectra en fabrieksdata.
 ```text
 Nir5000.Cli.exe --self-test
 Nir5000.Cli.exe --inspect-project Prod5000.ini
+Nir5000.Cli.exe --inspect-command-inventory
 Nir5000.Cli.exe --inspect-nir input.nir output.nir
 Nir5000.Cli.exe --inspect-capture capture.bin payloadLength
 Nir5000.Cli.exe --inspect-capture-pair tx.bin rx.bin payloadLength
