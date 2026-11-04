@@ -20,6 +20,13 @@ exports named `InstrFindLinConst`, `InstrGainAdjust`, `InstrGetLinear`,
 `InstrSetAmpCorr`, `InstrSetReference`, `InstrSetWindowCorr`,
 `InstrCorrectSpectrum` and `InstrSetLEDPassFail`.
 
+The supplied `Diagnstc.ini` also records the historical diagnostic defaults:
+`ModelType=9`, instrument wavelength range 1100–2498 nm in 2-nm steps,
+`RefBefore=32`, `RefAfter=32`, `ScanAverage=0`, `Port=0` and `Baud=3` for the
+diagnostic program. The production `Prod5000.ini` separately uses its product
+configuration, including `BaudRate=5` (resolved by this project as 38400 baud),
+so the two files must not be mixed blindly.
+
 ## What is and is not a command specification
 
 The operation names and order above are supported by static evidence. The
