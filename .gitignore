@@ -1,1 +1,5 @@
-/Lijnen/TEMP.zip
+Lijnen/
+publish/
+.staging/
+**/bin/
+**/obj/
