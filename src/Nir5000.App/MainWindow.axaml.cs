@@ -29,6 +29,10 @@ public sealed partial class MainWindow : Window
         LimsOrderNumberPath.Text = settings.LimsOrderNumber;
         LimsCalibrationPath.Text = settings.LimsCalibration;
         LimsOutputPath.Text = settings.LimsOutputPath;
+        NovaBaseUriPath.Text = settings.NovaBaseUri;
+        NovaInstrumentTypePath.Text = settings.NovaInstrumentTypeId.ToString();
+        NovaChassisPath.Text = settings.NovaChassisId.ToString();
+        NovaSampleNumberPath.Text = settings.NovaSampleNumber;
     }
 
     private void OnOpened(object? sender, EventArgs e)
@@ -49,6 +53,10 @@ public sealed partial class MainWindow : Window
         settings.LimsOrderNumber = LimsOrderNumberPath.Text ?? string.Empty;
         settings.LimsCalibration = LimsCalibrationPath.Text ?? string.Empty;
         settings.LimsOutputPath = LimsOutputPath.Text ?? string.Empty;
+        settings.NovaBaseUri = NovaBaseUriPath.Text ?? string.Empty;
+        settings.NovaInstrumentTypeId = int.TryParse(NovaInstrumentTypePath.Text, out var typeId) ? typeId : 0;
+        settings.NovaChassisId = long.TryParse(NovaChassisPath.Text, out var chassisId) ? chassisId : 0;
+        settings.NovaSampleNumber = NovaSampleNumberPath.Text ?? string.Empty;
         settings.Save();
         logger.Info("Settings saved.");
         Status.Text = $"Settings saved to {AppSettings.FilePath}.";
@@ -200,6 +208,32 @@ public sealed partial class MainWindow : Window
             serial = null;
             SerialStatus.Text = $"Serial error: {ex.Message}";
             logger.Error("Serial open failed", ex);
+        }
+    }
+
+    private async void SubmitNova(object? sender, RoutedEventArgs e)
+    {
+        try
+        {
+            if (currentSpectrum is null) throw new InvalidOperationException("Load a legacy NIR file or run a simulated scan first.");
+            if (!Uri.TryCreate(NovaBaseUriPath.Text, UriKind.Absolute, out var baseUri))
+                throw new InvalidOperationException("Enter a valid Nova base URL.");
+            if (!int.TryParse(NovaInstrumentTypePath.Text, out var typeId) || typeId < 0)
+                throw new InvalidOperationException("Enter a non-negative Nova instrument type ID.");
+            if (!long.TryParse(NovaChassisPath.Text, out var chassisId) || chassisId < 0)
+                throw new InvalidOperationException("Enter a non-negative Nova chassis ID.");
+            var sample = NovaOpenInstrumentExport.Create(currentSpectrum, NovaSampleNumberPath.Text ?? "NIR-Rebuild-replay");
+            using var client = new HttpClient { Timeout = TimeSpan.FromSeconds(30) };
+            var adapter = new NovaOpenInstrumentAdapter(client, new NovaOpenInstrumentOptions(baseUri, typeId, chassisId));
+            var result = await adapter.SubmitSampleAsync(sample);
+            SaveSettings(null, null);
+            Status.Text = $"Nova submit {(result.IsSuccess ? "succeeded" : "failed")}: {(int)result.StatusCode} {result.StatusCode}";
+            logger.Info($"Nova submit: status={(int)result.StatusCode}; endpoint={baseUri}; type={typeId}; chassis={chassisId}; sample={NovaSampleNumberPath.Text}; response={result.ResponseBody}");
+        }
+        catch (Exception ex)
+        {
+            Status.Text = $"Nova error: {ex.Message}";
+            logger.Error("Nova submit failed", ex);
         }
     }
 

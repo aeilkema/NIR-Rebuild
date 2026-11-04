@@ -14,6 +14,12 @@ public sealed class AppSettings
     public string LimsOrderNumber { get; set; } = string.Empty;
     public string LimsCalibration { get; set; } = string.Empty;
     public string LimsOutputPath { get; set; } = string.Empty;
+    public string NovaBaseUri { get; set; } = "http://localhost:8080/api";
+    public int NovaInstrumentTypeId { get; set; }
+    public long NovaChassisId { get; set; }
+    public string NovaSampleNumber { get; set; } = "NIR-Rebuild-replay";
+    public string NovaProductName { get; set; } = "NIR 5000 replay";
+    public string NovaProductCode { get; set; } = "NIR5000";
 
     public static string FilePath => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Nir5000Rebuild", "settings.json");
 

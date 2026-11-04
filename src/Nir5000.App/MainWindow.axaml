@@ -3,7 +3,7 @@
         x:Class="Nir5000.App.MainWindow"
         Width="900" Height="700" MinWidth="700" MinHeight="520"
         Title="NIR 5000 Rebuild" Opened="OnOpened">
-  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
+  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
     <StackPanel Grid.Row="0" Spacing="6">
       <TextBlock FontSize="26" FontWeight="SemiBold">NIR 5000 Rebuild</TextBlock>
       <TextBlock Foreground="Gray">64-bit test application for FOSS NIR 5000 compatibility</TextBlock>
@@ -45,7 +45,17 @@
       <TextBox Grid.Column="5" x:Name="LimsOutputPath" />
       <Button Grid.Column="6" Click="ExportLims">Export LIMS</Button>
     </Grid>
-    <Grid Grid.Row="7" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
+    <Grid Grid.Row="7" ColumnDefinitions="Auto,*,Auto,120,Auto,120,Auto,*,Auto" ColumnSpacing="8">
+      <TextBlock VerticalAlignment="Center">Nova URL</TextBlock>
+      <TextBox Grid.Column="1" x:Name="NovaBaseUriPath" />
+      <TextBlock Grid.Column="2" VerticalAlignment="Center">Type</TextBlock>
+      <TextBox Grid.Column="3" x:Name="NovaInstrumentTypePath" />
+      <TextBlock Grid.Column="4" VerticalAlignment="Center">Chassis</TextBlock>
+      <TextBox Grid.Column="5" x:Name="NovaChassisPath" />
+      <TextBox Grid.Column="7" x:Name="NovaSampleNumberPath" Watermark="Sample number" />
+      <Button Grid.Column="8" Click="SubmitNova">Submit Nova</Button>
+    </Grid>
+    <Grid Grid.Row="8" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
       <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto,*" ColumnSpacing="8" Margin="16,12,16,0">
         <TextBlock Foreground="#D7E3F4" VerticalAlignment="Center">TX capture</TextBlock>
         <TextBox Grid.Column="1" x:Name="TransmitCapturePath" Foreground="#D7E3F4" />
@@ -62,6 +72,6 @@
       </Grid>
       </Border>
     </Grid>
-    <TextBlock Grid.Row="8" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument. EQA prediction runs locally and does not require Nova, SQL Express or a dongle.</TextBlock>
+    <TextBlock Grid.Row="9" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument. EQA prediction runs locally and Nova submission uses only the configured official OpenInstrument endpoint.</TextBlock>
   </Grid>
 </Window>
