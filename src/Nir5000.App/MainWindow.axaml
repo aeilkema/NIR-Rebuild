@@ -3,7 +3,7 @@
         x:Class="Nir5000.App.MainWindow"
         Width="900" Height="700" MinWidth="700" MinHeight="520"
         Title="NIR 5000 Rebuild" Opened="OnOpened">
-  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
+  <Grid Margin="24" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,*,Auto" RowSpacing="16">
     <StackPanel Grid.Row="0" Spacing="6">
       <TextBlock FontSize="26" FontWeight="SemiBold">NIR 5000 Rebuild</TextBlock>
       <TextBlock Foreground="Gray">64-bit test application for FOSS NIR 5000 compatibility</TextBlock>
@@ -32,13 +32,22 @@
       <Button Grid.Column="6" Click="LampOff">Lamp off</Button>
       <TextBlock Grid.Column="7" x:Name="SerialStatus" VerticalAlignment="Center" Foreground="Gray" />
     </Grid>
-    <Grid Grid.Row="5" ColumnDefinitions="Auto,*,Auto,*,Auto" ColumnSpacing="8">
+    <Grid Grid.Row="5" ColumnDefinitions="Auto,Auto,Auto,110,Auto,110,Auto,*" ColumnSpacing="8">
+      <CheckBox x:Name="AutoStartBridgePath" VerticalAlignment="Center">Start Ethernet bridge at startup</CheckBox>
+      <TextBlock Grid.Column="2" VerticalAlignment="Center">Listen</TextBlock>
+      <TextBox Grid.Column="3" x:Name="BridgeListenAddressPath" />
+      <TextBlock Grid.Column="4" VerticalAlignment="Center">TCP port</TextBlock>
+      <TextBox Grid.Column="5" x:Name="BridgeTcpPortPath" />
+      <Button Grid.Column="6" x:Name="BridgeToggleButton" Click="ToggleBridge">Start bridge</Button>
+      <TextBlock Grid.Column="7" x:Name="BridgeStatus" VerticalAlignment="Center" Foreground="Gray" />
+    </Grid>
+    <Grid Grid.Row="6" ColumnDefinitions="Auto,*,Auto,*,Auto" ColumnSpacing="8">
       <CheckBox x:Name="AutoConnectPath" VerticalAlignment="Center">Auto-connect at startup</CheckBox>
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Log directory</TextBlock>
       <TextBox Grid.Column="3" x:Name="LogDirectoryPath" />
       <Button Grid.Column="4" Click="SaveSettings">Save settings</Button>
     </Grid>
-    <Grid Grid.Row="6" ColumnDefinitions="Auto,*,Auto,*,Auto,*,Auto" ColumnSpacing="8">
+    <Grid Grid.Row="7" ColumnDefinitions="Auto,*,Auto,*,Auto,*,Auto" ColumnSpacing="8">
       <TextBlock VerticalAlignment="Center">LIMS order</TextBlock>
       <TextBox Grid.Column="1" x:Name="LimsOrderNumberPath" />
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Calibration</TextBlock>
@@ -47,7 +56,7 @@
       <TextBox Grid.Column="5" x:Name="LimsOutputPath" />
       <Button Grid.Column="6" Click="ExportLims">Export LIMS</Button>
     </Grid>
-    <Grid Grid.Row="7" ColumnDefinitions="Auto,*,Auto,120,Auto,120,Auto,*,Auto" ColumnSpacing="8">
+    <Grid Grid.Row="8" ColumnDefinitions="Auto,*,Auto,120,Auto,120,Auto,*,Auto" ColumnSpacing="8">
       <TextBlock VerticalAlignment="Center">Nova URL</TextBlock>
       <TextBox Grid.Column="1" x:Name="NovaBaseUriPath" />
       <TextBlock Grid.Column="2" VerticalAlignment="Center">Type</TextBlock>
@@ -57,7 +66,7 @@
       <TextBox Grid.Column="7" x:Name="NovaSampleNumberPath" Watermark="Sample number" />
       <Button Grid.Column="8" Click="SubmitNova">Submit Nova</Button>
     </Grid>
-    <Grid Grid.Row="8" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
+    <Grid Grid.Row="9" RowDefinitions="Auto,Auto,*" Background="#101820" Margin="0" >
       <Grid Grid.Row="0" ColumnDefinitions="Auto,*,Auto,*,Auto,*" ColumnSpacing="8" Margin="16,12,16,0">
         <TextBlock Foreground="#D7E3F4" VerticalAlignment="Center">TX capture</TextBlock>
         <TextBox Grid.Column="1" x:Name="TransmitCapturePath" Foreground="#D7E3F4" />
@@ -76,6 +85,6 @@
       </Grid>
       </Border>
     </Grid>
-    <TextBlock Grid.Row="9" Foreground="DarkOrange" TextWrapping="Wrap">Serial connection uses the reconstructed ENQ/ACK transport layer. Scan commands remain disabled until the NIR 5000 header, response payload and calibration handshake are validated against a real instrument. EQA prediction runs locally and Nova submission uses only the configured official OpenInstrument endpoint.</TextBlock>
+    <TextBlock Grid.Row="10" Foreground="DarkOrange" TextWrapping="Wrap">The Ethernet bridge is a transparent raw COM-to-TCP transport. It does not modify NIR bytes. EQA prediction runs locally and Nova submission uses only the configured official OpenInstrument endpoint.</TextBlock>
   </Grid>
 </Window>

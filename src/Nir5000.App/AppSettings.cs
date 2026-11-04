@@ -8,6 +8,9 @@ public sealed class AppSettings
     public string SerialPort { get; set; } = "COM1";
     public int BaudRate { get; set; } = 38400;
     public bool AutoConnect { get; set; }
+    public bool AutoStartBridge { get; set; }
+    public string BridgeListenAddress { get; set; } = "127.0.0.1";
+    public int BridgeTcpPort { get; set; } = 9000;
     public string LogDirectory { get; set; } = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Nir5000Rebuild", "logs");
     public string TransmitCapturePath { get; set; } = string.Empty;
     public string ReceiveCapturePath { get; set; } = string.Empty;

@@ -56,7 +56,10 @@ De self-contained Windows-builds staan lokaal in `.staging`:
 
 De GUI kan een `Prod5000.ini`-profiel laden, een gesimuleerde scan uitvoeren en
 een legacy `.NIR`-bestand inspecteren. De GUI kan ook een expliciete COM-poort
-openen/sluiten via de transportlaag. De parser leest de bewezen legacy
+openen/sluiten via de transportlaag en de transparante COM-naar-TCP Ethernet-
+bridge starten, stoppen en automatisch bij Windows-start activeren. De bridge
+wijzigt geen bytes; Nova of een geautoriseerde host verzorgt de protocoluitwisseling.
+De parser leest de bewezen legacy
 float-array en schrijft een byte-perfecte roundtrip voor de aanwezige 5000- en
 4500-testbestanden.
 
@@ -120,6 +123,11 @@ serial/TCP bridge is transparent raw transport only. It is useful for a
 supported host integration or diagnostics, but it does not emulate a vendor
 instrument identity and does not bypass Nova licensing or dongle checks. It
 listens on loopback by default; a LAN address must be supplied explicitly.
+
+In de GUI staan hiervoor `Start Ethernet bridge at startup`, `Listen` en `TCP
+port`. Directe COM-auto-connect en bridge-auto-start zijn mutually exclusive;
+bij beide opties krijgt de bridge voorrang. TX/RX-captures en de timestamped
+wire trace gelden ook voor bridgeverkeer.
 
 ## Seriële hardware
 

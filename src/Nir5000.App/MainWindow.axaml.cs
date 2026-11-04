@@ -1,6 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Nir5000.Core;
+using System.Net;
 
 namespace Nir5000.App;
 
@@ -9,6 +10,7 @@ public sealed partial class MainWindow : Window
     private Nir5000Profile? profile;
     private Nir5000Project? project;
     private Nir5000SerialSession? serial;
+    private SerialTcpBridge? bridge;
     private readonly SimulatedNir5000Device simulatedDevice = new();
     private Spectrum? currentSpectrum;
     private readonly AppSettings settings;
@@ -23,6 +25,9 @@ public sealed partial class MainWindow : Window
         SerialPortPath.Text = settings.SerialPort;
         SerialBaudPath.Text = settings.BaudRate.ToString();
         AutoConnectPath.IsChecked = settings.AutoConnect;
+        AutoStartBridgePath.IsChecked = settings.AutoStartBridge;
+        BridgeListenAddressPath.Text = settings.BridgeListenAddress;
+        BridgeTcpPortPath.Text = settings.BridgeTcpPort.ToString();
         LogDirectoryPath.Text = settings.LogDirectory;
         TransmitCapturePath.Text = settings.TransmitCapturePath;
         ReceiveCapturePath.Text = settings.ReceiveCapturePath;
@@ -39,7 +44,10 @@ public sealed partial class MainWindow : Window
     private void OnOpened(object? sender, EventArgs e)
     {
         logger.Info($"Window opened; autoConnect={settings.AutoConnect}, port={settings.SerialPort}, baud={settings.BaudRate}.");
-        if (settings.AutoConnect) ToggleSerial(null, null);
+        if (settings.AutoStartBridge) ToggleBridge(null, null);
+        if (settings.AutoConnect && !settings.AutoStartBridge) ToggleSerial(null, null);
+        if (settings.AutoConnect && settings.AutoStartBridge)
+            logger.Info("Both auto-connect and auto-start bridge were configured; bridge startup took precedence to avoid opening the COM port twice.");
     }
 
     private void SaveSettings(object? sender, RoutedEventArgs? e)
@@ -48,6 +56,9 @@ public sealed partial class MainWindow : Window
         settings.SerialPort = SerialPortPath.Text ?? "COM1";
         settings.BaudRate = int.TryParse(SerialBaudPath.Text, out var baud) ? baud : 38400;
         settings.AutoConnect = AutoConnectPath.IsChecked == true;
+        settings.AutoStartBridge = AutoStartBridgePath.IsChecked == true;
+        settings.BridgeListenAddress = BridgeListenAddressPath.Text ?? "127.0.0.1";
+        settings.BridgeTcpPort = int.TryParse(BridgeTcpPortPath.Text, out var tcpPort) ? tcpPort : 9000;
         settings.LogDirectory = LogDirectoryPath.Text ?? settings.LogDirectory;
         settings.TransmitCapturePath = TransmitCapturePath.Text ?? string.Empty;
         settings.ReceiveCapturePath = ReceiveCapturePath.Text ?? string.Empty;
@@ -218,6 +229,77 @@ public sealed partial class MainWindow : Window
 
     private void LampOn(object? sender, RoutedEventArgs e) => SetLamp(true);
 
+    private void ToggleBridge(object? sender, RoutedEventArgs? e)
+    {
+        if (bridge is not null)
+        {
+            _ = StopBridgeAsync();
+            return;
+        }
+
+        try
+        {
+            if (serial is not null)
+                throw new InvalidOperationException("Close the direct serial connection before starting the Ethernet bridge.");
+            if (!int.TryParse(SerialBaudPath.Text, out var baud) || baud <= 0)
+                throw new InvalidOperationException("Enter a positive numeric baud rate.");
+            if (!int.TryParse(BridgeTcpPortPath.Text, out var tcpPort) || tcpPort is < 1 or > 65535)
+                throw new InvalidOperationException("Enter a TCP port between 1 and 65535.");
+            if (!IPAddress.TryParse(BridgeListenAddressPath.Text, out var listenAddress))
+                throw new InvalidOperationException("Enter a numeric listen address, for example 127.0.0.1.");
+
+            var txCapture = string.IsNullOrWhiteSpace(TransmitCapturePath.Text) ? null : TransmitCapturePath.Text;
+            var rxCapture = string.IsNullOrWhiteSpace(ReceiveCapturePath.Text) ? null : ReceiveCapturePath.Text;
+            var wireTrace = string.IsNullOrWhiteSpace(WireTracePath.Text) ? null : WireTracePath.Text;
+            bridge = new SerialTcpBridge(new SerialTcpBridgeOptions(
+                SerialPortPath.Text ?? string.Empty, baud, tcpPort, listenAddress, 250, txCapture, rxCapture, wireTrace));
+            _ = RunBridgeAsync(bridge);
+            BridgeStatus.Text = $"Bridge starting on {listenAddress}:{tcpPort}.";
+            BridgeToggleButton.Content = "Stop bridge";
+            logger.Info($"Ethernet bridge starting: {SerialPortPath.Text} at {baud} baud -> {listenAddress}:{tcpPort}; capture={(txCapture is null ? "off" : "on")}; trace={(wireTrace ?? "off")}");
+        }
+        catch (Exception ex)
+        {
+            bridge = null;
+            BridgeStatus.Text = $"Bridge error: {ex.Message}";
+            logger.Error("Ethernet bridge start failed", ex);
+        }
+    }
+
+    private async Task RunBridgeAsync(SerialTcpBridge activeBridge)
+    {
+        try
+        {
+            await activeBridge.RunAsync();
+            logger.Info("Ethernet bridge stopped.");
+        }
+        catch (Exception ex)
+        {
+            BridgeStatus.Text = $"Bridge error: {ex.Message}";
+            logger.Error("Ethernet bridge failed", ex);
+        }
+        finally
+        {
+            if (ReferenceEquals(bridge, activeBridge))
+            {
+                bridge = null;
+                BridgeToggleButton.Content = "Start bridge";
+                BridgeStatus.Text = "Bridge stopped.";
+            }
+        }
+    }
+
+    private async Task StopBridgeAsync()
+    {
+        var activeBridge = bridge;
+        if (activeBridge is null) return;
+        bridge = null;
+        await activeBridge.DisposeAsync();
+        BridgeToggleButton.Content = "Start bridge";
+        BridgeStatus.Text = "Bridge stopped.";
+        logger.Info("Ethernet bridge stopped by user.");
+    }
+
     private void LampOff(object? sender, RoutedEventArgs e) => SetLamp(false);
 
     private void SetLamp(bool enabled)
@@ -264,6 +346,7 @@ public sealed partial class MainWindow : Window
 
     protected override void OnClosed(EventArgs e)
     {
+        StopBridgeAsync().GetAwaiter().GetResult();
         serial?.Dispose();
         SaveSettings(null, new RoutedEventArgs());
         logger.Info("Application closing.");
